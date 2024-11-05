@@ -81,8 +81,27 @@ a{
 
 /*homepage image and input and stuffs*/
 
+#homepage{
+    position: relative;
+}
+
 #homepage img{
-    width: 100%;
+    width:100%;
     height: 91.7vh;
-    
+
+}
+
+
+.text-homepage{
+position: absolute;
+bottom: 0;
+color: #d4d0db;
+border: black 10px;
+padding-left: 350px;
+padding-bottom: 200px;
+font-weight: bold;
+font-size: 18px;
+}
+h1{
+    text-align: center;
 }
