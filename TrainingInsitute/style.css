@@ -95,13 +95,43 @@ a{
 .text-homepage{
 position: absolute;
 bottom: 0;
-color: #d4d0db;
+color:#fff;
 border: black 10px;
 padding-left: 350px;
 padding-bottom: 200px;
-font-weight: bold;
+font-weight: bolder;
 font-size: 18px;
 }
 h1{
     text-align: center;
+}
+
+.search-bar{
+    position: absolute;
+    bottom: 0;
+    margin-left: 425px;
+    margin-bottom: 150px;
+     display: flex;
+     width: 35vw;
+     border-radius: 10px;
+     background-color: white;
+     align-items: center;
+    justify-content: flex-start;
+    padding: 11px 0
+}
+
+.search-bar input{
+    outline: none;
+    border: none;
+    width: 50%;
+    padding-left: 10px;
+    font-size: 15px;
+}
+.search-bar p{
+    color: gray;
+    border-right: 1px solid gray;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    padding-right: 10px;
+    padding-bottom: 3px;
 }
