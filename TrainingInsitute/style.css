@@ -128,6 +128,7 @@ h1{
     width: 50%;
     padding-left: 13px;
     font-size: 15px;
+    cursor: pointer;
 }
 .search-bar p{
     color: gray;
@@ -137,6 +138,7 @@ h1{
     padding-left: 3px;
     padding-right: 10px;
     padding-bottom: 3px;
+    cursor: pointer;
 }
 /* three conatiner below homepage sticy mmode*/
 
@@ -197,3 +199,62 @@ h1{
     color: rgb(58, 60, 53);
     background-color:#fff;  
 }
+/* home page and three containers ends here*/
+
+/*about section*/
+
+#about{
+    margin-top: 100px;
+    display: flex;
+}
+
+#notes-container{
+    position: relative;
+    width: 70%;
+    height: 450px;
+    background-color: #E8E8E8;
+    padding: 50px 100px 0px 40px;
+    text-align:left;
+    border-radius: 4px;
+    padding-left: 100px;
+}
+
+#about-heading{
+  margin-bottom: 15px;
+  text-align: left;
+}
+#note-p{
+text-align: left;
+padding-right:80px;
+font-size: 15.5px;
+}
+
+#img-class{
+    position: absolute;
+    margin-top: 30px;
+    margin-left: 750px;
+    height: 380px;
+    width: 450px;
+    border-radius: 10px;
+}
+#btn-view{
+    background-color: rgb(1, 0, 0);
+    color: white;
+    padding: 8px 8px;
+    border-radius: 9.5px;
+    border: none;
+    width: 6rem;
+    font-size: 10px;
+    cursor: pointer; 
+    margin-top: 44px;
+}
+#btn-view:hover{
+    transition: all 0.3s ease 0s;
+    color: aquamarine;
+    background-color: rgb(54, 51, 49);
+}
+/* #btn-view :hover{
+    
+    color: aqua;
+    background-color: rgb(123, 17, 17);
+} */
