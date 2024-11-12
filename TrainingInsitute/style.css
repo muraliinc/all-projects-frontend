@@ -281,7 +281,8 @@ font-size: 15.5px;
     list-style: none;
 }
 .list-item-inside{
-    font-size: 15px;
+    cursor: pointer;
+    font-size: 14px;
     border-radius: 10px;
     margin-top: 40px;
     flex: 1 1 240px;            /* Grow, shrink, and set a base width of 200px */
@@ -290,8 +291,54 @@ font-size: 15.5px;
     background-color: #f0f0f0;
     border: 1px solid #ccc;
     text-align: center;
+    height: 280px;
+}
+.list-item-inside:hover{
+    transition: all 0.3s ease 0s;
+    background-color: rgb(225, 216, 216);
 }
 
+
+.p-tag{
+    margin-top: 10px;
+    padding-left:7px ;
+    padding-right: 7px;
+    padding-bottom: 16px;
+}
 h3{
     text-align: center;
+}
+.btn-list{
+    margin-top: 15px;
+    background-color: rgb(138, 135, 135);
+    color: white;
+    padding: 11px 11px;
+    border-radius: 6px;
+    border: none;
+    width: 15rem;
+    font-size: 13.5px;
+    cursor: pointer; 
+}
+.btn-list:hover{
+    transition: all 0.3s ease 0s;
+    background-color: rgb(1, 0, 0);
+}
+
+#btn-courselast{
+    margin-top: 50px;
+    margin-left: 39%;
+    align-items: center;
+    color: rgb(244, 237, 237);
+    padding: 11px 11px;
+    border-radius: 6px;
+    border: none;
+    width: 15rem;
+    font-size: 13.5px;
+    cursor: pointer; 
+    background-color: rgb(1, 0, 0);
+}
+#btn-courselast:hover{
+    transition: all 0.3s ease 0s;
+    background-color: rgb(138, 135, 135);
+
 }
