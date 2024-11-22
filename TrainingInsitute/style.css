@@ -484,3 +484,58 @@ transition: all 0.3s ease 0s;
     transition: all 0.3s ease 0s;
     background-color: rgb(138, 135, 135);
 }
+/*our event containers ends here*/
+
+/*testimional container begins here */
+
+#TESTIMONIAL-container{
+    height: 400px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+.TESTIMONIAL-img{
+    width: 100%;
+    height: 400px;
+    position: absolute;
+}
+#inside-test{
+    position: relative;
+    padding: 50px;
+}
+/* p tag*/
+.testi{
+    font-size: 25px;
+    color: #fff;
+    text-align: center;
+    text-decoration: solid;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.tst{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    margin-left: 39%;
+    margin-top: 30px;
+   
+}
+/*h1 symnbol''*/
+.tor{
+    font-size: 100px;
+    font-weight:bolder;
+    color: #ffffff;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.testis{
+  width: 200px;
+  display: flex;
+  color: #ffffff;
+ gap: 10px;
+ align-items: center;
+ margin-left: 35%;
+}
+
+#changer{
+    margin-top: 20px;
+    font-size: 10px;
+}
