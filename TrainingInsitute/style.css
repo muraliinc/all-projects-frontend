@@ -539,3 +539,71 @@ transition: all 0.3s ease 0s;
     margin-top: 20px;
     font-size: 10px;
 }
+/*testimional container ends here */
+
+/* ----***---*/
+
+
+
+/*certifcate container begins here */
+
+/*img of certificate container*/
+.certicates{
+  height: 60px;
+  cursor: pointer;
+}
+#sizechange{
+    height:200px;
+    cursor: pointer;
+    
+}
+
+/*certificaiton-section*/
+
+#certificaiton-section{
+margin-top: 30px;
+width: 100%;
+
+}
+
+/*certificaiton-list-items*/
+
+#certificaiton-list-items{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    gap: 10px;
+    padding-left: 100px;
+    padding-right: 100px;
+    margin-left: 100px;
+    
+}
+
+.inside-certficate-list{
+    width:100%;
+    justify-content: space-between;
+
+}
+
+#certificate-heading{
+    margin-bottom: 10px;
+}
+
+#certicate-btn{
+    color: black;
+    text-decoration: underline;
+    justify-content: center;
+    margin-left:49% ;
+    margin-bottom: 10px;
+}
+/* certification section ends here*/
+
+/*footer setion starts here*/
+
+.img-footer{
+    height: 15px;
+}
+
+.follow-us{
+    height: 39px;
+}
