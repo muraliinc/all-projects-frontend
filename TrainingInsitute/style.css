@@ -602,8 +602,85 @@ width: 100%;
 
 .img-footer{
     height: 15px;
+    filter: invert();
 }
 
 .follow-us{
-    height: 39px;
+    height: 30px;
+    filter: invert();
 }
+
+.follow-us:hover{
+    cursor: pointer;
+    filter: invert(1) sepia(1) saturate(5) hue-rotate(90deg) brightness(1.2);
+}
+
+#list-item-footer-section{
+  padding: 50px 80px 50px 80px;
+    align-items: center;
+    color: white;
+    display: flex;
+    list-style: none;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.list-item-inside-footer{
+    cursor: pointer;
+    height: 200px;
+    align-items: center;
+}
+
+#footer-section{
+    margin-top: 10px;
+    background-color: black;
+}
+
+/*footer-title*/
+.footer-title{
+    margin-bottom: 20px;
+    font-size: 14px;
+    color: #ccc;
+    margin-top: 0;
+}
+
+/*contact-footer*/
+
+.footer2, .inline-text{
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.little-title{
+    line-height: 14px;
+    text-align: center;
+    color: #ccc;
+    font-size: 13px;
+}
+
+.popular-links{
+    line-height: 24px;
+    font-size: 14px;
+    font-family:sans-serif;
+}
+.popular-links:hover{
+    color: yellow;
+}
+
+/*logo color*/
+#logos{
+    font-size: 30px;
+    padding-left: 0px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+/*log hover color below*/
+#cods:hover{
+    color: rgb(229, 229, 25);
+    transition: all 0.3s ease 0s;
+    }
+    #logs:hover{
+    color: aqua;
+    transition: all 0.3s ease 0s;
+    }
