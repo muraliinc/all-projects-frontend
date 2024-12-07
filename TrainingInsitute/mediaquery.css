@@ -162,4 +162,87 @@ font-size: 13px;
     font-size: 10px;
 }
 /*testimional container ends here */
+/*certificaiton-section*/
+
+/*img of certificate container*/
+.certicates{
+    height: 50px;
+    cursor: pointer;
+  }
+  #sizechange{
+      height:200px;
+      cursor: pointer;
+      
+  }
+  
+  
+#certificaiton-section{
+    margin-top: 30px;
+    width: 800px;
+    
+    }
+    
+    /*certificaiton-list-items*/
+    
+    #certificaiton-list-items{
+        margin-left: 30px;
+        
+    }
+    
+    #certificate-heading{
+        margin-left: 50px;
+    }
+    #certificate-second-head{
+        margin-left: 40px;
+        margin-bottom: 1px;
+    }
+    /* certification section ends here*/
+    
+    /*footer setion starts here*/
+
+.img-footer{
+    height: 10px;
+}
+
+.follow-us{
+    height: 20px;
+}
+
+#list-item-footer-section{
+  padding: 50px 20px 20px 20px;
+
+}
+
+.list-item-inside-footer{
+    height: 200px;
+}
+
+#footer-section{
+    margin-top: 10px;
+    background-color: black;
+    width: 900px;
+}
+
+/*footer-title*/
+.footer-title{
+    font-size: 14.5px;
+}
+
+/*contact-footer*/
+
+.little-title{
+    font-size: 10px;
+}
+
+.popular-links{
+    line-height: 24px;
+    font-size: 12px;
+}
+
+/*logo color*/
+#logos{
+    font-size: 20px;
+    margin-left: 10px;
+}
+
 }

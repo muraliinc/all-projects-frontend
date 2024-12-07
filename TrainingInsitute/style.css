@@ -546,7 +546,7 @@ transition: all 0.3s ease 0s;
 
 
 /*certifcate container begins here */
-
+/*certificaiton-section*/
 /*img of certificate container*/
 .certicates{
   height: 60px;
@@ -558,7 +558,7 @@ transition: all 0.3s ease 0s;
     
 }
 
-/*certificaiton-section*/
+
 
 #certificaiton-section{
 margin-top: 30px;
@@ -646,7 +646,7 @@ width: 100%;
 
 /*contact-footer*/
 
-.footer2, .inline-text{
+ .inline-text{
   display: inline-block;
   vertical-align: middle;
 }
