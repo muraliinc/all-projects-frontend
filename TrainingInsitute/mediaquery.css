@@ -56,12 +56,13 @@
   #about {
     margin-top: 60px;
     width: 100vw;
-    height: 100vh;
+    height: 65vh;
+    margin-bottom: 60px;
   }
 
   #notes-container {
     width: 100vw;
-    height: 95vh;
+    height: 65vh;
     padding: 10px 0px 0px 10px;
   }
 
@@ -76,14 +77,14 @@
     text-align:start;
   }
   #btn-view{
-    margin-top: 250px;
+    margin-top: 169px;
   }
 
   #img-class {
-    margin-top: 59vh;
-    margin-left: 30vw;
-    height: 250px;
-    width: 250px;
+    margin-top: 44vh;
+    margin-left: 49vw;
+    height: 180px;
+    width: 180px;
   }
 
 
@@ -104,7 +105,7 @@
   flex: 1 1 100px;            /* Grow, shrink, and set a base width of 200px */
   min-width: 120px;           /* Minimum width of each box */
   padding: 0px 0px 25px 0px;
-  height: 25vh;
+  height: 23vh;
 }
 .minitag{
   font-size: 13.9px;
@@ -115,11 +116,11 @@
   font-size: 11px;
 }
   #course-container {
-    height: 160vh;
-    margin-top: 50px;
+    height: 100vh;
+    margin-top: 0px;
     width: 100vw;
     padding: 5px 20.5px 0px 5px;
-    margin-bottom: 60px;
+    margin-bottom: 10px;
     /* margin-left: 30px; */
   }
   #btn-courselast{
@@ -136,7 +137,7 @@
     height: 31px;
   }
   #boxicon-container-img {
-    width: 1000px;
+    width: 100vw;
   }
   #list-items3 {
     padding: 60px 0px 0px 80px;
