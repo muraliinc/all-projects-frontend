@@ -1,4 +1,4 @@
-@media screen and (max-width: 990px){
+@media screen and (max-width: 991px){
  
   #navbar {
     width: 100vw;
@@ -157,6 +157,26 @@
     font-size: 14px;
   }
   /* icon with 4 container sections endshere*/
+
+   /* events container begin*/
+   #events-container {
+    width: 900px;
+    margin-left: 30px;
+  }
+  .img-class-events {
+    height: 180px;
+    width: 250px;
+  }
+
+  .list-items-inside3 {
+    height: 220px;
+  }
+
+  /*our event button css this is*/
+  #event-btn {
+    width: 53.5rem;
+  }
+  /*our event containers ends here*/
   /*testimional container begins here */
 
   #TESTIMONIAL-container {
@@ -196,9 +216,374 @@
     font-size: 10px;
   }
   /*testimional container ends here */
+  
+  /*footer setion starts here*/
+
+  .img-footer {
+    height: 10px;
+  }
+
+  .follow-us {
+    height: 20px;
+  }
+
+  #list-item-footer-section {
+    padding: 50px 20px 20px 20px;
+  }
+
+  .list-item-inside-footer {
+    height: 200px;
+  }
+
+  #footer-section {
+    margin-top: 10px;
+    background-color: black;
+    width: 100vw;
+  }
+
+  /*footer-title*/
+  .footer-title {
+    font-size: 14.5px;
+  }
+
+  /*contact-footer*/
+
+  .little-title {
+    font-size: 10px;
+  }
+
+  .popular-links {
+    line-height: 24px;
+    font-size: 12px;
+  }
+
+  /*logo color*/
+  #logos {
+    font-size: 20px;
+    margin-left: 10px;
+  }
+}
+
+@media screen and (max-width:774px){
+  #navbar {
+    width: 100vw;
+  }
+  .list-items{
+    list-style: none;
+    padding-left: 0px;
+    font-size: 12px;
+
+}
+
+#btne{
+  padding-right: 0px;
+  padding-left: 0px;
+}
+
+#btnr{
+  width: 8rem;
+}
+  #homepage {
+    width: 100vw;
+    height: 100vh;
+    max-width: 100%;
+    margin-bottom: 50px;
+  }
+  #homepage img {
+    height: 90vh;
+    width: 100%;
+    max-width: 990px;
+  }
+  .text-homepage {
+    margin-bottom: 35%;
+    margin-left: 25%;
+    font-size: 14px;
+  }
+
+  .search-bar {
+    margin-left:30%;
+    margin-bottom: 25%;
+    padding: 20px 20px 20px 20px;
+    width: 50vw;
+  }
+   
+#logo{
+    padding-left: 20px;
+    
+}
+  .search-bar >input {
+    width: 100%;
+    font-size: 17px;
+  }
+  .imgcon {
+    height: 40px;
+    border-radius: 30px;
+  }
+  #three-container {
+    top: 92%;
+    margin-left: 35%;
+  }
+  .three-container-items {
+    width: 30%;
+    padding: 20px 10px;
+    font-size: 14px;
+  }
+   /*about section below*/
+   #about {
+    margin-top: 60px;
+    width: 100vw;
+    height: 65vh;
+    margin-bottom: 60px;
+  }
+
+  #notes-container {
+    width: 59vw;
+    height: 68vh;
+    padding: 15px 0px 20px 50px;
+  }
+
+  #about-heading {
+    font-size: 18px;
+    margin-bottom: 10px;
+    text-align: left;
+  }
+  #note-p {
+    width: 57vw;
+    font-size: 14px;
+    text-align:start;
+  }
+  #btn-view{
+    margin-top: 16px;
+  }
+
+  #img-class {
+    margin-top: 3vh;
+    margin-left: 53vw;
+    height: 340px;
+    width: 340px;
+  }
+  
+  /*course section*/
+
+  .img-class-course{
+    /* height: 140px;
+    width: 258px; */
+    width: 100%;
+   height: 20vh;
+   max-width: 100%;
+   border-radius: 5px 5px 2px 2px;
+}
+.list-item-inside{
+  font-size: 14px;
+  border-radius: 10px;
+  margin-top: 40px;
+  flex: 1 1 150px;            /* Grow, shrink, and set a base width of 200px */
+  min-width: 150px;           /* Minimum width of each box */
+  padding: 0px 0px 25px 0px;
+  height: 45vh;
+}
+.minitag{
+  font-size: 13.9px;
+}
+.btn-list{
+  margin-top: 0.5px;
+  width: 10.5rem;
+  font-size: 11px;
+}
+  #course-container {
+    height: 100vh;
+    margin-top: 0px;
+    width: 100vw;
+    padding: 5px 0px 0px 0px;
+    margin-bottom: 200px;
+    /* margin-left: 30px; */
+  }
+  
+  /* course container ends here*/
+
+  
+  /* icon with 4 container section*/
+  #action-box-container {
+    height: 300px;
+   
+  }
+  .img-icon2 {
+    height: 30px;
+  }
+  #boxicon-container-img {
+    width: 100vw;
+  }
+  #list-items3 {
+    padding: 70px 0px 0px 0px;
+    margin-left: 5rem;
+  }
+  .list-item-inside2 {
+    width: 22%;
+    height: 150px;
+    padding: 10px 10px;
+    font-size: 13px;
+    margin-left: 0px;
+  }
+  .heading-container {
+    font-size: 14px;
+  }
+  /* icon with 4 container sections endshere*/
+
+   /* events container begin*/
+   #events-container {
+    width: 100vw;
+    margin-left: 0px;
+    margin-right:0px ;
+  }
+  .img-class-events {
+    height: 180px;
+    width: 250px;
+  }
+
+  .list-items-inside3 {
+    height: 220px;
+  }
+
+  /*our event button css this is*/
+  #event-btn {
+    width: 5.5rem;
+  }
+  /*our event containers ends here*/
+  /*testimional container begins here */
+
+  #TESTIMONIAL-container {
+    height: 400px;
+  }
+  .TESTIMONIAL-img {
+    width: 100vw;
+    height: 400px;
+    position: absolute;
+  }
+  #inside-test {
+    position: relative;
+    width: 600px;
+    margin-left: 100px;
+  }
+  /* p tag*/
+  .testi {
+    font-size: 19px;
+  }
+  .tst {
+    height: 60px;
+    width: 60px;
+    margin-left: 39%;
+    margin-top: 30px;
+  }
+  /*h1 symnbol''*/
+  .tor {
+    font-size: 55px;
+  }
+  .testis {
+    width: 200px;
+    margin-left: 16%;
+  }
+
+  #changer {
+    margin-top: 20px;
+    font-size: 10px;
+  }
+  /*testimional container ends here */
+  
+  
+/*certifcate container begins here */
+/*certificaiton-section*/
+/*img of certificate container*/
+.certicates{
+  height: 60px;
+  cursor: pointer;
+}
+#sizechange{
+    height:200px;
+    cursor: pointer;
+    
 }
 
 
+
+#certificaiton-section{
+margin-top: 30px;
+width: 100%;
+
+}
+
+/*certificaiton-list-items*/
+
+#certificaiton-list-items{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    gap: 10px;
+    padding-left: 50px;
+    padding-right: 90px;
+    margin-left: 0px;
+    
+}
+
+
+#certificate-heading{
+    margin-bottom: 10px;
+}
+
+#certicate-btn{
+    color: black;
+    text-decoration: underline;
+    justify-content: center;
+    margin-left:49% ;
+    margin-bottom: 10px;
+}
+/* certification section ends here*/
+
+  /*footer setion starts here*/
+
+  .img-footer {
+    height: 10px;
+  }
+
+  .follow-us {
+    height: 20px;
+  }
+
+  #list-item-footer-section {
+    padding: 50px 20px 20px 20px;
+  }
+
+  .list-item-inside-footer {
+    height: 200px;
+  }
+
+  #footer-section {
+    margin-top: 10px;
+    background-color: black;
+    width: 100vw;
+  }
+
+  /*footer-title*/
+  .footer-title {
+    font-size: 14.5px;
+  }
+
+  /*contact-footer*/
+
+  .little-title {
+    font-size: 10px;
+  }
+
+  .popular-links {
+    line-height: 24px;
+    font-size: 12px;
+  }
+
+  /*logo color*/
+  #logos {
+    font-size: 20px;
+    margin-left: 10px;
+  }
+}
 
 
 @media screen and (max-width: 450px) {
