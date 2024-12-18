@@ -613,6 +613,110 @@ width: 100%;
   }
 }
 
+@media screen and (max-width: 618px) {
+  #navbar > .list-items {
+    display: none;
+  }
+  #navbar {
+    width: 100vw;
+    padding: 0px;
+  }
+  .list-items{
+    list-style: none;
+    padding-left: 0px;
+    font-size: 1px;
+
+}
+
+#btne{
+  padding-right: 100px;
+  padding-left: 0px;
+}
+
+#btnr{
+  width: 8rem;
+}
+  #homepage {
+    width: 100vw;
+    height: 100vh;
+    max-width: 100%;
+    margin-bottom: 50px;
+  }
+  #homepage img {
+    height: 90vh;
+    width: 100%;
+    max-width: 990px;
+  }
+  .text-homepage {
+    margin-bottom: 45%;
+    margin-left: 10%;
+    font-size: 14px;
+  }
+
+  .search-bar {
+    margin-left:25%;
+    margin-bottom: 35%;
+    padding: 10px 10px 10px 10px;
+    width: 50vw;
+  }
+   
+#logo{
+    padding-left: 20px;
+    
+}
+  .search-bar >input {
+    width: 100%;
+    font-size: 17px;
+  }
+  .imgcon {
+    height: 30px;
+    border-radius: 30px;
+  }
+  #three-container {
+    top: 92%;
+    margin-left: 13%;
+  }
+  .three-container-items {
+    width: 25%;
+    padding: 20px 10px;
+    font-size: 11px;
+  }
+   /*about section below*/
+   #about {
+    margin-top: 60px;
+    width: 100vw;
+    height: 65vh;
+    margin-bottom: 60px;
+  }
+
+  #notes-container {
+    width: 100vw;
+    height: 68vh;
+    padding: 15px 10px 20px 10px;
+   
+  }
+
+  #about-heading {
+    font-size: 18px;
+    margin-bottom: 10px;
+    text-align: left;
+  }
+  #note-p {
+    width: 100vw;
+    height: fit-content;
+    font-size: 14px;
+    text-align:start;
+    padding-right: 0PX;
+
+  }
+  #btn-view{
+    margin-top: 16px;
+  }
+
+  #img-class {
+    display: none;
+  }
+}
 
 @media screen and (max-width: 450px) {
   #navbar > .list-items {
