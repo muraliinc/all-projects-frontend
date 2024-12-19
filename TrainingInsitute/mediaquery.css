@@ -691,8 +691,8 @@ width: 100%;
 
   #notes-container {
     width: 100vw;
-    height: 68vh;
-    padding: 15px 10px 20px 10px;
+    height: 60vh;
+    padding: 22px 10px 20px 10px;
    
   }
 
@@ -702,7 +702,7 @@ width: 100%;
     text-align: left;
   }
   #note-p {
-    width: 100vw;
+    width: 95vw;
     height: fit-content;
     font-size: 14px;
     text-align:start;
@@ -716,6 +716,78 @@ width: 100%;
   #img-class {
     display: none;
   }
+
+  /*course section*/
+
+  #list-items-course{
+    gap: 5px;
+  }
+  .img-class-course{
+    /* height: 140px;
+    width: 258px; */
+    width: 100%;
+   height: 15vh;
+   max-width: 100%;
+   border-radius: 5px 5px 2px 2px;
+}
+.list-item-inside{
+  font-size: 14px;
+  border-radius: 10px;
+  margin-top: 40px;
+  flex: 1 1 100px;            /* Grow, shrink, and set a base width of 200px */
+  min-width: 120px;           /* Minimum width of each box */
+  padding: 0px 0px 0px 0px;
+  height: 41.5vh;
+}
+.minitag{
+  font-size: 13.9px;
+}
+.btn-list{
+  margin-top: -19px;
+  width: 7.5rem;
+  font-size: 11px;
+}
+#btn-courselast{
+  margin-left: 35%;
+}
+  #course-container {
+    height: 100vh;
+    margin-top: 0px;
+    width: 100vw;
+    margin-left: 0px;
+    padding: 5px 0px 0px 0px;
+    margin-bottom: 200px;
+    /* margin-left: 30px; */
+  }
+  
+  /* course container ends here*/
+  
+  /* icon with 4 container section*/
+  #action-box-container {
+    height: 300px;
+   
+  }
+  .img-icon2 {
+    height: 30px;
+  }
+  #boxicon-container-img {
+    width: 100vw;
+  }
+  #list-items3 {
+    padding: 70px 0px 0px 0px;
+    margin-left: 1rem;
+  }
+  .list-item-inside2 {
+    width: 23%;
+    height: 150px;
+    padding: 10px 10px;
+    font-size: 10px;
+    margin-left: 0px;
+  }
+  .heading-container {
+    font-size: 13px;
+  }
+  /* icon with 4 container sections endshere*/
 }
 
 @media screen and (max-width: 450px) {
