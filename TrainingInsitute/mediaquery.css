@@ -788,6 +788,191 @@ width: 100%;
     font-size: 13px;
   }
   /* icon with 4 container sections endshere*/
+ 
+/* events container begin*/
+#events-container{
+  margin-top: 70px;
+margin-left: 5px;
+margin-right: 0px;
+}
+.img-class-events{
+  height: 100px;
+  width: 180px;
+  border-radius:8px;
+}
+#list-items-events{
+      display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+  list-style: none;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.list-items-inside3{
+   flex: 1 1 140px;            /* Grow, shrink, and set a base width of 200px */
+  min-width: 140px;           /* Minimum width of each box */
+  text-align: center;
+  height: 130px;
+  border-radius: 8px 8px 5px 5px;
+}
+.tbh{
+  display: inline;
+  margin-right: 50%;
+} 
+.tbh{
+  display: inline;
+  margin-right: 30%;
+} 
+
+
+/*our event button css this is*/
+#event-btn{
+  margin-left: 0px;
+  margin-bottom: 10px;
+  align-items: center;
+  padding: 18px 11px;
+   width: 38.4rem;
+ }
+
+
+#btn-courselast2{
+  margin-top: 50px;
+  margin-left: 31%;
+  width: 15rem;
+  font-size: 13.5px;
+}
+/*our event containers ends here*/
+
+ /*testimional container begins here */
+
+ #TESTIMONIAL-container {
+  height: 300px;
+  margin-bottom: 70px;
+}
+.TESTIMONIAL-img {
+  width: 100vw;
+  height: 300px;
+  position: absolute;
+}
+#inside-test {
+  position: relative;
+  width: 600px;
+  margin-left:10px;
+  padding: 30px 10px 10px 10px;
+
+}
+/* p tag*/
+.testi {
+  font-size: 14px;
+}
+.tst {
+  height: 60px;
+  width: 60px;
+  margin-left: 39%;
+  margin-top: 30px;
+}
+/*h1 symnbol''*/
+.tor {
+  font-size: 55px;
+}
+.testis {
+  width: 200px;
+  margin-left: 16%;
+}
+
+#changer {
+  margin-top: 20px;
+  font-size: 11px;
+}
+/*testimional container ends here */
+.certicates {
+  height: 50px;
+  cursor: pointer;
+}
+#sizechange {
+  height: 200px;
+  cursor: pointer;
+}
+
+#certificaiton-section {
+  margin-top: 30px;
+  width: 100%;
+}
+/*certificaiton-list-items*/
+
+#certificaiton-list-items{
+  display: flex;
+  list-style: none;
+  align-items: center;
+  gap: 5px;
+  padding-left: 10px;
+  padding-right: 0px;
+  margin-left: 0px;
+  
+}
+
+
+#certificate-heading{
+  margin-bottom: 10px;
+}
+
+#certicate-btn{
+  color: black;
+  text-decoration: underline;
+  justify-content: center;
+  margin-left:49% ;
+  margin-bottom: 10px;
+}
+/* certification section ends here*/
+
+/*footer setion starts here*/
+
+.img-footer {
+  height: 10px;
+}
+
+.follow-us {
+  height: 20px;
+}
+
+#list-item-footer-section {
+  padding: 10px 10px 10px 10px;
+}
+
+.list-item-inside-footer {
+  height: 200px;
+}
+
+#footer-section {
+  margin-top: 10px;
+  background-color: black;
+  width: 100vw;
+}
+
+/*footer-title*/
+.footer-title {
+  font-size: 14px;
+}
+
+/*contact-footer*/
+
+.little-title {
+  font-size: 10px;
+}
+
+.popular-links {
+  line-height: 17px;
+  font-size: 10px;
+}
+
+/*logo color*/
+#logos {
+  margin-top: 10px;
+  font-size: 20px;
+  margin-left: 10px;
+}
+
 }
 
 @media screen and (max-width: 450px) {
