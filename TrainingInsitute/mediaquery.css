@@ -1,18 +1,16 @@
-@media screen and (max-width: 991px){
- 
+@media screen and (max-width: 991px) {
   #navbar {
     width: 100vw;
   }
-  .list-items{
+  .list-items {
     list-style: none;
     padding-left: 50px;
     font-size: 12px;
+  }
 
-}
-
-#btne{
-  padding-right: 20px;
-}
+  #btne {
+    padding-right: 20px;
+  }
   #homepage {
     width: 100vw;
     height: 100vh;
@@ -31,17 +29,16 @@
   }
 
   .search-bar {
-    margin-left:29%;
+    margin-left: 29%;
     margin-bottom: 25%;
     padding: 20px 20px 20px 20px;
     width: 50vw;
   }
-   
-#logo{
+
+  #logo {
     padding-left: 20px;
-    
-}
-  .search-bar >input {
+  }
+  .search-bar > input {
     width: 100%;
     font-size: 17px;
   }
@@ -58,8 +55,8 @@
     padding: 20px 10px;
     font-size: 14px;
   }
-   /*about section below*/
-   #about {
+  /*about section below*/
+  #about {
     margin-top: 60px;
     width: 100vw;
     height: 65vh;
@@ -80,9 +77,9 @@
   #note-p {
     width: 57vw;
     font-size: 14px;
-    text-align:start;
+    text-align: start;
   }
-  #btn-view{
+  #btn-view {
     margin-top: 16px;
   }
 
@@ -92,34 +89,34 @@
     height: 340px;
     width: 340px;
   }
-  
+
   /*course section*/
 
-  .img-class-course{
+  .img-class-course {
     /* height: 140px;
     width: 258px; */
     width: 100%;
-   height: 28vh;
-   max-width: 100%;
-   border-radius: 5px 5px 2px 2px;
-}
-.list-item-inside{
-  font-size: 14px;
-  border-radius: 10px;
-  margin-top: 40px;
-  flex: 1 1 220px;            /* Grow, shrink, and set a base width of 200px */
-  min-width: 220px;           /* Minimum width of each box */
-  padding: 0px 0px 25px 0px;
-  height: 50vh;
-}
-.minitag{
-  font-size: 13.9px;
-}
-.btn-list{
-  margin-top: 0.5px;
-  width: 13.5rem;
-  font-size: 11px;
-}
+    height: 28vh;
+    max-width: 100%;
+    border-radius: 5px 5px 2px 2px;
+  }
+  .list-item-inside {
+    font-size: 14px;
+    border-radius: 10px;
+    margin-top: 40px;
+    flex: 1 1 220px; /* Grow, shrink, and set a base width of 200px */
+    min-width: 220px; /* Minimum width of each box */
+    padding: 0px 0px 25px 0px;
+    height: 50vh;
+  }
+  .minitag {
+    font-size: 13.9px;
+  }
+  .btn-list {
+    margin-top: 0.5px;
+    width: 13.5rem;
+    font-size: 11px;
+  }
   #course-container {
     height: 100vh;
     margin-top: 0px;
@@ -128,10 +125,9 @@
     margin-bottom: 300px;
     /* margin-left: 30px; */
   }
-  
+
   /* course container ends here*/
 
-  
   /* icon with 4 container section*/
   #action-box-container {
     height: 300px;
@@ -158,8 +154,8 @@
   }
   /* icon with 4 container sections endshere*/
 
-   /* events container begin*/
-   #events-container {
+  /* events container begin*/
+  #events-container {
     width: 900px;
     margin-left: 30px;
   }
@@ -216,7 +212,7 @@
     font-size: 10px;
   }
   /*testimional container ends here */
-  
+
   /*footer setion starts here*/
 
   .img-footer {
@@ -264,25 +260,24 @@
   }
 }
 
-@media screen and (max-width:774px){
+@media screen and (max-width: 774px) {
   #navbar {
     width: 100vw;
   }
-  .list-items{
+  .list-items {
     list-style: none;
     padding-left: 0px;
     font-size: 12px;
+  }
 
-}
+  #btne {
+    padding-right: 0px;
+    padding-left: 0px;
+  }
 
-#btne{
-  padding-right: 0px;
-  padding-left: 0px;
-}
-
-#btnr{
-  width: 8rem;
-}
+  #btnr {
+    width: 8rem;
+  }
   #homepage {
     width: 100vw;
     height: 100vh;
@@ -301,17 +296,16 @@
   }
 
   .search-bar {
-    margin-left:30%;
+    margin-left: 30%;
     margin-bottom: 25%;
     padding: 20px 20px 20px 20px;
     width: 50vw;
   }
-   
-#logo{
+
+  #logo {
     padding-left: 20px;
-    
-}
-  .search-bar >input {
+  }
+  .search-bar > input {
     width: 100%;
     font-size: 17px;
   }
@@ -328,8 +322,8 @@
     padding: 20px 10px;
     font-size: 14px;
   }
-   /*about section below*/
-   #about {
+  /*about section below*/
+  #about {
     margin-top: 60px;
     width: 100vw;
     height: 65vh;
@@ -350,9 +344,9 @@
   #note-p {
     width: 57vw;
     font-size: 14px;
-    text-align:start;
+    text-align: start;
   }
-  #btn-view{
+  #btn-view {
     margin-top: 16px;
   }
 
@@ -362,37 +356,37 @@
     height: 340px;
     width: 340px;
   }
-  
+
   /*course section*/
 
-  #list-items-course{
+  #list-items-course {
     gap: 15px;
   }
-  .img-class-course{
+  .img-class-course {
     /* height: 140px;
     width: 258px; */
     width: 100%;
-   height: 20vh;
-   max-width: 100%;
-   border-radius: 5px 5px 2px 2px;
-}
-.list-item-inside{
-  font-size: 14px;
-  border-radius: 10px;
-  margin-top: 40px;
-  flex: 1 1 150px;            /* Grow, shrink, and set a base width of 200px */
-  min-width: 150px;           /* Minimum width of each box */
-  padding: 0px 0px 25px 0px;
-  height: 45vh;
-}
-.minitag{
-  font-size: 13.9px;
-}
-.btn-list{
-  margin-top: 0.5px;
-  width: 10.5rem;
-  font-size: 11px;
-}
+    height: 20vh;
+    max-width: 100%;
+    border-radius: 5px 5px 2px 2px;
+  }
+  .list-item-inside {
+    font-size: 14px;
+    border-radius: 10px;
+    margin-top: 40px;
+    flex: 1 1 150px; /* Grow, shrink, and set a base width of 200px */
+    min-width: 150px; /* Minimum width of each box */
+    padding: 0px 0px 25px 0px;
+    height: 45vh;
+  }
+  .minitag {
+    font-size: 13.9px;
+  }
+  .btn-list {
+    margin-top: 0.5px;
+    width: 10.5rem;
+    font-size: 11px;
+  }
   #course-container {
     height: 100vh;
     margin-top: 0px;
@@ -401,14 +395,12 @@
     margin-bottom: 200px;
     /* margin-left: 30px; */
   }
-  
+
   /* course container ends here*/
 
-  
   /* icon with 4 container section*/
   #action-box-container {
     height: 300px;
-   
   }
   .img-icon2 {
     height: 30px;
@@ -432,51 +424,48 @@
   }
   /* icon with 4 container sections endshere*/
 
-   /* events container begin*/
-#events-container{
-  width: 100vw;
-  margin-right: 0px;
-  margin-top: 70px;
-  margin-left: 0px;
-margin-bottom: 40px;
-}
-.img-class-events{
-  height: 200px;
-  width: 250px;
-  border-radius:8px;
-}
-#list-items-events{
-  gap: 5px;
-  padding-left: 0px;
-  padding-right: 0px;
-  width: 100vw;
-}
+  /* events container begin*/
+  #events-container {
+    width: 100vw;
+    margin-right: 0px;
+    margin-top: 70px;
+    margin-left: 0px;
+    margin-bottom: 40px;
+  }
+  .img-class-events {
+    height: 200px;
+    width: 250px;
+    border-radius: 8px;
+  }
+  #list-items-events {
+    gap: 5px;
+    padding-left: 0px;
+    padding-right: 0px;
+    width: 100vw;
+  }
 
-.list-items-inside3{
-  font-size: 14px;
-  height: 220px;
-}
-.tbh{
-  display: inline;
-  margin-right: 50%;
-} 
+  .list-items-inside3 {
+    font-size: 14px;
+    height: 220px;
+  }
+  .tbh {
+    display: inline;
+    margin-right: 50%;
+  }
 
+  /*our event button css this is*/
+  #event-btn {
+    margin-left: 0px;
+    margin-bottom: 10px;
+    width: 100vw;
+  }
 
+  #btn-courselast2 {
+    margin-top: 50px;
+    margin-left: 31%;
+  }
 
-/*our event button css this is*/
-#event-btn{
-  margin-left: 0px;
-  margin-bottom: 10px;
-  width: 100vw;
-}
-
-#btn-courselast2{
-  margin-top: 50px;
-  margin-left: 31%;
-}
-
-
-/*our event containers ends here*/
+  /*our event containers ends here*/
   /*testimional container begins here */
 
   #TESTIMONIAL-container {
@@ -516,32 +505,27 @@ margin-bottom: 40px;
     font-size: 10px;
   }
   /*testimional container ends here */
-  
-  
-/*certifcate container begins here */
-/*certificaiton-section*/
-/*img of certificate container*/
-.certicates{
-  height: 60px;
-  cursor: pointer;
-}
-#sizechange{
-    height:200px;
+
+  /*certifcate container begins here */
+  /*certificaiton-section*/
+  /*img of certificate container*/
+  .certicates {
+    height: 60px;
     cursor: pointer;
-    
-}
+  }
+  #sizechange {
+    height: 200px;
+    cursor: pointer;
+  }
 
+  #certificaiton-section {
+    margin-top: 30px;
+    width: 100%;
+  }
 
+  /*certificaiton-list-items*/
 
-#certificaiton-section{
-margin-top: 30px;
-width: 100%;
-
-}
-
-/*certificaiton-list-items*/
-
-#certificaiton-list-items{
+  #certificaiton-list-items {
     display: flex;
     list-style: none;
     align-items: center;
@@ -549,22 +533,20 @@ width: 100%;
     padding-left: 50px;
     padding-right: 90px;
     margin-left: 0px;
-    
-}
+  }
 
-
-#certificate-heading{
+  #certificate-heading {
     margin-bottom: 10px;
-}
+  }
 
-#certicate-btn{
+  #certicate-btn {
     color: black;
     text-decoration: underline;
     justify-content: center;
-    margin-left:49% ;
+    margin-left: 49%;
     margin-bottom: 10px;
-}
-/* certification section ends here*/
+  }
+  /* certification section ends here*/
 
   /*footer setion starts here*/
 
@@ -621,21 +603,20 @@ width: 100%;
     width: 100vw;
     padding: 0px;
   }
-  .list-items{
+  .list-items {
     list-style: none;
     padding-left: 0px;
     font-size: 1px;
+  }
 
-}
+  #btne {
+    padding-right: 100px;
+    padding-left: 0px;
+  }
 
-#btne{
-  padding-right: 100px;
-  padding-left: 0px;
-}
-
-#btnr{
-  width: 8rem;
-}
+  #btnr {
+    width: 8rem;
+  }
   #homepage {
     width: 100vw;
     height: 100vh;
@@ -654,17 +635,16 @@ width: 100%;
   }
 
   .search-bar {
-    margin-left:25%;
+    margin-left: 25%;
     margin-bottom: 35%;
     padding: 10px 10px 10px 10px;
     width: 50vw;
   }
-   
-#logo{
+
+  #logo {
     padding-left: 20px;
-    
-}
-  .search-bar >input {
+  }
+  .search-bar > input {
     width: 100%;
     font-size: 17px;
   }
@@ -681,8 +661,8 @@ width: 100%;
     padding: 20px 10px;
     font-size: 11px;
   }
-   /*about section below*/
-   #about {
+  /*about section below*/
+  #about {
     margin-top: 60px;
     width: 100vw;
     height: 65vh;
@@ -693,7 +673,6 @@ width: 100%;
     width: 100vw;
     height: 60vh;
     padding: 22px 10px 20px 10px;
-   
   }
 
   #about-heading {
@@ -705,11 +684,10 @@ width: 100%;
     width: 95vw;
     height: fit-content;
     font-size: 14px;
-    text-align:start;
-    padding-right: 0PX;
-
+    text-align: start;
+    padding-right: 0px;
   }
-  #btn-view{
+  #btn-view {
     margin-top: 16px;
   }
 
@@ -719,37 +697,37 @@ width: 100%;
 
   /*course section*/
 
-  #list-items-course{
+  #list-items-course {
     gap: 5px;
   }
-  .img-class-course{
+  .img-class-course {
     /* height: 140px;
     width: 258px; */
     width: 100%;
-   height: 15vh;
-   max-width: 100%;
-   border-radius: 5px 5px 2px 2px;
-}
-.list-item-inside{
-  font-size: 14px;
-  border-radius: 10px;
-  margin-top: 40px;
-  flex: 1 1 100px;            /* Grow, shrink, and set a base width of 200px */
-  min-width: 120px;           /* Minimum width of each box */
-  padding: 0px 0px 0px 0px;
-  height: 41.5vh;
-}
-.minitag{
-  font-size: 13.9px;
-}
-.btn-list{
-  margin-top: -19px;
-  width: 7.5rem;
-  font-size: 11px;
-}
-#btn-courselast{
-  margin-left: 35%;
-}
+    height: 15vh;
+    max-width: 100%;
+    border-radius: 5px 5px 2px 2px;
+  }
+  .list-item-inside {
+    font-size: 14px;
+    border-radius: 10px;
+    margin-top: 40px;
+    flex: 1 1 100px; /* Grow, shrink, and set a base width of 200px */
+    min-width: 120px; /* Minimum width of each box */
+    padding: 0px 0px 0px 0px;
+    height: 41.5vh;
+  }
+  .minitag {
+    font-size: 13.9px;
+  }
+  .btn-list {
+    margin-top: -19px;
+    width: 7.5rem;
+    font-size: 11px;
+  }
+  #btn-courselast {
+    margin-left: 35%;
+  }
   #course-container {
     height: 100vh;
     margin-top: 0px;
@@ -759,13 +737,12 @@ width: 100%;
     margin-bottom: 200px;
     /* margin-left: 30px; */
   }
-  
+
   /* course container ends here*/
-  
+
   /* icon with 4 container section*/
   #action-box-container {
     height: 300px;
-   
   }
   .img-icon2 {
     height: 30px;
@@ -788,384 +765,80 @@ width: 100%;
     font-size: 13px;
   }
   /* icon with 4 container sections endshere*/
- 
-/* events container begin*/
-#events-container{
-  margin-top: 70px;
-margin-left: 5px;
-margin-right: 0px;
-}
-.img-class-events{
-  height: 100px;
-  width: 180px;
-  border-radius:8px;
-}
-#list-items-events{
-      display: flex;
-  flex-wrap: wrap;
-  gap: 5px;
-  list-style: none;
-  padding-left: 0px;
-  padding-right: 0px;
-}
-
-.list-items-inside3{
-   flex: 1 1 140px;            /* Grow, shrink, and set a base width of 200px */
-  min-width: 140px;           /* Minimum width of each box */
-  text-align: center;
-  height: 130px;
-  border-radius: 8px 8px 5px 5px;
-}
-.tbh{
-  display: inline;
-  margin-right: 50%;
-} 
-.tbh{
-  display: inline;
-  margin-right: 30%;
-} 
-
-
-/*our event button css this is*/
-#event-btn{
-  margin-left: 0px;
-  margin-bottom: 10px;
-  align-items: center;
-  padding: 18px 11px;
-   width: 38.4rem;
- }
-
-
-#btn-courselast2{
-  margin-top: 50px;
-  margin-left: 31%;
-  width: 15rem;
-  font-size: 13.5px;
-}
-/*our event containers ends here*/
-
- /*testimional container begins here */
-
- #TESTIMONIAL-container {
-  height: 300px;
-  margin-bottom: 70px;
-}
-.TESTIMONIAL-img {
-  width: 100vw;
-  height: 300px;
-  position: absolute;
-}
-#inside-test {
-  position: relative;
-  width: 600px;
-  margin-left:10px;
-  padding: 30px 10px 10px 10px;
-
-}
-/* p tag*/
-.testi {
-  font-size: 14px;
-}
-.tst {
-  height: 60px;
-  width: 60px;
-  margin-left: 39%;
-  margin-top: 30px;
-}
-/*h1 symnbol''*/
-.tor {
-  font-size: 55px;
-}
-.testis {
-  width: 200px;
-  margin-left: 16%;
-}
-
-#changer {
-  margin-top: 20px;
-  font-size: 11px;
-}
-/*testimional container ends here */
-.certicates {
-  height: 50px;
-  cursor: pointer;
-}
-#sizechange {
-  height: 200px;
-  cursor: pointer;
-}
-
-#certificaiton-section {
-  margin-top: 30px;
-  width: 100%;
-}
-/*certificaiton-list-items*/
-
-#certificaiton-list-items{
-  display: flex;
-  list-style: none;
-  align-items: center;
-  gap: 5px;
-  padding-left: 10px;
-  padding-right: 0px;
-  margin-left: 0px;
-  
-}
-
-
-#certificate-heading{
-  margin-bottom: 10px;
-}
-
-#certicate-btn{
-  color: black;
-  text-decoration: underline;
-  justify-content: center;
-  margin-left:49% ;
-  margin-bottom: 10px;
-}
-/* certification section ends here*/
-
-/*footer setion starts here*/
-
-.img-footer {
-  height: 10px;
-}
-
-.follow-us {
-  height: 20px;
-}
-
-#list-item-footer-section {
-  padding: 10px 10px 10px 10px;
-}
-
-.list-item-inside-footer {
-  height: 200px;
-}
-
-#footer-section {
-  margin-top: 10px;
-  background-color: black;
-  width: 100vw;
-}
-
-/*footer-title*/
-.footer-title {
-  font-size: 14px;
-}
-
-/*contact-footer*/
-
-.little-title {
-  font-size: 10px;
-}
-
-.popular-links {
-  line-height: 17px;
-  font-size: 10px;
-}
-
-/*logo color*/
-#logos {
-  margin-top: 10px;
-  font-size: 20px;
-  margin-left: 10px;
-}
-
-}
-
-@media screen and (max-width: 450px) {
-  #navbar > .list-items {
-    display: none;
-  }
-  #navbar > #btne{
-    display: none;
-  }
-  #navbar {
-    width: 100vw;
-  }
-  #homepage {
-    width: 100vw;
-    height: 40vh;
-    max-width: 450px;
-  }
-  #homepage img {
-    height: 40vh;
-    width: 100%;
-    max-width: 450px;
-  }
-  .text-homepage {
-    margin-bottom: 35%;
-    margin-left: 10%;
-    font-size: 11.5px;
-  }
-
-  .search-bar {
-    margin-left:25%;
-    margin-bottom: 20%;
-    width: 60vw;
-  }
-   
-#logo{
-    padding-left: 20px;
-    
-}
-  .search-bar >input {
-    width: 100%;
-    font-size: 12px;
-  }
-  .imgcon {
-    height: 30px;
-    border-radius: 30px;
-  }
-  #three-container {
-    top: 43%;
-    margin-left: 20px;
-  }
-  .three-container-items {
-    width: 30%;
-    padding: 6px 6px;
-    font-size: 10px;
-  }
-  /*about section below*/
-  #about {
-    margin-top: 60px;
-    width: 100vw;
-    height: 65vh;
-    margin-bottom: 60px;
-  }
-
-  #notes-container {
-    width: 100vw;
-    height: 65vh;
-    padding: 10px 0px 0px 10px;
-  }
-
-  #about-heading {
-    font-size: 17px;
-    margin-bottom: 10px;
-    text-align: left;
-  }
-  #note-p {
-    width: 100vw;
-    font-size: 14px;
-    text-align:start;
-  }
-  #btn-view{
-    margin-top: 169px;
-  }
-
-  #img-class {
-    margin-top: 44vh;
-    margin-left: 49vw;
-    height: 180px;
-    width: 180px;
-  }
-
-
-  /*course section*/
-
-  .img-class-course{
-    /* height: 140px;
-    width: 258px; */
-    width: 100%;
-   height: 12vh;
-   max-width: 100%;
-   border-radius: 5px 5px 2px 2px;
-}
-.list-item-inside{
-  font-size: 14px;
-  border-radius: 10px;
-  margin-top: 40px;
-  flex: 1 1 100px;            /* Grow, shrink, and set a base width of 200px */
-  min-width: 120px;           /* Minimum width of each box */
-  padding: 0px 0px 25px 0px;
-  height: 23vh;
-}
-.minitag{
-  font-size: 13.9px;
-}
-.btn-list{
-  margin-top: 15px;
-  width: 9rem;
-  font-size: 11px;
-}
-  #course-container {
-    height: 100vh;
-    margin-top: 0px;
-    width: 100vw;
-    padding: 5px 20.5px 0px 5px;
-    margin-bottom: 10px;
-    /* margin-left: 30px; */
-  }
-  #btn-courselast{
-   display: none;
-    
-    }
-  /* course container ends here*/
-
-  /* icon with 4 container section*/
-  #action-box-container {
-    height: 300px;
-  }
-  .img-icon2 {
-    height: 31px;
-  }
-  #boxicon-container-img {
-    width: 100vw;
-  }
-  #list-items3 {
-    padding: 60px 0px 0px 80px;
-  }
-  .list-item-inside2 {
-    width: 100%;
-    height: 200px;
-    padding: 20px 60px;
-    font-size: 9px;
-  }
-  .heading-container {
-    font-size: 11px;
-  }
-  /* icon with 4 container sections endshere*/
 
   /* events container begin*/
   #events-container {
-    width: 900px;
-    margin-left: 10px;
+    margin-top: 70px;
+    margin-left: 5px;
+    margin-right: 0px;
   }
   .img-class-events {
-    height: 180px;
-    width: 250px;
+    height: 100px;
+    width: 180px;
+    border-radius: 8px;
+  }
+  #list-items-events {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    list-style: none;
+    padding-left: 0px;
+    padding-right: 0px;
   }
 
   .list-items-inside3 {
-    height: 220px;
+    flex: 1 1 140px; /* Grow, shrink, and set a base width of 200px */
+    min-width: 140px; /* Minimum width of each box */
+    text-align: center;
+    height: 130px;
+    border-radius: 8px 8px 5px 5px;
+  }
+  .tbh {
+    display: inline;
+    margin-right: 50%;
+  }
+  .tbh {
+    display: inline;
+    margin-right: 30%;
   }
 
   /*our event button css this is*/
   #event-btn {
-    width: 53.5rem;
+    margin-left: 0px;
+    margin-bottom: 10px;
+    align-items: center;
+    padding: 18px 11px;
+    width: 38.4rem;
+  }
+
+  #btn-courselast2 {
+    margin-top: 50px;
+    margin-left: 31%;
+    width: 15rem;
+    font-size: 13.5px;
   }
   /*our event containers ends here*/
+
   /*testimional container begins here */
 
   #TESTIMONIAL-container {
-    height: 400px;
+    height: 300px;
+    margin-bottom: 70px;
   }
   .TESTIMONIAL-img {
-    width: 1000px;
-    height: 400px;
+    width: 100vw;
+    height: 300px;
     position: absolute;
   }
   #inside-test {
     position: relative;
     width: 600px;
-    margin-left: 200px;
+    margin-left: 10px;
+    padding: 30px 10px 10px 10px;
   }
   /* p tag*/
   .testi {
-    font-size: 19px;
+    font-size: 14px;
   }
   .tst {
     height: 60px;
@@ -1184,12 +857,9 @@ margin-right: 0px;
 
   #changer {
     margin-top: 20px;
-    font-size: 10px;
+    font-size: 11px;
   }
   /*testimional container ends here */
-  /*certificaiton-section*/
-
-  /*img of certificate container*/
   .certicates {
     height: 50px;
     cursor: pointer;
@@ -1201,21 +871,30 @@ margin-right: 0px;
 
   #certificaiton-section {
     margin-top: 30px;
-    width: 800px;
+    width: 100%;
   }
-
   /*certificaiton-list-items*/
 
   #certificaiton-list-items {
-    margin-left: 30px;
+    display: flex;
+    list-style: none;
+    align-items: center;
+    gap: 5px;
+    padding-left: 10px;
+    padding-right: 0px;
+    margin-left: 0px;
   }
 
   #certificate-heading {
-    margin-left: 50px;
+    margin-bottom: 10px;
   }
-  #certificate-second-head {
-    margin-left: 40px;
-    margin-bottom: 1px;
+
+  #certicate-btn {
+    color: black;
+    text-decoration: underline;
+    justify-content: center;
+    margin-left: 49%;
+    margin-bottom: 10px;
   }
   /* certification section ends here*/
 
@@ -1230,7 +909,7 @@ margin-right: 0px;
   }
 
   #list-item-footer-section {
-    padding: 50px 20px 20px 20px;
+    padding: 10px 10px 10px 10px;
   }
 
   .list-item-inside-footer {
@@ -1240,7 +919,316 @@ margin-right: 0px;
   #footer-section {
     margin-top: 10px;
     background-color: black;
-    width: 900px;
+    width: 100vw;
+  }
+
+  /*footer-title*/
+  .footer-title {
+    font-size: 14px;
+  }
+
+  /*contact-footer*/
+
+  .little-title {
+    font-size: 10px;
+  }
+
+  .popular-links {
+    line-height: 17px;
+    font-size: 10px;
+  }
+
+  /*logo color*/
+  #logos {
+    margin-top: 10px;
+    font-size: 20px;
+    margin-left: 10px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  #navbar > .list-items {
+    display: none;
+  }
+  #navbar > #btne {
+    display: none;
+  }
+  #navbar {
+    width: 100vw;
+  }
+  #homepage {
+    width: 100vw;
+    height: 60vh;
+    max-width: 450px;
+  }
+  #homepage img {
+    height: 60vh;
+    width: 100%;
+    max-width: 450px;
+  }
+  .text-homepage {
+    margin-bottom: 35%;
+    margin-left: 10%;
+    font-size: 11.5px;
+  }
+
+  .search-bar {
+    margin-left: 25%;
+    margin-bottom: 20%;
+    width: 60vw;
+  }
+
+  #logo {
+    padding-left: 20px;
+  }
+  .search-bar > input {
+    width: 100%;
+    font-size: 12px;
+  }
+  .imgcon {
+    height: 30px;
+    border-radius: 30px;
+  }
+  #three-container {
+    top: 66%;
+    margin-left: 20px;
+  }
+  .three-container-items {
+    width: 30%;
+    padding: 6px 6px;
+    font-size: 10px;
+  }
+  /*about section below*/
+  #about {
+    margin-top: 60px;
+    width: 100vw;
+    height: 80vh;
+    margin-bottom: 60px;
+  }
+
+  #notes-container {
+    width: 100vw;
+    height: 75vh;
+    padding: 30px 10px 0px 0px;
+  }
+
+  #about-heading {
+    font-size: 17px;
+    margin-bottom: 10px;
+    text-align: left;
+  }
+  #note-p {
+    width: 100vw;
+    font-size: 14px;
+    text-align: start;
+  }
+  #btn-view {
+    margin-top: 15px;
+  }
+
+  #img-class {
+    display: none;
+    /* margin-top: 44vh;
+    margin-left: 49vw;
+    height: 180px;
+    width: 180px; */
+  }
+
+  /*course section*/
+
+  .img-class-course {
+    /* height: 140px;
+    width: 258px; */
+    width: 100%;
+    height: 19vh;
+    max-width: 100%;
+    border-radius: 5px 5px 2px 2px;
+  }
+  .list-item-inside {
+    font-size: 14px;
+    border-radius: 10px;
+    margin-top: 40px;
+    flex: 1 1 150px; /* Grow, shrink, and set a base width of 200px */
+    min-width: 150px; /* Minimum width of each box */
+    padding: 0px 0px 25px 0px;
+    height: 45vh;
+  }
+  .minitag {
+    font-size: 13.9px;
+  }
+  .btn-list {
+    margin-top: -5px;
+    width: 9rem;
+    font-size: 11px;
+  }
+  #course-container {
+    height: 220vh;
+    margin-top: 100px;
+    width: 100vw;
+    padding: 0px 0px 0px 0px;
+
+    /* margin-left: 30px; */
+  }
+  #btn-courselast {
+    display: block;
+    margin-left: 25%;
+  }
+  /* course container ends here*/
+
+  /* icon with 4 container section*/
+  #action-box-container {
+    margin-top: 0px;
+    margin-bottom: 100px;
+    height: 300px;
+  }
+  .hiding {
+    display: none;
+  }
+  .img-icon2 {
+    height: 39px;
+  }
+  #boxicon-container-img {
+    width: 100vw;
+  }
+  #list-items3 {
+    padding: 50px 20px 0px 0px;
+  }
+  .list-item-inside2 {
+    width: 100%;
+    height: 200px;
+    padding: 10px 25px;
+    font-size: 14px;
+  }
+  .heading-container {
+    font-size: 14px;
+  }
+  /* icon with 4 container sections endshere*/
+
+  /* events container begin*/
+  #events-container {
+    width: 100%;
+    margin-left: 5px;
+  }
+  .img-class-events {
+    height: 180px;
+    width: 210px;
+    margin-bottom: 4px;
+  }
+
+  .list-items-inside3 {
+    height: 220px;
+  }
+
+  /*our event button css this is*/
+  #event-btn {
+    width: 27.5rem;
+  }
+
+  #btn-courselast2 {
+    margin-left: 25%;
+  }
+  /*our event containers ends here*/
+
+  /*testimional container begins here */
+
+  #TESTIMONIAL-container {
+    height: 300px;
+    margin-bottom: 70px;
+  }
+  .TESTIMONIAL-img {
+    width: 100vw;
+    height: 300px;
+    position: absolute;
+  }
+  #inside-test {
+    position: relative;
+    width: 400px;
+    margin-left: 10px;
+    padding: 0px 0px 0px 40px;
+  }
+  /* p tag*/
+  .testi {
+    font-size: 14px;
+  }
+  .tst {
+    height: 60px;
+    width: 60px;
+    margin-left: 19%;
+    margin-top: 30px;
+  }
+  /*h1 symnbol''*/
+  .tor {
+    font-size: 55px;
+  }
+  .testis {
+    width: 200px;
+    margin-left: 16%;
+  }
+
+  #changer {
+    margin-top: 20px;
+    font-size: 11px;
+  }
+  /*testimional container ends here */
+
+  /*certificaiton-section*/
+  .certicates {
+    height: 50px;
+    cursor: pointer;
+  }
+  #sizechange {
+    height: 99px;
+    cursor: pointer;
+  }
+
+  #certificaiton-section {
+    margin-top: 30px;
+    width: 100%;
+  }
+  /*certificaiton-list-items*/
+
+  #certificaiton-list-items {
+    gap: 3px;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-left: 0px;
+  }
+
+  #certificate-heading {
+    margin-bottom: 10px;
+  }
+
+  #certicate-btn {
+    margin-left: 49%;
+    margin-bottom: 10px;
+  }
+  /* certification section ends here*/
+
+  /*footer setion starts here*/
+
+  .img-footer {
+    height: 10px;
+  }
+  .popu{
+    display: none;
+  }
+
+  .follow-us {
+    height: 20px;
+  }
+
+  #list-item-footer-section {
+    padding: 50px 10px 20px 10px;
+  }
+
+  .list-item-inside-footer {
+    height: 200px;
+  }
+
+  #footer-section {
+    margin-top: 10px;
+    background-color: black;
+    width:100vw;
   }
 
   /*footer-title*/
