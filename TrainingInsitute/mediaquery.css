@@ -1008,8 +1008,8 @@
 
   #notes-container {
     width: 100vw;
-    height: 75vh;
-    padding: 30px 10px 0px 0px;
+    height: 77vh;
+    padding: 30px 20px 10px 10px;
   }
 
   #about-heading {
@@ -1018,12 +1018,12 @@
     text-align: left;
   }
   #note-p {
-    width: 100vw;
+    width: 95vw;
     font-size: 14px;
     text-align: start;
   }
   #btn-view {
-    margin-top: 15px;
+    margin-top: 2%;
   }
 
   #img-class {
@@ -1061,11 +1061,15 @@
     width: 9rem;
     font-size: 11px;
   }
+  #list-items-course {
+    gap: 10px;
+  }
+
   #course-container {
     height: 220vh;
-    margin-top: 100px;
+    margin-top: 10px;
     width: 100vw;
-    padding: 0px 0px 0px 0px;
+    padding: 10px 10px 10px 10px;
 
     /* margin-left: 30px; */
   }
@@ -1111,7 +1115,7 @@
   }
   .img-class-events {
     height: 180px;
-    width: 210px;
+    width: 189px;
     margin-bottom: 4px;
   }
 
@@ -1121,7 +1125,7 @@
 
   /*our event button css this is*/
   #event-btn {
-    width: 27.5rem;
+    width: 98vw;
   }
 
   #btn-courselast2 {
@@ -1142,7 +1146,7 @@
   }
   #inside-test {
     position: relative;
-    width: 400px;
+    width: 350px;
     margin-left: 10px;
     padding: 0px 0px 0px 40px;
   }
@@ -1174,6 +1178,7 @@
   /*certificaiton-section*/
   .certicates {
     height: 50px;
+    width: 6rem;
     cursor: pointer;
   }
   #sizechange {
@@ -1199,7 +1204,7 @@
   }
 
   #certicate-btn {
-    margin-left: 49%;
+    margin-left: 45%;
     margin-bottom: 10px;
   }
   /* certification section ends here*/
