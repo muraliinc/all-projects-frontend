@@ -2,22 +2,138 @@
     margin: 0;
     padding: 0;
     background-color: #0c1c2d;
-    color: white;
+    color: rgb(245, 245, 245);
 }
 
 #main-card{
-    height: 100vh;
-    width: 30%;
-    padding: 10px;
-    
+    /* height: 100%;
+    width: 400px;
+    border-radius: 5rem; */
+   /* align-items: center;
+   justify-content: center; */
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   width: 100%;
+   height: 100%;
+}
+#main-card-second{
+    margin-top: 50px;
+    align-items: center;
+    width: 320px;
+    border-radius: 50%;
+    background-color: #0a263d;
+}
+
+.text-heading-p {
+    font-weight: 400;
+    color: #8bacd9;
 }
 
 .second-maincard-box{
+    height: 100%;
+    padding: 10px 30px 10px 30px;
     align-items: center;
-    background-color: #0f4a7a;
+    width: 100%;
+    background-color: #0a263d;
+  
 }
 
-#image-equilibrium{
-    
-    height: 40vh
+.text-heading-h {
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 27.72px;
+    font-style: normal;
+    font-family: "outfit" sans-serif;
 }
+
+
+.second-maincard-box>.text-heading-h {
+padding-right: 0px;
+}
+.second-maincard-box>.text-heading-p{
+padding-right: 0px;
+padding-left: 0px;
+}
+
+.heading-img{
+ position: relative;
+    
+}
+
+
+#image-equilibrium{
+    width: 100%; 
+    border-radius: 1.1rem;
+}
+.overlay{
+    width: 321px;
+    height: 320px;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 3%;
+    background: none;
+    display: none;
+    border-radius: 1rem;
+    opacity: 0.6;
+}
+.img-overlay{
+ background: none;
+}
+
+.heading-img:hover .overlay {
+    display: flex;
+    background-color: aquamarine;
+   
+}
+
+
+
+
+
+
+#author-img{
+    width: 40px;
+    border-radius: 2rem;
+    border: 2px solid white;
+}
+
+.TWO-DIV-BOX{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.inner-small-tags{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.foot{
+    display: flex;
+    justify-content: center;
+    height: 80px;
+    justify-content: space-around;
+}
+
+.word1{
+    color: #8bacd9;
+    font-family:'sans-serif';
+    background: none;
+    
+}
+
+.word2:hover{
+    color: aqua;
+    cursor: pointer;
+}
+.word2{
+    font-family: sans-serif;
+    background: none;
+}
+
+#main-card-second:hover{
+    transition: 0.5s ease-in-out;
+   transform: scale(1.05);}
