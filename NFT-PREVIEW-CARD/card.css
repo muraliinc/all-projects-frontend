@@ -18,7 +18,7 @@
     margin-top: 50px;
     align-items: center;
     width: 320px;
-    border-radius: 50%;
+    border-radius: 1rem;
     background-color: #0a263d;
 }
 
@@ -146,4 +146,23 @@ cursor: pointer;
 
    /*media query */
    
-   
+   @media screen and (max-width:600px) {
+    #main-card-second{
+        margin-top: 50px;
+        width: 320px;
+        border-radius: 0%;
+    }
+    .second-maincard-box{
+        padding: 10px 15px 10px 15px;
+        width: 90%;
+      
+    }
+    #main-card-second{
+        border-radius: 1rem;
+    }
+    .overlay{
+        width: 290px;
+        height: 290px;
+    }
+    
+   }
