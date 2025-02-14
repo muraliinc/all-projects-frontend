@@ -84,6 +84,7 @@
 
    /* home hero section ends here*/
 
+   /* about section starts here*/
 #about-section{
     height: 100vh;
     width: 100%;
@@ -110,7 +111,7 @@
     
 }
 .abt-h1{
-    color: rgb(9, 9, 9);
+    color: rgb(143, 132, 132);
     margin-bottom: 40px;
     font-family:"Cutive Mono", serif;
 }
@@ -118,4 +119,67 @@
     color: rgb(63, 61, 61);
     font-family:'Courier New', Courier, monospace;
     font-size: 14px;
+}
+
+/* about section ends here*/
+
+#creations-section{
+    height: 100vh;
+    width: 100%;
+}
+
+.creations-main-inner{
+    width: fit-content;
+    padding-left: 80px;
+}
+.two-element-nav{
+    display: flex;
+    justify-content:space-between;
+    width: 100%;
+    margin-bottom:40px ;
+}
+
+.abt-h1-creation{
+    color: rgb(143, 132, 132); 
+    font-family:"Cutive Mono", serif; 
+}
+
+.btn-see-all{
+    color:black;
+    background-color: white;
+    border-radius: 5%;
+    width: 6rem;
+    border: solid black 1px;
+}
+
+.list-inner-items-creations{
+    width: 100%;
+    height: 90vh;
+    justify-content: center;
+}
+
+ .list-creation{
+ 
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(2, auto);
+    gap: 20px;
+    max-width: 1200px;
+    width: 100%;
+    padding: 0;
+}
+ .list-creation-inner{
+    position: relative;
+    width: fit-content;
+ flex-direction: column;
+ overflow: hidden;
+}
+
+.CREATION-TXT{
+    bottom: 10px;
+    font-size: 1.7rem;
+    left: 10px;
+    position: absolute;
+    color: rgb(219, 215, 215);
+    
 }
