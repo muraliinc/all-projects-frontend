@@ -270,3 +270,29 @@ color: rgb(158, 161, 164);
     padding-left: 0px;
     margin-left: 0px;
 }
+
+/* footer  section ends here*/
+
+/* media query starts here*/
+@media screen and (max-width:3000px){
+    .img-mobile-hero{
+        display: none;
+    }
+}
+
+
+@media screen and (max-width:600px)  {
+    .img-herosection{
+        display: none;
+    }
+    .img-mobile-hero{
+        display: block;
+        position: absolute;
+        width: fit-content;
+        height: 100vh;
+    }
+
+    .list-items{
+       display: none;
+    }
+}
