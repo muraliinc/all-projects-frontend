@@ -339,7 +339,12 @@ height: 30px;
     background:none;
     border: none;
 }
+/* about section mobile size*/
 
+.abt-vr-mobile{
+ height: 220px;
+ display: none;
+}
 
 
 /* media query starts here*/
@@ -399,10 +404,40 @@ height: 30px;
         display: block;
         flex-direction: column;
     }
-
+/*about section*/
     #about-section{
+        margin-top: 30px;
+        display: block;
+    }
+    .abt-vr-img{
         display: none;
     }
+    .abt-vr-mobile{
+        display: block;
+       }
+
+       .about-image-section{
+        position: relative;
+        width: fit-content;
+    }
+
+    .about-inner-main{
+        width: 100%;
+       padding-left: 30px;
+       padding-right: 0px;
+ 
+    }
+    .about-box-words{
+        width: 300px;
+        margin-left: 40px;
+        left: 0px;
+        bottom: 0px;
+        padding: 10px  50px 50px 50px;
+        height: 400px;
+        
+    }
+    
+
     #creations-section{
         display: none;
     }
