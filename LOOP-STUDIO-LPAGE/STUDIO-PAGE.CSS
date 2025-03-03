@@ -378,7 +378,7 @@ display: none;
   
 
 
-@media screen and (max-width:600px)  {
+@media screen  and (max-width:600px)  {
 
     .img-herosection{
         display: none;
@@ -396,6 +396,7 @@ display: none;
 
     .hami{
         height: 100vh;
+        width: 100%;
     }
     .navbar-inners{
         padding-left: 10px;
@@ -414,6 +415,7 @@ display: none;
         position: absolute;
         width: fit-content;
         height: 100vh;
+        width: 100%;
     }
 
     .list-items{
@@ -534,4 +536,8 @@ display: none;
         margin-top: 30px;
         text-align: center;
     }
+}
+
+@media screen and (max-width:320px) {
+    
 }
