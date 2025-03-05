@@ -536,8 +536,129 @@ display: none;
         margin-top: 30px;
         text-align: center;
     }
-}
+} 
 
-@media screen and (max-width:320px) {
+@media screen and (max-width:415px) {
+   
+    .hamburger {
+        padding-left:  90px;
+    }
+    .close-burger{
+        padding-left: 80px;
+    }
+
+    .hami{
+        height: 100vh;
+        width: 100%;
+    }
+    .navbar-inners{
+        padding-left: 10px;
+    }
+   
+    .img-mobile-hero{
+        height: 90vh;
+       
+    }
+
+    .list-items{
+       display: none;
+    }
+    .white-borderbox-hero{
+        font-size:40px;
+        margin-left: 10px;
+        margin-top: 5em;
+        padding: 20px 20px 20px 20px;
+        
+    }
+    .hami-items{
+        display: block;
+        flex-direction: column;
+    }
+/*about section*/
+    #about-section{
+        margin-top: 40px;
+        height: 70vh;
+    }
+
+
+    .about-inner-main{
+        width: 90%;
+       padding-left: 50px;
+
+ 
+    }
+    .about-box-words{
+        padding: 10px  50px 0px 0px;
+        
+    }
+    /*about section ends here */
+
+    /*creation section starts here */
+
+    #creations-section{
+        height: 160vh;
+    }
+
+    .btn-see-all{
+        display: none;
+    }
+    .mobile-img-creation{
+    display: block;
+    height: 120px;
     
+
+    }
+    .list-inner-items-creations{
+        padding-left: 20px;
+        width: 90%;
+        height: 150vh;
+        justify-content: center;
+    }
+    .creations-main-inner{
+        width: 90%;
+        padding-left: 20px;
+        padding-right: 0px;
+    }
+
+    .desktop-img-creation{
+       display: none; 
+    }
+    .abt-h1-creation{
+        margin-left: 15PX;
+        font-size: 2.5rem;
+    }
+    .bottom-see{
+        display: block;
+        margin-top: 30px;
+    }
+    .two-element-nav{
+    justify-content: center;
+    margin-left: 10px;
+    }
+ /*creation section ends here */
+
+    #footer-section{
+       height: 60vh;
+    }
+    .footer-top-2-div{
+        flex-direction: column;
+    }
+    .ft-nav{
+        padding-left: 70px;
+        margin-left: 0px;
+    }
+    .ft-navbtm{
+        display: block;
+    }
+    .footer-bottom-2-div{
+      flex-direction: column;
+    }
+
+    .desk-size-svg{
+        display: none;
+    }
+    .footer-bottom-copyright{
+        margin-top: 30px;
+        text-align: center;
+    }
 }
