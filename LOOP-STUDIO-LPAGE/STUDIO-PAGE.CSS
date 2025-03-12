@@ -90,7 +90,9 @@
 .about-inner-main {
   padding-left: 80px;
   padding-right: 20px;
-  width: 90%;
+  max-width: 1200px; /* Adjust as needed */
+  width: 90%; /* Keeps responsiveness */
+  margin: 0 auto;
 }
 .about-image-section {
   position: absolute;
@@ -129,8 +131,10 @@
 }
 
 .creations-main-inner {
+  max-width: 1200px; /* Adjust as needed */
+  width: 90%; /* Keeps responsiveness */
+  margin: 0 auto;
   width: fit-content;
-  padding-left: 80px;
   height: 170vh;
 }
 .two-element-nav {
