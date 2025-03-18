@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: beige;
+}
+h1,h3,h4,p{
+    background: none;
+}
+
+#main-container{
+   margin: 50px;
+    
+}
+#main-inner{
+    max-width: 1200px;
+    margin: 0 auto;
+    width: 60%;
+    display: flex;
+    height: fit-content
+}
+.img-container{
+    height: fit-content;
+}
+.img-perfume{
+    height: 32rem;
+    border-radius: 10px 0px 0px 10px ;
+}
+
+.description-container{
+    max-width: 50%;
+  min-width: 300px;
+    padding: 40px 30px 10px 30px;
+    background-color: rgb(247, 246, 246) ;
+    border-radius: 0px 10px 10px 9px ;
+    box-shadow: 2px 0.5px 0.6px rgb(202, 202, 202);
+}
+
+/*text stylying below*/
+
+.first-heading{
+    font-family: "Montserrat", sans-serif;
+    font-size: 1em;
+    color: gray;
+    letter-spacing: 3px;
+    margin-bottom: 1em;
+}
+
+.heading-gabr{
+    font-family: "Fraunces", serif;
+    margin-bottom: 0.5em;
+    font-size: 2.5em;
+}
+
+.paragraph-sec{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+    line-height: 1.3em;
+    font-size: 1.1em;
+    color: gray;
+    margin-bottom: 1.5em;
+}
+
+.dollar-sec{
+    width: 70%;
+    display: flex;
+    background: none;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2em;
+}
+
+s{
+    background: none;
+}
+
+.dollar-rate{
+    color: rgb(13, 105, 13);  
+}
+
+.btn-add{
+    background: rgb(13, 105, 13);
+    width: 80%;
+    height: 2.7rem;
+    border: none;
+    border-radius: 9px;
+    color: white;
+    justify-items: center;
+    font-size: 1.2em;
+}
+
+.icon-cart{
+    background: none;
+    padding-right: 4px;
+}
+
+.btn-add:hover{
+    cursor: pointer;
+    background: rgb(4, 52, 4);
+    transition: 0.5s ease-in;
+  
+
+}
