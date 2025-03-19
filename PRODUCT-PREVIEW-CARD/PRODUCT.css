@@ -78,6 +78,7 @@ s{
 
 .dollar-rate{
     color: rgb(13, 105, 13);  
+    font-size: 2.5rem
 }
 
 .btn-add{
@@ -102,4 +103,15 @@ s{
     transition: 0.5s ease-in;
   
 
+}
+
+/*mobile size*/
+
+.img-perfume-mobile{
+    display: none;
+}
+
+@media screen and (min-width:764px) {
+
+  
 }
