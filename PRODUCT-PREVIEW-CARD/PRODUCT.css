@@ -9,13 +9,15 @@ h1,h3,h4,p{
 }
 
 #main-container{
-   margin: 50px;
+   margin-top: 50px;
+   width: 100%;
     
 }
 #main-inner{
-    max-width: 1200px;
+    /* max-width: 1200px;
+    margin: 0 auto; */
     margin: 0 auto;
-    width: 60%;
+    width: 43rem;
     display: flex;
     height: fit-content
 }
@@ -54,14 +56,14 @@ h1,h3,h4,p{
 
 .paragraph-sec{
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
-    line-height: 1.3em;
-    font-size: 1.1em;
+    line-height: 1.5em;
+    font-size: 1.2em;
     color: gray;
     margin-bottom: 1.5em;
 }
 
 .dollar-sec{
-    width: 70%;
+    width: 80%;
     display: flex;
     background: none;
     justify-content: space-between;
@@ -71,6 +73,7 @@ h1,h3,h4,p{
 
 s{
     background: none;
+    color: gray;
 }
 
 .dollar-rate{
