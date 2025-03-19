@@ -35,7 +35,7 @@ h1,h3,h4,p{
     padding: 40px 30px 10px 30px;
     background-color: rgb(247, 246, 246) ;
     border-radius: 0px 10px 10px 9px ;
-    box-shadow: 2px 0.5px 0.6px rgb(202, 202, 202);
+    box-shadow: 2px 0px 0.6px rgb(202, 202, 202);
 }
 
 /*text stylying below*/
@@ -52,6 +52,9 @@ h1,h3,h4,p{
     font-family: "Fraunces", serif;
     margin-bottom: 0.5em;
     font-size: 2.5em;
+}
+.heading-gabr-1{
+    display: none;
 }
 
 .paragraph-sec{
@@ -101,8 +104,6 @@ s{
     cursor: pointer;
     background: rgb(4, 52, 4);
     transition: 0.5s ease-in;
-  
-
 }
 
 /*mobile size*/
@@ -111,7 +112,43 @@ s{
     display: none;
 }
 
-@media screen and (min-width:764px) {
+@media screen and (max-width:764px) {
+    #main-inner{
+        width: 20em;
+        display: flex;
+        flex-direction: column;
+        height: fit-content
+    }
+    .heading-gabr{
+        display: none;
+    }
 
-  
+ .img-perfume{
+    display: none;
+ }
+ .img-perfume-mobile{
+    border-radius: 10px 10px 0px 0px;
+    display: block;
+    height: 15rem;
+    width: 100%;
+    box-shadow: 2px 0px 1px rgb(202, 202, 202);
+ }
+
+ .description-container{
+    padding: 20px 30px 10px 30px;
+    box-shadow: 2px 2px 1px rgb(202, 202, 202);
+    max-width: 100%;
+    border-radius: 0px 0px 10px 10px ;
+ }
+ .heading-gabr-1{
+    display: block;
+    font-size: 1.8em;
+ }
+ .paragraph-sec{
+    font-size: 1em;
+    margin-bottom: 0.4em;
+ }
+  .btn-add{
+    margin-left: 1.5rem;
+  }
 }
