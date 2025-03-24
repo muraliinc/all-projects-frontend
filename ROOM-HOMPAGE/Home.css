@@ -9,7 +9,8 @@
     display: grid;
     width: 100%;
     margin: 0 ;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1.6fr 1.3fr ;
+    grid-template-rows: 2fr 1fr;
     grid-template-areas: 'hero-1 hero-1 hero-2'
                           'hero-3 hero-4 hero-5' ;
                         
@@ -17,19 +18,34 @@
 /* grid allocation */
 .image-top{
      grid-area: hero-1; border: solid red;
-     height: 28.5rem;
+     height: 26rem;
 }
 
-.discription-top-right{grid-area: hero-2; border: solid red;}
-.image-bottom-left{ grid-area: hero-3;border: solid red;}
-.discription-bottom-center{grid-area: hero-4; border: solid red;}
-.bottom-right-img{grid-area: hero-5; border: solid red;}
+.discription-top-right{grid-area: hero-2; 
+    border: solid red;
+    height: 26rem;
+}
+.image-bottom-left{ grid-area: hero-3;
+    border: solid red;
+    height: 13.5rem;
+}
+.discription-bottom-center{grid-area: hero-4;
+     border: solid red;
+     height: 13.5rem;}
+.bottom-right-img{grid-area: hero-5;
+     border: solid red;
+    height: 13.5rem;}
 
 
 .hero-image1{
-height: 28.5rem;
+height:100%;
 width: 100%;
 object-fit: cover;
+}
+
+.img-bottom-1{
+    height: 100%;
+    width: 100%;
 }
 
 .nav-items{
