@@ -126,12 +126,13 @@ margin-top: 30px;
  background-color: black;
  height: 60px;
  width: 50px;
+ 
 }
 
  .right-btn{
     background-color: black;
     height: 60px;
-    width: 50px
+    width: 50px;
 }
 
 .forward-backward{
@@ -140,6 +141,7 @@ margin-top: 30px;
     z-index: 10;
     left: 58.4%;
     display: flex;
+    background-color: black;
 }
 
 .left-btn:hover{
@@ -150,6 +152,7 @@ margin-top: 30px;
     cursor: pointer;
     background-color: #565353;
 }
+
 
 
 /*bottom discription*/
