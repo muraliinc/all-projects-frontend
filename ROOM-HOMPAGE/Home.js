@@ -8,6 +8,12 @@ const images = [
   "ASSESTS/desktop-image-hero-3.jpg",
 ];
 
+const images_mob =[
+  "ASSESTS/mobile-image-hero-1.jpg",
+  "ASSESTS/mobile-image-hero-2.jpg",
+   "ASSESTS/mobile-image-hero-3.jpg",
+];
+
 const heading_title = [
   "Discover innovative ways to decorate ",
   "We are available all across the globe",
@@ -40,6 +46,7 @@ function previmage(){
 
 function updatevalue (){
     document.querySelector(".hero-image1").src= images[index_value];
+    document.querySelector(".hami-mob").src= images_mob[index_value];
     document.querySelector(".heading-title").textContent = heading_title[index_value];
     document.querySelector(".p-tag").textContent = paragraph_tag[index_value];
 }

@@ -174,8 +174,7 @@
 
 /*mobile size edit */
 
-.hami-svg {
-}
+
 .hami-mob {
   display: none;
   width: 100%;
@@ -197,7 +196,8 @@
   #Main-container {
     display: grid;
     height: fit-content;
-    grid-template-columns: 1fr;
+    /* grid-template-columns: 1fr; */
+   grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
     grid-template-rows: 1fr;
     grid-template-areas:
       "hero-1 "
@@ -215,7 +215,20 @@
   }
 
   .forward-backward {
+    z-index: 0;
     margin-top: 22.2em;
-    left: 87%;
+    width: fit-content;
+  left: 74%;
+    
   }
+
+  
+.discription-top-right {
+  padding: 60px 30px 0px 30px;
+}
+
+.discription-bottom-center{
+  padding: 40px 20px 10px 20px;
+  width: 100%;
+}
 }
