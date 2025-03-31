@@ -52,3 +52,22 @@ function updatevalue (){
 }
 
 // below is for hamburger menu
+
+const  open_button = document.querySelector(".ham-open-btn");
+const  close_button = document.querySelector(".ham-close-btn");
+const room_logo = document.querySelector(".logo-nav");
+const nav_bar = document.querySelector(".list-items");
+
+open_button.addEventListener("click",()=>{
+room_logo.style.display="none";
+open_button.style.display ="none";
+close_button.style.display="block";
+nav_bar.style.display ="flex";
+});
+
+close_button.addEventListener("click",()=>{
+  room_logo.style.display="block";
+ open_button.style.display="block";
+ close_button.style.display="none"
+ nav_bar.style.display="none"
+});

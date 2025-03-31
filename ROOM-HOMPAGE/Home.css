@@ -184,11 +184,26 @@
   display: none;
 }
 
+.hami-svg{
+ height: 20px;
+}
 .ham-open-btn {
   display: none;
+  background: none;
+  border: none;
 }
 .ham-close-btn {
   display: none;
+  width: 2em;
+  background: none;
+  border: none;
+ 
+  
+}
+.hami-close{
+  height:1em;
+
+  
 }
 /*media query */
 
@@ -213,6 +228,19 @@
   .hami-mob {
     display: block;
   }
+  .ham-open-btn{
+    display: block;
+  }
+  
+  .heading-title{
+   font-size: 1.9em;
+  }
+  .list-items{
+    display: none;
+  }
+  .logo-nav{
+    padding-left: 6.5em;
+  } 
 
   .forward-backward {
     z-index: 0;
