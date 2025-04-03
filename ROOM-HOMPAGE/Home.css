@@ -203,6 +203,8 @@
 .no-scroll{
   position: fixed;
   overflow: hidden;
+  height: 100vh; /* ✅ Prevents scrolling */
+  width: 100vw; 
 }
 
 /*media query */
