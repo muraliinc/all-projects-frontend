@@ -58,6 +58,7 @@ const  close_button = document.querySelector(".ham-close-btn");
 const room_logo = document.querySelector(".logo-nav");
 const nav_bar = document.querySelector(".list-items");
 const body = document.querySelector("body");
+// const nav_items = document.querySelector(".nav-items");
 
 open_button.addEventListener("click",()=>{
 room_logo.style.display="none";
@@ -65,6 +66,7 @@ open_button.style.display ="none";
 close_button.style.display="block";
 nav_bar.style.display ="flex";
 body.classList.add =(".no-scroll");
+// nav_items.style.display.bgcolor ="white"
 });
 
 close_button.addEventListener("click",()=>{
