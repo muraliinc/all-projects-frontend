@@ -1,0 +1,105 @@
+{"POSTS":[
+    {
+        "id":1,
+        "user":{
+            "id":101,
+            "username":"muralidharan",
+            "profile_pic": "src/assets/profilepic1.jpeg"
+        },
+        "image":"src/assets/car-image.jpeg",
+        "caption":"nice car",
+        "likes":"120",
+        "comments":[
+            {
+                "user":"valakabaji",
+                "comments":"nice car bro"
+            },
+            {
+                "user":"nandhan-da-leo",
+                "comments":"wow"
+            },
+            {
+                "user":"mister-kabali",
+                "comments":"nerupu da"
+            }
+        ],
+        "timestamp":"2025-06-03"
+    },
+     {
+        "id":2,
+        "user":{
+            "id":102,
+            "username":"udhayakumar",
+            "profile_pic": "src/assets/profilepic2.jpeg"
+        },
+        "image":"src/assets/exploring-image.jpeg",
+        "caption":"exploring",
+        "likes":"100",
+        "comments":[
+            {
+                "user":"kolaru",
+                "comments":"wooo"
+            },
+            {
+                "user":"mr-360",
+                "comments":"fire fire"
+            },
+            {
+                "user":"bot-bro",
+                "comments":"nice one"
+            }
+        ],
+        "timestamp":"2024-06-07"
+    }, {
+        "id":3,
+        "user":{
+            "id":103,
+            "username":"tharun kumar",
+            "profile_pic": "src/assets/profilepic3.jpeg"
+        },
+        "image":"src/assets/tour-image.jpeg",
+        "caption":"tour",
+        "likes":"128",
+        "comments":[
+            {
+                "user":"idilykadai",
+                "comments":"next time i'll join"
+            },
+            {
+                "user":"karupan",
+                "comments":"wow"
+            },
+            {
+                "user":"doli",
+                "comments":"nice place"
+            }
+        ],
+        "timestamp":"2025-06-18"
+    },
+     {
+        "id":4,
+        "user":{
+            "id":104,
+            "username":"vicky",
+            "profile_pic": "src/assets/profilepic4.jpeg"
+        },
+        "image":"src/assets/bike-image.jpeg",
+        "caption":"my new bike",
+        "likes":"88",
+        "comments":[
+            {
+                "user":"batman",
+                "comments":"congrats"
+            },
+            {
+                "user":"im-bro",
+                "comments":"congrats bro"
+            },
+            {
+                "user":"hello-im jonny",
+                "comments":"congrats"
+            }
+        ],
+        "timestamp":"2025-06-01"
+    }
+]}

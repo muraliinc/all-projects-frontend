@@ -1,3 +1,5 @@
+/*for  app.jsx file isnide 3 components below*/
+
 .w-20{
   width: 20%;
 }
@@ -11,4 +13,14 @@
 }
 .bi{
   margin-right: 9px;
+}
+
+/* for feed componen inside 2 components */
+.story{
+  height: 100px;
+}
+
+.dp{
+  height: 50px;
+  width: 50px;
 }
