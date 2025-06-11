@@ -4,8 +4,8 @@ function Sidebar() {
   return (
 
     <>
-    <div className='m-3'>
-      <div className='d-flex flex-column gap-3 '>
+    <div className='m-3 position-fixed'>
+      <div className='d-flex flex-column gap-3  '>
         <img className='instagram-logo' src="src\assets\instagramtext.png" alt="img" />
         <div> <i className="bi bi-house-door-fill"></i>Home</div>
         <div><i className="bi bi-search"></i>Search</div>
@@ -20,8 +20,10 @@ function Sidebar() {
         <div><i className="bi bi-threads"></i>Threads</div>
         <div><i className="bi bi-list"></i>More</div>
     </div>
+    
     </div>
     </>
+    
   
   )
 }

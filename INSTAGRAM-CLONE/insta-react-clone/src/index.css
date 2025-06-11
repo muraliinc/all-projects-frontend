@@ -15,12 +15,43 @@
   margin-right: 9px;
 }
 
+
+
 /* for feed componen inside 2 components */
 .story{
   height: 100px;
 }
 
 .dp{
-  height: 50px;
-  width: 50px;
+  height: 20px;
+  width: 20px;
+  margin-top: 9px;
+  margin-right: 5px;
+}
+.user-title{
+  margin-top: 5px;
+}
+.post-image{
+  width: 450px;
+}
+
+.user-time{
+  margin-top: 6px;
+  margin-left: 7px;
+}
+
+.suggesting-post p{
+  margin-left: 5px;
+}
+.suggesting-post h5{
+  font-size: 1.2rem
+}
+.follow{
+  margin-top: 7px;
+}
+
+.suggestion{
+  position: fixed;
+ margin: 20px 0px 0px 35px;
+
 }

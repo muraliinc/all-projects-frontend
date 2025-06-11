@@ -3,11 +3,12 @@
         "id":1,
         "user":{
             "id":101,
+           "user_time":".1hr",
             "username":"muralidharan",
             "profile_pic": "src/assets/profilepic1.jpeg"
         },
         "image":"src/assets/car-image.jpeg",
-        "caption":"nice car",
+        "caption":"my new car wooo",
         "likes":"120",
         "comments":[
             {
@@ -29,11 +30,12 @@
         "id":2,
         "user":{
             "id":102,
+             "user_time":".5mn",
             "username":"udhayakumar",
             "profile_pic": "src/assets/profilepic2.jpeg"
         },
         "image":"src/assets/exploring-image.jpeg",
-        "caption":"exploring",
+        "caption":"exploring the world",
         "likes":"100",
         "comments":[
             {
@@ -54,11 +56,12 @@
         "id":3,
         "user":{
             "id":103,
+             "user_time":".12hr",
             "username":"tharun kumar",
             "profile_pic": "src/assets/profilepic3.jpeg"
         },
         "image":"src/assets/tour-image.jpeg",
-        "caption":"tour",
+        "caption":"tour vibe",
         "likes":"128",
         "comments":[
             {
@@ -80,6 +83,7 @@
         "id":4,
         "user":{
             "id":104,
+             "user_time":".3hr",
             "username":"vicky",
             "profile_pic": "src/assets/profilepic4.jpeg"
         },
@@ -102,4 +106,36 @@
         ],
         "timestamp":"2025-06-01"
     }
-]}
+],
+"Profile":{
+    
+            "id":101,
+            "username":"muralidharan",
+            "profile_pic": "src/assets/profilepic1.jpeg"
+        
+},
+"Suggestion":[
+    {
+            "id":101,
+            "username":"randy orton",
+            "profile_pic": "src/assets/profilepic1.jpeg"
+        }, {
+            "id":102,
+            "username":"remo king",
+            "profile_pic": "src/assets/suggestion-pic1.jpeg"
+        }, {
+            "id":103,
+            "username":"mike tyson",
+            "profile_pic": "src/assets/suggestion-pic2.jpeg"
+        }, {
+            "id":104,
+            "username":"johnny robo",
+            "profile_pic": "src/assets/suggestion-pic3.jpeg"
+        }, {
+            "id":105,
+            "username":"ricky pointing",
+            "profile_pic": "src/assets/suggestion-pic4.jpeg"
+        }
+]
+
+}
