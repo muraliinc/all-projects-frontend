@@ -137,5 +137,65 @@
             "profile_pic": "src/assets/suggestion-pic4.jpeg"
         }
 ]
+,
+
+"Story":[
+    { "id":1,
+        "user":{
+            "id":101,
+           "user_time":".56s ago",
+            "username":"ricky",
+            "profile_pic": "src/assets/story-profile1.jpeg",
+        "image": "/src/assets/story-view1.jpeg"
+        }
+    },
+     { "id":2,
+        "user":{
+            "id":102,
+           "user_time":".1mn ago",
+            "username":"mark",
+            "profile_pic": "src/assets/story-profile2.jpeg",
+             "image": "/src/assets/story-view2.jpeg"
+        }
+       
+    },
+     { "id":3,
+        "user":{
+            "id":103,
+           "user_time":".55mn ago",
+            "username":"antony",
+            "profile_pic": "src/assets/story-profile3.jpeg",
+        "image": "/src/assets/story-view3.jpeg"
+        }
+    },
+     { "id":4,
+        "user":{
+            "id":104,
+           "user_time":".14hr ago",
+            "username":"joshua",
+            "profile_pic": "src/assets/story-profile4.jpeg",
+        "image": "/src/assets/story-view4.jpeg"
+        }
+    },
+     { "id":5,
+        "user":{
+            "id":105,
+           "user_time":".1hr ago",
+            "username":"brock",
+            "profile_pic": "src/assets/story-profile5.jpeg",
+        "image": "/src/assets/story-view5.jpeg"
+        }
+    },
+     { "id":6,
+        "user":{
+            "id":106,
+           "user_time":".3mn ago",
+            "username":"mentall",
+            "profile_pic": "src/assets/story-profile6.jpeg",
+        "image": "/src/assets/story-view6.jpeg"
+        }
+    }
+]
+
 
 }
