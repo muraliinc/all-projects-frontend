@@ -30,24 +30,39 @@
 .story-wrap p{
  margin-left: 15px;
 }
-/* below is the storyview component*/
+/* below is the storyview component inside story image*/
 .story-view{
-position: absolute !important;
+ width: 100%;
+ object-fit: cover;
 
 
 }
 
 .story-view-top{
-  position: relative !important;
- 
+  position: absolute !important;
+ display: flex;
+ left: 5px;
+ top: 10px;
 
 }
 .story-view-dp{
-  height: 20px;
+  height: 40px;
 }
+
+.stry-name{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: white;
+  margin-top: 4px;
+  margin-left: 8px;
+}
+
 .entire-story{
+  position: relative;
   display: flex;
   justify-content: center;
+  height: 100vh;
+  margin: 0 auto;
+  width: 349px;
 }
 
 
@@ -56,6 +71,8 @@ position: absolute !important;
   height: 100vh;
   background: rgb(55, 48, 48);
 }
+ /* above is the css isnide the story view*/
+
 
 .gradian-border{
   width: 55px;

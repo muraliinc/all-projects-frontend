@@ -19,12 +19,12 @@ function StoriesView() {
   <div>
     { story ? <div className="whole-story"> 
       <div className="entire-story">
-              <img className="vh-100 story-view" src={story.user.image} alt="img" />
                <div className="story-view-top d-flex"> 
                   <img className="story-view-dp text-primary rounded-circle  " src={story.user.profile_pic} alt="story-profile"/>
-                  <p className="story-view-name text-primary">{story.user.username}</p>
-                    <p>{story.user.user_time}</p>
+                  <p className="story-view-name stry-name">{story.user.username}</p>
+                    <p className="stry-name">{story.user.user_time}</p>
               </div>
+               <img className="vh-100 story-view" src={story.user.image} alt="img" />
         </div>
   </div>
       : <p>loading</p>}
