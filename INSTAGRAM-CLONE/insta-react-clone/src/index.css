@@ -30,6 +30,32 @@
 .story-wrap p{
  margin-left: 15px;
 }
+/* below is the storyview component*/
+.story-view{
+position: absolute !important;
+
+
+}
+
+.story-view-top{
+  position: relative !important;
+ 
+
+}
+.story-view-dp{
+  height: 20px;
+}
+.entire-story{
+  display: flex;
+  justify-content: center;
+}
+
+
+
+.whole-story{
+  height: 100vh;
+  background: rgb(55, 48, 48);
+}
 
 .gradian-border{
   width: 55px;
@@ -40,6 +66,7 @@
  justify-content: center;
  background: linear-gradient(45deg,#ff00ff,#ff6600,#ffc00f);
 }
+
 
 .dp{
   height: 20px;

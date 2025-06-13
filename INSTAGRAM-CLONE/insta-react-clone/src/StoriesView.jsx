@@ -16,14 +16,21 @@ function StoriesView() {
 },[]);
  
   return ( 
-    <div>
-      {id}
-    { story ? <div> 
-      <img src={story.user.image} alt="img" />
-     </div> : <p>hello</p>}
+  <div>
+    { story ? <div className="whole-story"> 
+      <div className="entire-story">
+              <img className="vh-100 story-view" src={story.user.image} alt="img" />
+               <div className="story-view-top d-flex"> 
+                  <img className="story-view-dp text-primary rounded-circle  " src={story.user.profile_pic} alt="story-profile"/>
+                  <p className="story-view-name text-primary">{story.user.username}</p>
+                    <p>{story.user.user_time}</p>
+              </div>
+        </div>
+  </div>
+      : <p>loading</p>}
     </div>
   );
 }
 
 export default StoriesView;
-//npx json-server --watch insta-react-clone/DATABASE/Db.json --port 3000  --static ./insta-react-clone/src/assets
+//npx json-server --watch insta-react-clone/DATABASE/Db.json --port 3000  --static ./insta-react-clone/assets
