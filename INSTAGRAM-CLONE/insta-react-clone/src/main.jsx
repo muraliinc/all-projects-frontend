@@ -11,7 +11,7 @@ const router = createBrowserRouter([
   element: <App/>
  } ,
  {
-  path:'/Story/:id',
+  path:'/Story/:id/:tot',
   element : <StoriesView/>
  }
 ])

@@ -30,6 +30,10 @@
 .story-wrap p{
  margin-left: 15px;
 }
+.navi{
+ cursor: pointer;
+}
+
 /* below is the storyview component inside story image*/
 .story-view{
  width: 100%;
@@ -54,6 +58,7 @@
   color: white;
   margin-top: 4px;
   margin-left: 8px;
+  text-decoration:solid black;
 }
 
 .entire-story{
@@ -67,9 +72,15 @@
 
 
 
+
+
 .whole-story{
   height: 100vh;
   background: rgb(55, 48, 48);
+}
+
+.arrow{
+  margin: 0;
 }
  /* above is the css isnide the story view*/
 
