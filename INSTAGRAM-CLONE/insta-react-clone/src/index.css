@@ -34,6 +34,17 @@
  cursor: pointer;
 }
 
+.gradian-border{
+  width: 55px;
+  height: 60px;
+  display: flex;
+  flex-direction: column;
+ align-items: center;
+ justify-content: center;
+ background: linear-gradient(45deg,#ff00ff,#ff6600,#ffc00f);
+}
+
+
 /* below is the storyview component inside story image*/
 .story-view{
  width: 100%;
@@ -85,16 +96,6 @@
  /* above is the css isnide the story view*/
 
 
-.gradian-border{
-  width: 55px;
-  height: 60px;
-  display: flex;
-  flex-direction: column;
- align-items: center;
- justify-content: center;
- background: linear-gradient(45deg,#ff00ff,#ff6600,#ffc00f);
-}
-
 
 .dp{
   height: 20px;
@@ -122,6 +123,7 @@
 }
 .follow{
   margin-top: 7px;
+  cursor: pointer;
 }
 
 .suggestion{
@@ -130,3 +132,16 @@
 
 }
 
+/*side bar cursor*/
+
+.cursor{
+  cursor: pointer;
+}
+ 
+
+/*profile crud*/
+
+.prof{
+  height: 150px;
+  width: 150px;
+}

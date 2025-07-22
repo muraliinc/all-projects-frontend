@@ -1,201 +1,241 @@
-{"POSTS":[
+{
+  "POSTS": [
     {
-        "id":1,
-        "user":{
-            "id":101,
-           "user_time":".1hr",
-            "username":"muralidharan",
-            "profile_pic": "/assets/profilepic1.jpeg"
+      "id": "1",
+      "user": {
+        "id": 101,
+        "user_time": ".1hr",
+        "username": "muralidharan",
+        "profile_pic": "/assets/profilepic1.jpeg"
+      },
+      "image": "/assets/car-image.jpeg",
+      "caption": "my new car wooo",
+      "likes": "120",
+      "comments": [
+        {
+          "user": "valakabaji",
+          "comments": "nice car bro"
         },
-        "image":"/assets/car-image.jpeg",
-        "caption":"my new car wooo",
-        "likes":"120",
-        "comments":[
-            {
-                "user":"valakabaji",
-                "comments":"nice car bro"
-            },
-            {
-                "user":"nandhan-da-leo",
-                "comments":"wow"
-            },
-            {
-                "user":"mister-kabali",
-                "comments":"nerupu da"
-            }
-        ],
-        "timestamp":"2025-06-03"
-    },
-     {
-        "id":2,
-        "user":{
-            "id":102,
-             "user_time":".5mn",
-            "username":"udhayakumar",
-            "profile_pic": "/assets/profilepic2.jpeg"
+        {
+          "user": "nandhan-da-leo",
+          "comments": "wow"
         },
-        "image":"/assets/exploring-image.jpeg",
-        "caption":"exploring the world",
-        "likes":"100",
-        "comments":[
-            {
-                "user":"kolaru",
-                "comments":"wooo"
-            },
-            {
-                "user":"mr-360",
-                "comments":"fire fire"
-            },
-            {
-                "user":"bot-bro",
-                "comments":"nice one"
-            }
-        ],
-        "timestamp":"2024-06-07"
-    }, {
-        "id":3,
-        "user":{
-            "id":103,
-             "user_time":".12hr",
-            "username":"tharun kumar",
-            "profile_pic": "/assets/profilepic3.jpeg"
-        },
-        "image":"/assets/tour-image.jpeg",
-        "caption":"tour vibe",
-        "likes":"128",
-        "comments":[
-            {
-                "user":"idilykadai",
-                "comments":"next time i'll join"
-            },
-            {
-                "user":"karupan",
-                "comments":"wow"
-            },
-            {
-                "user":"doli",
-                "comments":"nice place"
-            }
-        ],
-        "timestamp":"2025-06-18"
-    },
-     {
-        "id":4,
-        "user":{
-            "id":104,
-             "user_time":".3hr",
-            "username":"vicky",
-            "profile_pic": "/assets/profilepic4.jpeg"
-        },
-        "image":"/assets/bike-image.jpeg",
-        "caption":"my new bike",
-        "likes":"88",
-        "comments":[
-            {
-                "user":"batman",
-                "comments":"congrats"
-            },
-            {
-                "user":"im-bro",
-                "comments":"congrats bro"
-            },
-            {
-                "user":"hello-im jonny",
-                "comments":"congrats"
-            }
-        ],
-        "timestamp":"2025-06-01"
-    }
-],
-"Profile":{
-    
-            "id":101,
-            "username":"muralidharan",
-            "profile_pic": "/assets/profilepic1.jpeg"
-        
-},
-"Suggestion":[
-    {
-            "id":101,
-            "username":"randy orton",
-            "profile_pic": "/assets/profilepic1.jpeg"
-        }, {
-            "id":102,
-            "username":"remo king",
-            "profile_pic": "/assets/suggestion-pic1.jpeg"
-        }, {
-            "id":103,
-            "username":"mike tyson",
-            "profile_pic": "/assets/suggestion-pic2.jpeg"
-        }, {
-            "id":104,
-            "username":"johnny robo",
-            "profile_pic": "/assets/suggestion-pic3.jpeg"
-        }, {
-            "id":105,
-            "username":"ricky pointing",
-            "profile_pic": "/assets/suggestion-pic4.jpeg"
+        {
+          "user": "mister-kabali",
+          "comments": "nerupu da"
         }
-]
-,
-
-"Story":[
-    { "id":1,
-        "user":{
-            "id":101,
-           "user_time":".56s ago",
-            "username":"ricky",
-            "profile_pic": "/assets/story-profile1.jpeg",
+      ],
+      "timestamp": "2025-06-03"
+    },
+    {
+      "id": "2",
+      "user": {
+        "id": 102,
+        "user_time": ".5mn",
+        "username": "udhayakumar",
+        "profile_pic": "/assets/profilepic2.jpeg"
+      },
+      "image": "/assets/exploring-image.jpeg",
+      "caption": "exploring the world",
+      "likes": "100",
+      "comments": [
+        {
+          "user": "kolaru",
+          "comments": "wooo"
+        },
+        {
+          "user": "mr-360",
+          "comments": "fire fire"
+        },
+        {
+          "user": "bot-bro",
+          "comments": "nice one"
+        }
+      ],
+      "timestamp": "2024-06-07"
+    },
+    {
+      "id": "3",
+      "user": {
+        "id": 103,
+        "user_time": ".12hr",
+        "username": "tharun kumar",
+        "profile_pic": "/assets/profilepic3.jpeg"
+      },
+      "image": "/assets/tour-image.jpeg",
+      "caption": "tour vibe",
+      "likes": "128",
+      "comments": [
+        {
+          "user": "idilykadai",
+          "comments": "next time i'll join"
+        },
+        {
+          "user": "karupan",
+          "comments": "wow"
+        },
+        {
+          "user": "doli",
+          "comments": "nice place"
+        }
+      ],
+      "timestamp": "2025-06-18"
+    },
+    {
+      "id": "4",
+      "user": {
+        "id": 104,
+        "user_time": ".3hr",
+        "username": "vicky",
+        "profile_pic": "/assets/profilepic4.jpeg"
+      },
+      "image": "/assets/bike-image.jpeg",
+      "caption": "my new bike",
+      "likes": "88",
+      "comments": [
+        {
+          "user": "batman",
+          "comments": "congrats"
+        },
+        {
+          "user": "im-bro",
+          "comments": "congrats bro"
+        },
+        {
+          "user": "hello-im jonny",
+          "comments": "congrats"
+        }
+      ],
+      "timestamp": "2025-06-01"
+    }
+  ],
+  "Profile": {
+    "id": 101,
+    "username": "muralidharan",
+    "profile_pic": "/assets/profilepic1.jpeg"
+  },
+  "Suggestion": [
+    {
+      "id": "101",
+      "username": "randy orton",
+      "profile_pic": "/assets/profilepic1.jpeg"
+    },
+    {
+      "id": "102",
+      "username": "remo king",
+      "profile_pic": "/assets/suggestion-pic1.jpeg"
+    },
+    {
+      "id": "103",
+      "username": "mike tyson",
+      "profile_pic": "/assets/suggestion-pic2.jpeg"
+    },
+    {
+      "id": "104",
+      "username": "johnny robo",
+      "profile_pic": "/assets/suggestion-pic3.jpeg"
+    },
+    {
+      "id": "105",
+      "username": "ricky pointing",
+      "profile_pic": "/assets/suggestion-pic4.jpeg"
+    }
+  ],
+  "Story": [
+    {
+      "id": "1",
+      "user": {
+        "id": 101,
+        "user_time": ".56s ago",
+        "username": "ricky",
+        "profile_pic": "/assets/story-profile1.jpeg",
         "image": "/assets/story-view1.jpeg"
-        }
+      }
     },
-     { "id":2,
-        "user":{
-            "id":102,
-           "user_time":".1mn ago",
-            "username":"mark",
-            "profile_pic": "/assets/story-profile2.jpeg",
-             "image": "/assets/story-view2.jpeg"
-        }
-       
+    {
+      "id": "2",
+      "user": {
+        "id": 102,
+        "user_time": ".1mn ago",
+        "username": "mark",
+        "profile_pic": "/assets/story-profile2.jpeg",
+        "image": "/assets/story-view2.jpeg"
+      }
     },
-     { "id":3,
-        "user":{
-            "id":103,
-           "user_time":".55mn ago",
-            "username":"antony",
-            "profile_pic": "/assets/story-profile3.jpeg",
+    {
+      "id": "3",
+      "user": {
+        "id": 103,
+        "user_time": ".55mn ago",
+        "username": "antony",
+        "profile_pic": "/assets/story-profile3.jpeg",
         "image": "/assets/story-view3.jpeg"
-        }
+      }
     },
-     { "id":4,
-        "user":{
-            "id":104,
-           "user_time":".14hr ago",
-            "username":"joshua",
-            "profile_pic": "/assets/story-profile4.jpeg",
+    {
+      "id": "4",
+      "user": {
+        "id": 104,
+        "user_time": ".14hr ago",
+        "username": "joshua",
+        "profile_pic": "/assets/story-profile4.jpeg",
         "image": "/assets/story-view4.jpeg"
-        }
+      }
     },
-     { "id":5,
-        "user":{
-            "id":105,
-           "user_time":".1hr ago",
-            "username":"brock",
-            "profile_pic": "/assets/story-profile5.jpeg",
+    {
+      "id": "5",
+      "user": {
+        "id": 105,
+        "user_time": ".1hr ago",
+        "username": "brock",
+        "profile_pic": "/assets/story-profile5.jpeg",
         "image": "/assets/story-view5.jpeg"
-        }
+      }
     },
-     { "id":6,
-        "user":{
-            "id":106,
-           "user_time":".3mn ago",
-            "username":"mentall",
-            "profile_pic": "/assets/story-profile6.jpeg",
+    {
+      "id": "6",
+      "user": {
+        "id": 106,
+        "user_time": ".3mn ago",
+        "username": "mentall",
+        "profile_pic": "/assets/story-profile6.jpeg",
         "image": "/assets/story-view6.jpeg"
-        }
+      }
     }
-]
-
-
+  ],
+  "Followers": [
+    {
+      "id": "201",
+      "username": "manik basha",
+      "profile_pic": "/assets/profilepic1.jpeg"
+    },
+    {
+      "id": "202",
+      "username": "antony",
+      "profile_pic": "/assets/suggestion-pic1.jpeg"
+    },
+    {
+      "id": "203",
+      "username": "thanos",
+      "profile_pic": "/assets/suggestion-pic2.jpeg"
+    },
+    {
+      "id": "204",
+      "username": "doctor doom",
+      "profile_pic": "/assets/suggestion-pic3.jpeg"
+    },
+    {
+      "id": "205",
+      "username": "mr joker",
+      "profile_pic": "/assets/suggestion-pic4.jpeg"
+    },
+    {
+      "id": "104",
+      "username": "johnny robo"
+    },
+    {
+      "id": "103",
+      "username": "mike tyson"
+    }
+  ]
 }

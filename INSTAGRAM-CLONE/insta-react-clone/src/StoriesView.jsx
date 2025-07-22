@@ -27,9 +27,9 @@ if(id > tot || id<=0 ){
                   <p className="story-view-name stry-name">{story.user.username}</p>
                     <p className="stry-name">{story.user.user_time}</p>
               </div>
-              <Link to={`http://localhost:5173/Story/${Number (id) -1 }/${tot}`}>  <i class="arrow bi bi-arrow-left-circle-fill"></i></Link>
+              <Link to={`/Story/${Number (id) -1 }/${tot}`}>  <i class="arrow bi bi-arrow-left-circle-fill"></i></Link>
                <img className="vh-100 story-view" src={story.user.image} alt="img" />
-                 <Link to={`http://localhost:5173/Story/${Number (id)  +1}/${tot}`}>  <i class="arrow bi bi-arrow-right-circle-fill"></i></Link>
+                 <Link to={`/Story/${Number (id)  +1}/${tot}`}>  <i class="arrow bi bi-arrow-right-circle-fill"></i></Link>
         </div>
   </div>
       : <p>loading</p>}

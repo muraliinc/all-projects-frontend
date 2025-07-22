@@ -1,8 +1,10 @@
+import axios from "axios";
 import React, { useEffect, useState } from "react";
 
 function Suggestion() {
   const [Profile, setprofile] = useState(null);
   const [Suggestion, setsuggestion] = useState([]);
+//  const [clickedbtn,setclickbtn]= useState(true);
 
   useEffect(() => {
     fetch("http://localhost:3000/Profile")
@@ -17,11 +19,24 @@ function Suggestion() {
       .catch((error) => console.log(error));
     console.log(Suggestion);
   }, []);
+  
+//   function clickbtn (){
+//  setclickbtn (prev => !prev)
+
+//   }
+
+const handlechange  = async (id,username)=>{
+ axios.post('http://localhost:3000/Followers',{"id":id, "username": username}).
+ then(alert("followed")).
+ catch(err =>console.log(err)
+ )
+}
+
 
   return (
     <div >
       <div className="suggestion  w-20 ">
-        {Profile ? (
+        {Profile ? ( 
           <div className="d-flex ">
             <img className="dp rounded-circle" src={Profile.profile_pic}></img>
             <h6 className="mt-2 ">{Profile.username}</h6>
@@ -47,7 +62,10 @@ function Suggestion() {
                     alt="profile-img"
                   />
                   <h5 className="user-title">{suggest.username}</h5>
-                  <p className="follow ms-auto text-primary">Follow</p>
+                  <p className="follow ms-auto text-primary" onClick={()=>{handlechange(suggest.id,suggest.username)}} > follow</p>
+                 {/* { clickedbtn ?( <p className="follow ms-auto text-primary" onClick={()=>{clickbtn()}} >Follow</p>) :
+                  (<p className="follow ms-auto text-primary" onClick={()=>{clickbtn()}}> unfollow</p>)
+                  } */}
                 </div>
               </div>
             ))}

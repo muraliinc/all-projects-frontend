@@ -30,10 +30,10 @@ useEffect(()=>{
         </div>
         <img className='post-image' src={post.image} alt="post" />
 
-        <div className='d-flex'>
+        <div className='d-flex '>
           <i className="bi bi-heart"></i>
           <i className="bi bi-chat"></i>
-          <i className="bi bi-send"></i>
+          <i className="bi bi-send sends" style={{ transform: "rotate(20deg)", display: "inline-block" }}></i>
           <i className="ms-auto bi bi-bookmark"></i>
           
            </div>
