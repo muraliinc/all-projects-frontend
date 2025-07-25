@@ -5,6 +5,7 @@ function Suggestion() {
   const [Profile, setprofile] = useState(null);
   const [Suggestion, setsuggestion] = useState([]);
 //  const [clickedbtn,setclickbtn]= useState(true);
+ const [clickedFollowIds, setClickedFollowIds] = useState([]);
 
   useEffect(() => {
     fetch("http://localhost:3000/Profile")
@@ -26,10 +27,14 @@ function Suggestion() {
 //   }
 
 const handlechange  = async (id,username)=>{
+if (clickedFollowIds.includes(id)) return;  // ✅ if already followed, do nothing
+
  axios.post('http://localhost:3000/Followers',{"id":id, "username": username}).
  then(alert("followed")).
  catch(err =>console.log(err)
  )
+   // ✅ Add this id to the state to change the UI
+    setClickedFollowIds(prev => [...prev, id]);
 }
 
 
@@ -62,7 +67,7 @@ const handlechange  = async (id,username)=>{
                     alt="profile-img"
                   />
                   <h5 className="user-title">{suggest.username}</h5>
-                  <p className="follow ms-auto text-primary" onClick={()=>{handlechange(suggest.id,suggest.username)}} > follow</p>
+                  <p className="follow ms-auto text-primary" onClick={()=>{handlechange(suggest.id,suggest.username)}} >  {clickedFollowIds.includes(suggest.id) ? 'Unfollow' : 'Follow'}</p>
                  {/* { clickedbtn ?( <p className="follow ms-auto text-primary" onClick={()=>{clickbtn()}} >Follow</p>) :
                   (<p className="follow ms-auto text-primary" onClick={()=>{clickbtn()}}> unfollow</p>)
                   } */}
