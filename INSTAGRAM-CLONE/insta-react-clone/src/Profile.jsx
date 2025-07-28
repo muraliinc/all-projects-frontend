@@ -4,21 +4,23 @@ import axios from "axios";
 function Profile() {
   const [profile, setprofile] = useState(null);
   const [followers, setfollowers] = useState([]);
+  const [followed,setfollowed]= useState(0);
 
   useEffect(() => {
-    axios.get("http://localhost:3000/Profile").then((data) => {
-      setprofile(data.data)(console.log(data))
-    }).catch((err)=>console.log(err)
-    )
+    axios
+      .get("http://localhost:3000/Profile")
+      .then((data) => {
+        setprofile(data.data)(console.log(data));
+      })
+      .catch((err) => console.log(err));
 
     axios
       .get("http://localhost:3000/Followers")
       .then((data) => {
         setfollowers(data.data), console.log(data);
-        
       })
       .catch((err) => console.log(err));
-  }, []);
+  }, [followed]);
 
   const handleupdate = (e) => {
     setprofile((prev) => ({
@@ -32,6 +34,14 @@ function Profile() {
     axios
       .put("http://localhost:3000/Profile", profile)
       .then(console.log("updated"), alert("updated"))
+      .catch((err) => console.log(err));
+  };
+
+  const handledelete = async (id) => {
+    axios
+      .delete(`http://localhost:3000/Followers/${id}`)
+      .then(alert("deleted"))
+      .then(setfollowed(!followed))
       .catch((err) => console.log(err));
   };
 
@@ -76,16 +86,24 @@ function Profile() {
         <div>
           <p>not loading</p>
         </div>
-      )} 
+      )}
 
-      {followers.length >0 ? ( followers.map ((followers)=>
-        <div className="d-flex w-50 m-auto" key={followers.id}> 
-        <p>{followers.username}</p> 
-        <button className="ms-auto my-1 btn btn-danger"> followed</button>
+      {followers.length > 0 ? (
+        followers.map((followers) => (
+          <div className="d-flex w-50 m-auto" key={followers.id}>
+            <p>{followers.username}</p>
+            <button className="ms-auto my-1 btn btn-secondary" onClick={()=>{handledelete(followers.id)}}>
+              
+              unfollow
+            </button>
+          </div>
+        ))
+      ) : (
+        <div>
+          {" "}
+          <p> not loading</p>{" "}
         </div>
-      ) ):( <div> <p> not loading</p> </div>)}
-
-    
+      )}
     </div>
   );
 }
