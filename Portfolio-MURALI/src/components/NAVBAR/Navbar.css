@@ -1,15 +1,21 @@
 .Navbar{
  width: 100%;
-  
+ position: fixed;
+ top: 0;
+ left: 0;  
+ z-index: 1000;
+ 
 }
 
 .Navbar-inside{
     display: flex;
-    max-width: 1250px;
+    max-width: 1200px;
     margin: 0 auto;
     width: 100%;
     justify-content: space-between;
     padding: 10px;
+  
+    
 }
 
 .nav-right{
@@ -17,4 +23,23 @@
     gap: 10px;
     align-items: center;
   
+}
+
+.logo-icon{
+    width: 250px;
+    height: 120px;
+}
+
+.dark-btn{
+    height: 100px;
+}
+
+.menu-icon{
+    height: 74px;
+    margin-bottom: 6px;
+}
+
+.dark-btn:hover, .menu-icon:hover{
+cursor: pointer;
+
 }
