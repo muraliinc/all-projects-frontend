@@ -7,7 +7,7 @@ import "./Navbar.css"
 export default function Navbar() {
   return (
     <nav className="Navbar">
-      <div className="container Navbar-inside">
+      <div className="container-nav Navbar-inside">
         <img className="logo-icon" src={logo_icon} alt="logo-icon" />
 
         <div className="nav-right">

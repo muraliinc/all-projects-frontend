@@ -4,7 +4,7 @@
  top: 0;
  left: 0;  
  z-index: 1000;
- 
+
 }
 
 .Navbar-inside{
@@ -14,7 +14,7 @@
     width: 100%;
     justify-content: space-between;
     padding: 10px;
-  
+ 
     
 }
 
@@ -22,16 +22,22 @@
     display: flex;
     gap: 10px;
     align-items: center;
+    /* filter: none;
+  background: transparent; */
+    
+   
   
 }
 
 .logo-icon{
     width: 250px;
     height: 120px;
+  
 }
 
 .dark-btn{
     height: 100px;
+   
 }
 
 .menu-icon{
