@@ -1,7 +1,6 @@
 import insta_icon from "../../assets/icons/instgram.png";
 import linkdin from "../../assets/icons/Linkdin-icon.png";
 import whatsapp from "../../assets/icons/whatsapp-icon.png";
-import murali2 from "../../assets/murali-name2.png";
 import batman_hero from "../../assets/batman-hero.png";
 import murali_image from "../../assets/HERO-NAME-IMG.png";
 import "./Hero.css";
@@ -11,15 +10,18 @@ export default function Hero() {
   return (
     <div className="hero-section">
       {/*HERE VIDEO NEED TO BE INCLUDED HER FOR THE HERO SECTION WIDTH SIZE  */}
+      <video src="https://res.cloudinary.com/dye5bdxxn/video/upload/v1763108178/Untitled_video_-_Made_with_Clipchamp_1_vaseha.mp4" autoPlay  muted loop />
       <div className="hero-sectionWrapper">
            <div className="title-wrapper">
               <img className="murali-logo" src={murali_image} alt="hero-name" />
                <img className="batman-logo-hero" src={batman_hero} alt="batman-logo"/>
+               <button className="btn-hero">resume</button>
+               <button className="btn-hero">contact</button>
           </div> 
      
         <div className="two-div-mainwrapper">
           <div className="title-container">
-            <h2 className="title">A Front-End Developer by choice.</h2>
+            <h2 className="title-hero">A Front-End Developer by choice.</h2>
             <p className="yellow-text">
               I build responsive, fast, and intuitive web applications.
               <br />
@@ -41,6 +43,7 @@ export default function Hero() {
         
         </div>
       </div>
+      
     </div>
   );
 }
