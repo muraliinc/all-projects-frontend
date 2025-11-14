@@ -16,7 +16,7 @@ export default function Hero() {
               <img className="murali-logo" src={murali_image} alt="hero-name" />
                <img className="batman-logo-hero" src={batman_hero} alt="batman-logo"/>
                <button className="btn-hero">resume</button>
-               <button className="btn-hero">contact</button>
+               <button className="btn-hero2">contact</button>
           </div> 
      
         <div className="two-div-mainwrapper">
@@ -34,13 +34,11 @@ export default function Hero() {
             <p className="yellow-text">Digital legacies.</p>
 
             <div className="icons-hero">
-              <img src={insta_icon} alt="insta-icon" />
-              <img src={linkdin} alt="linkdin" />
-              <img src={whatsapp} alt="whatsapp" />
+              <img className="icons-apps" src={insta_icon} alt="insta-icon" />
+              <img className="icons-apps" src={linkdin} alt="linkdin" />
+              <img className="icons-apps" src={whatsapp} alt="whatsapp" />
             </div>
           </div>
-          
-        
         </div>
       </div>
       
