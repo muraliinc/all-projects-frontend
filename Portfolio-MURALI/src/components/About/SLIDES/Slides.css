@@ -1,0 +1,9 @@
+ .slides-container p{
+    color:white;
+} 
+.slide-inside-container{
+   border:solid  #424242 ;
+   padding: 3rem;
+   height: fit-content;
+   width: fit-content;
+}

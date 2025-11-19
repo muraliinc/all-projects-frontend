@@ -1,10 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
-*{
-    font-family: 'Bebas Neue', sans-serif;
-    font-weight: 500;
-}
-
+/*maincontainer*/
 .hero-section {
   width: 100%;
   height: fit-content;
@@ -12,6 +7,7 @@
   padding-top: 120px;
 }
 
+/*maincontainer video */
  .hero-section video{
  position: absolute;
   top: 0;
@@ -21,7 +17,7 @@
   object-fit: cover;
   z-index: 1;
 }
-
+/* second maincontainer*/
 
 .hero-sectionWrapper {
   height: fit-content;
@@ -51,17 +47,7 @@
  font-size: clamp(1rem,3vw,3rem);
 }
 
-.yellow-text{
-  font-size: clamp(0.8rem,3vw,1.6rem);
-  background: linear-gradient(to right,#D4DC35, #F6FF3D, #B2B82F);
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
 
-.white-text{
-  font-size: clamp(0.8rem,3vw,1.6rem);
-}
 
 
 .batman-logo-hero {
