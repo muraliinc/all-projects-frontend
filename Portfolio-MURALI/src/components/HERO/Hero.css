@@ -52,7 +52,7 @@
 
 .batman-logo-hero {
   height: 550px;
-  bottom:-300px;
+  bottom:-293px;
   position: absolute;
   right: 120px;
   z-index: 4;
@@ -62,7 +62,7 @@
 
 .btn-hero{
   position: absolute;
-  bottom: -300px;
+  bottom: -293px;
   right: 225px;
   z-index: 5;
   width: 8rem;
@@ -78,7 +78,7 @@
 }
 .btn-hero2{
     position: absolute;
-  bottom: -300px;
+  bottom: -293px;
   right: 70px;
   z-index: 5;
    width: 8rem;

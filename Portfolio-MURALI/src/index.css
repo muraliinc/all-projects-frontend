@@ -28,3 +28,23 @@
 .white-text{
   font-size: clamp(0.8rem,3vw,1.6rem);
 }
+
+
+.title-tag-wrapper{
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.title-tag-sections{
+  padding-left: 35%;
+   background: linear-gradient(to right,#D4DC35, #F6FF3D, #B2B82F);
+   background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.title-tag-sections-line{
+  background: linear-gradient(to right,#D4DC35, #F6FF3D, #B2B82F);
+   background-clip: line;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
