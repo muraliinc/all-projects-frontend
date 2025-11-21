@@ -51,3 +51,12 @@
    );
 }
 
+.slide2-about-flex{
+   display: flex;
+   height: 200px;
+}
+
+.boxing-img-about{
+   object-fit: scale-down;
+   border-radius: 17px;
+}

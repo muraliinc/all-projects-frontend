@@ -2,7 +2,7 @@
 /*maincontainer*/
 .hero-section {
   width: 100%;
-  height: fit-content;
+  height: fit-content;   /*befor it was fit conentent*/
   position: relative;
   padding-top: 120px;
 }
@@ -20,7 +20,7 @@
 /* second maincontainer*/
 
 .hero-sectionWrapper {
-  height: fit-content;
+  height: 100%;
   max-width: 1200px;
   margin: 0 auto;
   /* margin-top: 120px; */

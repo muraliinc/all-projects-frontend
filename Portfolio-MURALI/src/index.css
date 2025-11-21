@@ -44,7 +44,7 @@
 }
 .title-tag-sections-line{
   background: linear-gradient(to right,#D4DC35, #F6FF3D, #B2B82F);
-   background-clip: line;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+     display: block;
+  height: 1.7px;
+  width: 100%;
 }
