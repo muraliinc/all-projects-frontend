@@ -54,7 +54,17 @@
 .slide2-about-flex{
    display: flex;
    height: 200px;
-}
+ 
+   }
+
+   .slide2-about-flex2{
+   display: flex;
+   height: 200px;
+   position: absolute;
+   top: 39%;
+   left: 10%;
+   }
+
 
 .boxing-img-about{
    object-fit: scale-down;
@@ -80,8 +90,22 @@
 /* Make side images visible like stacked cards */
 .swiper-slide {
   transition: transform 0.4s ease;
-  border-radius: 20px;
+  position: relative;
+  width:fit-content;
+  height: 200px !important;
+  aspect-ratio: 3/4;
+  background:  1px solid black;
+  border-radius: 17px;
 }
+
+/* .swiper-slide img{
+  display: block;
+  width: 150px;
+  height: 150px;
+  object-fit: scale-down;
+  border-radius: 10% !important;
+  user-select: none;
+} */
 
 /* Active centered slide */
 .swiper-slide-active img {
@@ -91,35 +115,40 @@
 /* Left and right slides styling */
 .swiper-slide-prev img,
 .swiper-slide-next img {
-  transform: scale(0.85) rotate(-8deg);
+  transform: scale(0.85) rotate(0deg);
   opacity: 0.8;
 }
 
 .swiper-slide-prev img {
-  transform: scale(0.85) rotate(-6deg);
+  transform: scale(0.99) rotate(0deg);
 }
 
 .swiper-slide-next img {
-  transform: scale(0.85) rotate(6deg);
+  transform: scale(0.99) rotate(0deg);
 }
 
 /* Bullet pagination on the left */
 .swiper-pagination {
-  left: -40px !important;
-  top: 50%;
+bottom: 25px !important;
   transform: translateY(-50%);
-  width: auto !important;
+  width: 100px !important;
+  gap: 10px;
+  display: flex;
+  margin-left: 50px;
 }
 
 .swiper-pagination-bullet {
   background: #555 !important;
   opacity: 1 !important;
-  width: 12px;
-  height: 12px;
+  width: 14px;
+  height: 14px;
   margin: 8px 0 !important;
   border-radius: 50%;
 }
 
 .swiper-pagination-bullet-active {
+  width: 18px !important;
   background: yellow !important;
 }
+
+
