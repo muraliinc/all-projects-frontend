@@ -60,3 +60,66 @@
    object-fit: scale-down;
    border-radius: 17px;
 }
+
+
+.slide-main-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  padding: 40px 0;
+}
+
+.swiper-container-custom {
+  width: 240px;
+  height: 260px;
+  overflow: visible !important; /* ⭐ IMPORTANT */
+  position: relative;
+}
+
+/* Make side images visible like stacked cards */
+.swiper-slide {
+  transition: transform 0.4s ease;
+  border-radius: 20px;
+}
+
+/* Active centered slide */
+.swiper-slide-active img {
+  transform: scale(1) rotate(0deg);
+}
+
+/* Left and right slides styling */
+.swiper-slide-prev img,
+.swiper-slide-next img {
+  transform: scale(0.85) rotate(-8deg);
+  opacity: 0.8;
+}
+
+.swiper-slide-prev img {
+  transform: scale(0.85) rotate(-6deg);
+}
+
+.swiper-slide-next img {
+  transform: scale(0.85) rotate(6deg);
+}
+
+/* Bullet pagination on the left */
+.swiper-pagination {
+  left: -40px !important;
+  top: 50%;
+  transform: translateY(-50%);
+  width: auto !important;
+}
+
+.swiper-pagination-bullet {
+  background: #555 !important;
+  opacity: 1 !important;
+  width: 12px;
+  height: 12px;
+  margin: 8px 0 !important;
+  border-radius: 50%;
+}
+
+.swiper-pagination-bullet-active {
+  background: yellow !important;
+}
