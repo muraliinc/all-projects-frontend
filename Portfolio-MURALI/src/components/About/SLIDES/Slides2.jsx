@@ -16,7 +16,6 @@ export default function Slides2() {
             " <span className="yellow-text">Boxing</span> taught me more than
             just sport—it built my discipline, and focus.
             <span className="yellow-text">
-              {" "}
               The same qualities drive me in web development
             </span>
             ,helping me stay consistent and tackle challenges with a fighter’s
@@ -28,7 +27,7 @@ export default function Slides2() {
           <Swiper
             modules={[EffectCoverflow, Pagination]}
             effect="coverflow"
-            spaceBetween={-160}
+            spaceBetween={-150}
             slidesPerView="auto"
             initialSlide={2}
             speed={600}
@@ -49,19 +48,25 @@ export default function Slides2() {
                 <img
                   src={img}
                   style={{
-                    width: "250px",
-                    height: "200px",
+                    width: "100%",
+                    height: "100%",
                     objectFit: "scale-down",
-                    display :"block",
-                    userSelect:"none",
-                    border_radius :"43%"
-
-                  
+                    display: "block",
+                    userSelect: "none",
                   }}
                 />
               </SwiperSlide>
             ))}
           </Swiper>
+        </div>
+        <div className="slide2-about-flex3">
+          <p className="white-text">
+            "Sketching in <span className="yellow-text">black</span> and{" "}
+            <span className="yellow-text">white</span> trains my eye for detail,
+            <span className="yellow-text"> balance,</span> and{" "}
+            <span className="yellow-text">creativity</span>. It inspires the way
+            I design and develop—keeping things simple, clean, and expressive."{" "}
+          </p>
         </div>
       </div>
     </div>

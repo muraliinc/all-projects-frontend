@@ -1,11 +1,12 @@
-import darwing1 from "../../../assets/drawings/d1.jpg"
-import darwing2 from "../../../assets/drawings/d2.jpg"
-import darwing3 from "../../../assets/drawings/d3.jpg"
-import darwing4 from "../../../assets/drawings/d4.jpg"
+import drawing1 from "../../../assets/drawings/d5.png"
+import drawing2 from "../../../assets/drawings/d6.png"
+import drawing3 from "../../../assets/drawings/d7.png"
+import drawing4 from "../../../assets/drawings/d8.png"
 
 
 
-export  const  sliderimages4 = [darwing1,darwing2,darwing3,darwing4 ] 
+
+export  const  sliderimages4 = [drawing3,drawing4,drawing2,drawing1] 
 
 
  

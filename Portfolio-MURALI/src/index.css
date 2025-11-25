@@ -23,6 +23,7 @@
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  
 }
 
 .white-text{
@@ -45,6 +46,6 @@
 .title-tag-sections-line{
   background: linear-gradient(to right,#D4DC35, #F6FF3D, #B2B82F);
      display: block;
-  height: 1.7px;
+  height: 1.4px;
   width: 100%;
 }

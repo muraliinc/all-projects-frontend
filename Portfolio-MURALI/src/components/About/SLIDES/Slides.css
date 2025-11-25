@@ -8,7 +8,7 @@
 }
 
 .slide-inside-container{
-   border:solid 1px #424242 ;
+   border:solid 1px #BEBEBE  ;
    padding: 50px 20px 10px 40px;
    height: 380px;
    width: 860px;
@@ -42,7 +42,7 @@
    width: 180px;
    height: 30px;
    background: #2D2D2D3D;
-   border: solid 1px  #424242 ;
+   border: solid 1px  #BEBEBE ;
    clip-path: polygon(
     0% 100%,
     20% 0%,
@@ -65,6 +65,17 @@
    left: 10%;
    }
 
+  
+
+   .slide2-about-flex3{
+     display: flex;
+   height: 100px;
+   width: 510px;
+   position: absolute;
+   right: 17px;
+   }
+
+ 
 
 .boxing-img-about{
    object-fit: scale-down;
@@ -81,9 +92,9 @@
 }
 
 .swiper-container-custom {
-  width: 240px;
-  height: 260px;
-  overflow: visible !important; /* ⭐ IMPORTANT */
+  width: 200px;
+  height: 200px;
+  overflow: visible !important;
   position: relative;
 }
 
@@ -92,7 +103,7 @@
   transition: transform 0.4s ease;
   position: relative;
   width:fit-content;
-  height: 200px !important;
+  height: 180px !important;
   aspect-ratio: 3/4;
   background:  1px solid black;
   border-radius: 17px;
@@ -129,12 +140,17 @@
 
 /* Bullet pagination on the left */
 .swiper-pagination {
-bottom: 25px !important;
+bottom: -20px !important;
   transform: translateY(-50%);
   width: 100px !important;
   gap: 10px;
   display: flex;
-  margin-left: 50px;
+  margin-left: 40px;
+  border-radius: 20px;
+  justify-content: center;
+    background:#2D2D2D3D;   /* Your slide background */
+    border:solid 1px #BEBEBE ;
+  border-radius: 20px;
 }
 
 .swiper-pagination-bullet {
