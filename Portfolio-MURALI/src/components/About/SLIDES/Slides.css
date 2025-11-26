@@ -13,7 +13,7 @@
    height: 380px;
    width: 860px;
     position: relative;
-  background:#2D2D2D3D;   /* Your slide background */
+  background:#2D2D2D3D;  
   border-radius: 20px;
   line-height: 2.2rem;
 }
@@ -109,14 +109,7 @@
   border-radius: 17px;
 }
 
-/* .swiper-slide img{
-  display: block;
-  width: 150px;
-  height: 150px;
-  object-fit: scale-down;
-  border-radius: 10% !important;
-  user-select: none;
-} */
+
 
 /* Active centered slide */
 .swiper-slide-active img {
@@ -168,3 +161,148 @@ bottom: -20px !important;
 }
 
 
+/*slide3 below*/
+
+.corner{
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  border: 3.5px solid #D4DC35;
+}
+
+.outer{
+  width: 120px;
+  height: 120px;
+}
+
+  .top-right{
+  top: 20px;
+  right: 20px;
+  border-left: none;
+  border-bottom: none;
+}
+
+.top-left{
+  top: 20px;
+  left: 20px;
+  border-bottom: none;
+  border-right: none;
+}
+
+
+.bottom-left{
+bottom: 20px;
+left: 20px;
+border-right: none;
+border-top: none;
+}
+
+.bottom-right{
+right: 20px;
+bottom: 20px;
+border-left: none;
+border-top: none;
+}
+
+.outerinner{
+  width: 30px;
+  height: 30px;
+   border: 2.5px solid #D4DC35;
+}
+
+.outerinner-top-right{
+  right: 40px;
+  top: 40px;
+  border-left: none;
+  border-bottom: none;
+}
+
+.outerinner-top-left{
+left: 40px;
+top: 40px;
+border-right: none;
+border-bottom: none;
+}
+
+
+.outerinner-bottom-right{
+  bottom : 40px;
+  right: 40px;
+  border-left: none;
+  border-top: none;
+}
+
+
+.outerinner-bottom-left{
+  left: 40px;
+  bottom: 40px;
+  border-right: none;
+  border-top: none;
+}
+
+
+.innerline{
+  width: 80px;
+  height: 60px;
+  border: 0.9px solid #D4DC35 ;
+}
+
+.innerline-top-right{
+  right: 35%;
+  top: 25%;
+  border-left: none;
+  border-bottom: none;
+}
+
+.innerline-top-left{
+  left: 35%;
+  top: 25%;
+  border-right: none;
+  border-bottom: none;
+}
+
+.innerline-bottom-left{
+  left: 35%;
+  bottom: 25%;
+  border-right: none;
+  border-top: none;
+}
+
+.innerline-bottom-right{
+  right: 35%;
+  bottom: 25%;
+  border-left:none;
+  border-top:none;
+}
+
+.cinema-img{
+  width: 860px;
+  height: 300px;
+ position: absolute;
+ left: 0;
+ top: 30px;
+}
+
+.cinema-text{
+  position: absolute;
+bottom: 160px;
+left: 80px;
+width: 750px;
+}
+
+.battery-icon{
+  position: absolute;
+  right:60px;
+}
+.recorder-icon{
+  position: absolute;
+  left: 60px;
+}
+
+.plus-sign{
+  color: red;
+  position: absolute;
+  font-size: 30px;
+  left: 49%;
+  top: 44%;
+}

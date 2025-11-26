@@ -8,8 +8,8 @@ import Slides3 from './Slides3'
    return (
      <div className='slides-container'>
       
-       {/* <Slides1/> */}
-       {/* <Slides2/> */}
+       <Slides1/>
+       <Slides2/>
        <Slides3/>
      </div>
    )
