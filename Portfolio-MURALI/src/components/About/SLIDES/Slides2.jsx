@@ -33,7 +33,10 @@ export default function Slides2() {
             speed={600}
             centeredSlides={true}
             grabCursor={true}
-            pagination={{ clickable: true }}
+            pagination={{ clickable: true ,
+               el:".inner-pagination-about2",
+                bulletClass: "my-inner-bullet",
+             bulletActiveClass: "my-inner-bullet-active" }}
             coverflowEffect={{
               rotate: 0,
               stretch: 80,
@@ -44,7 +47,7 @@ export default function Slides2() {
             className="swiper-container-custom"
           >
             {sliderimages4.map((img, index) => (
-              <SwiperSlide key={index}>
+              <SwiperSlide className="inner-swiper-slide" key={index}>
                 <img
                   src={img}
                   style={{
@@ -58,6 +61,7 @@ export default function Slides2() {
               </SwiperSlide>
             ))}
           </Swiper>
+          <div className="inner-pagination-about2"></div>
         </div>
         <div className="slide2-about-flex3">
           <p className="white-text">
