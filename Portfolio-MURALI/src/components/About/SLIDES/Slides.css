@@ -131,7 +131,7 @@
 position: absolute;
   transform: translateY(-50%);
   bottom: -45px !important;
-  width: 90px !important;
+  width: 120px !important;
   height: 40px;
   gap: 10px;
   display: flex;
@@ -150,7 +150,7 @@ position: absolute;
   width: 18px;
 }
 .inner-pagination-about2 .my-inner-bullet {
-  background: #555 !important;
+  background: #555 ;
   width: 14px;
   height: 14px;
   border-radius: 50%;
@@ -165,20 +165,17 @@ position: absolute;
 }
 
 
-.swiper-slide {
- 
-}
 
-/* Bullet pagination on the left */
+
+/* Bullet pagination on the left bottom main swiper bullet*/
 .swiper-pagination {
     transform: translateY(-50%);
-margin-left: 480px !important;
+margin-left: 46.5% !important;
   width: 90px !important;
   height: 30px;
   gap: 10px;
   display: flex;
   margin-left: 50px;
-  border-radius: 20px;
   align-items: center;
   justify-content: center;
     background:#2D2D2D3D;   /* Your slide background */

@@ -18,7 +18,7 @@ import "swiper/css/pagination";
       spaceBetween={0}
       slidesPerView={1}
       pagination={{clickable:true}}
-      // autoplay={{delay:5000}}
+      autoplay={{delay:5000}}
       loop={true}
       grabCursor={true}
 
