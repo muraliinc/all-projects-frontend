@@ -1,0 +1,11 @@
+.Project-section{
+      height: 87vh;
+   margin-top: 120px;
+   width: 100%;
+}
+
+.Project-inside-container{
+     padding-top: 20px;
+    max-width: 1000px;
+  margin: 0 auto;
+}

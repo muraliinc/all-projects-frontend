@@ -20,7 +20,7 @@ import "swiper/css/pagination";
       pagination={{clickable:true}}
       autoplay={{delay:5000}}
       loop={true}
-      grabCursor={true}
+     
 
       >
         <SwiperSlide>
