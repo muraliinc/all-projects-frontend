@@ -1,6 +1,6 @@
 import React from "react";
-import Slides from "./SlidesProject/slides";
 import "./Project.css"
+import Slides from "./SlidesProject/Slides";
 
 
 
@@ -12,8 +12,9 @@ import "./Project.css"
         <h1 className='title-tag-sections'> project section</h1>
       <span className='title-tag-sections-line' /></div>
       <div className="Project-inside-container">
+         <Slides/>
  
-   <Slides/>
+   
 
       </div>
       

@@ -1,8 +1,35 @@
 .slider-maincontainer{
     display: flex;
     justify-content: flex-end;
-    margin-top: 50px;
+    margin-top: 20px;
+    margin-left: 8%;
 }
+
+.slider-swip-wrap{
+   position: relative;
+  overflow: visible;
+}
+.swiper {
+  padding-top: 40px;
+}
+.slider-swip-wrap::before{
+      content: "";
+  position: absolute;
+  top: -33px;
+  left: 0px;
+  width: 250px;
+  height: 31px;
+  background: #2D2D2D3D;
+  border: solid 1px #BEBEBE;
+  clip-path: polygon(
+    0% 100%,
+    20% 0%,
+    80% 0%,
+    100% 100%
+  );
+  z-index: 5;
+}
+
 
 
 .slider-project-main-container{
@@ -13,7 +40,7 @@ border: solid 1px  #BEBEBE ;
 position: relative;
 }
 
-.slider-project-main-container ::before{
+/* .slider-project-main-container ::before{
 content: "";
 position: absolute;
 top: -33px;
@@ -28,7 +55,7 @@ clip-path: polygon(
     80% 0%,
     100% 100%
 );
-}
+} */
 
 .slider-inside-small-container{
     height: 100%;

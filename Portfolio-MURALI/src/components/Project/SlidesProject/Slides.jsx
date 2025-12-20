@@ -30,16 +30,18 @@ export default function Slides() {
   observeParents={true}
        >
         <SwiperSlide>
-          <Slides1/>
+          <div className='slider-swip-wrap'> 
+            <Slides1/>
+            </div>
         </SwiperSlide>
         <SwiperSlide>
-          <Slides2/>
+          <div className='slider-swip-wrap'><Slides2/></div>
         </SwiperSlide>
         <SwiperSlide>
-          <Slides3/>
+       <div className='slider-swip-wrap'>   <Slides3/></div>
         </SwiperSlide>
         <SwiperSlide>
-          <Slides4/>
+         <div className='slider-swip-wrap'><Slides4/></div> 
         </SwiperSlide>
       </Swiper>
     </div>
