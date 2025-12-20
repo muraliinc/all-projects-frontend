@@ -7,6 +7,7 @@ import "./Slides.css";
 import "swiper/css";
 import { Swiper } from 'swiper/react';
 import { SwiperSlide } from 'swiper/react';
+import {Autoplay} from "swiper/modules"
 
 
 
@@ -15,10 +16,18 @@ export default function Slides() {
   return (
     <div className='slider-maincontainer'>
       <Swiper
-       spaceBetween={-280}
-       slidesPerView={2}
-      autoplay={{delay:1000}}
-      loop={true}
+     modules={[Autoplay]}
+  slidesPerView={3}
+  spaceBetween={0}
+  loop={true}
+  speed={800}
+  autoplay={{
+    delay: 3000,
+    disableOnInteraction: false,
+  }}
+  watchSlidesProgress={true}
+  observer={true}
+  observeParents={true}
        >
         <SwiperSlide>
           <Slides1/>
