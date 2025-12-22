@@ -61,7 +61,7 @@
    display: flex;
    height: 200px;
    position: absolute;
-   top: 39%;
+   top: 30%;
    left: 10%;
    }
 
@@ -130,12 +130,12 @@
 .inner-pagination-about2{
 position: absolute;
   transform: translateY(-50%);
-  bottom: -45px !important;
+  bottom: -80px !important;
   width: 120px !important;
-  height: 40px;
+  height: 35px;
   gap: 10px;
   display: flex;
-  margin-left: 50px;
+  margin-left: 35px;
   border-radius: 20px;
   align-items: center;
   justify-content: center;
