@@ -6,7 +6,6 @@ import image3 from "../../assets/icons/javascript-icon.png";
 import image4 from "../../assets/icons/reactjs-icon.png";
 import image5 from "../../assets/icons/bootstrap-icon.png";
 import image6 from "../../assets/icons/figma-icon.png";
-import batmanvideo from "../../../public/batman-skill.mp4"
 
 import "./Skill.css";
 
@@ -29,7 +28,7 @@ export default function Skill() {
           </div>
           <div className='skill-image-right box1'>
             <img className='skill-icons' src={image4} alt="reactjs-icon" />
-            <img className='skill-icons'  src={image4} alt="bootstrap-icon" />
+            <img className='skill-icons'  src={image5} alt="bootstrap-icon" />
             <img className='skill-icons' src={image6} alt="figma-icon" />
 
 
