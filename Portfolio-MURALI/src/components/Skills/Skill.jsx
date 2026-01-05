@@ -24,14 +24,11 @@ export default function Skill() {
             <img className='skill-icons' src={image1} alt="html-icon" />
             <img className='skill-icons' src={image2} alt="css-icon" />
             <img className='skill-icons' src={image3} alt="javascript-icon" />
-
           </div>
           <div className='skill-image-right box1'>
             <img className='skill-icons' src={image4} alt="reactjs-icon" />
             <img className='skill-icons'  src={image5} alt="bootstrap-icon" />
             <img className='skill-icons' src={image6} alt="figma-icon" />
-
-
           </div>
 
         </div>
