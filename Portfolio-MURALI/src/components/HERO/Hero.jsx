@@ -9,7 +9,7 @@ import React from "react";
 export default function Hero() {
   return (
     <section className="hero-section">
-      {/* <video src="https://res.cloudinary.com/dye5bdxxn/video/upload/v1763108178/Untitled_video_-_Made_with_Clipchamp_1_vaseha.mp4" autoPlay  muted loop /> */}
+      <video src="https://res.cloudinary.com/dye5bdxxn/video/upload/v1763108178/Untitled_video_-_Made_with_Clipchamp_1_vaseha.mp4" autoPlay  muted loop />
       <div className="hero-sectionWrapper">
            <div className="title-wrapper">
               <img className="murali-logo" src={murali_image} alt="hero-name" />
