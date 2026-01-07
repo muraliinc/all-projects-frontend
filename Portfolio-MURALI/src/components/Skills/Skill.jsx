@@ -17,7 +17,7 @@ export default function Skill() {
         <h1 className='title-tag-sections'> SKILL SECTION</h1>
       <span className='title-tag-sections-line' /></div>
       <div className='skill-inside-container'>
-        <video src="https://res.cloudinary.com/dye5bdxxn/video/upload/v1766474616/batman-skill_oqqsnp.mp4" autoPlay muted loop></video>
+        {/* <video src="https://res.cloudinary.com/dye5bdxxn/video/upload/v1766474616/batman-skill_oqqsnp.mp4" autoPlay muted loop></video> */}
         <img className='skill-section-image' src={skill_batman} alt="batman-skill logo" />
         <div className='skill-image-group-of-six'> 
           <div className='skill-image-left box1'>
