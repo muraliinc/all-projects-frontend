@@ -1,0 +1,115 @@
+.side-line{
+
+    margin-left: 40px;
+}
+.contact-section-main{
+    height: 100vh;
+    width: 100%;
+     padding-top: 120px;
+     
+}
+
+.section-wrapper{
+        max-width: 1200px;
+       margin: 0 auto;
+       display: flex;
+       align-items: center;
+       justify-content: center;
+}
+
+form{
+    position: relative;
+    margin-top: 30px;
+    left: -200px;
+    z-index: 1;
+    max-width: 400px;
+    height:410px;
+    width: 100%;
+    background: #2D2D2D3D;  
+     border:solid 1px #BEBEBE  ;
+     border-radius: 20px;
+     padding: 20px 20px;
+     color: white;
+}
+
+form h2{
+    text-align: center;
+    font-size: 21px;
+}
+
+.input-box{
+margin-top: 10px;
+margin-left: 20px;
+}
+
+.input-box .field{
+    width: 90%;  
+    height: 30px;
+    
+    border-radius: solid 1px #bebebe ;
+    padding: 10px;
+    font-size: 16px;
+    margin-top: 8px;
+}
+
+.mess{
+    height: 70px;
+    width: 90%;
+    margin-top: 8px;
+    resize: none;
+    padding: 10px;
+    font-size: 16px;
+    
+    border-radius: solid 1px #bebebe ;
+}
+
+.btn-submit-form{
+ height: 30px;
+ width: 200px;
+ margin-left: 80px;
+ margin-top: 5px;
+ border-radius: 8px;
+ border:solid  #424242 ;
+  color: white;
+  font-size: clamp(1.1rem,3vw,1.2rem);
+  opacity: 0.7;
+  background-color: #2D2D2D;
+   transition: all 0.3s ease-in-out;
+}
+
+.btn-submit-form:hover{
+      cursor: pointer;
+ transform: translateY(-3px) scale(1.05);
+}
+
+
+.form-logo-img{
+    position: absolute;
+    z-index: 2;
+    margin-left: 240px;
+    margin-top: 30px;
+}
+
+.btn-form{
+    position: absolute;
+    z-index: 3;
+    width: 8rem;
+  height: 4rem;
+  border-radius: 8px;
+ border:solid  #424242 ;
+  color: white;
+  font-size: clamp(1.5rem,3vw,1.8rem);
+  opacity: 0.7;
+  background-color: #2D2D2D;
+  transition: all 0.3s ease-in-out;
+  margin-top: 400px;
+  margin-left: 290px;
+
+}
+
+.btn-form:hover{
+      cursor: pointer;
+ transform: translateY(-3px) scale(1.05);
+}
+
+

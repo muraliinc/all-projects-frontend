@@ -1,5 +1,6 @@
 import "./App.css";
 import About from "./components/About/About";
+import Contact from "./components/Contact/Contact";
 import Hero from "./components/HERO/Hero";
 import Navbar from "./components/NAVBAR/Navbar";
 import Portfolio_M from "./components/Portfoliio-making/Portfolio";
@@ -15,6 +16,7 @@ function App() {
       <Project/>
       <Skill/>
       <Portfolio_M/>
+      <Contact/>
     </>
   );
 }
