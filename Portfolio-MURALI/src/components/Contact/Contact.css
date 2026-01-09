@@ -45,7 +45,8 @@ margin-left: 20px;
 .input-box .field{
     width: 90%;  
     height: 30px;
-    
+    background: transparent;
+  color: #fff; 
     border-radius: solid 1px #bebebe ;
     padding: 10px;
     font-size: 16px;
@@ -59,7 +60,8 @@ margin-left: 20px;
     resize: none;
     padding: 10px;
     font-size: 16px;
-    
+    background: transparent;
+  color: #fff; 
     border-radius: solid 1px #bebebe ;
 }
 
@@ -112,4 +114,36 @@ margin-left: 20px;
  transform: translateY(-3px) scale(1.05);
 }
 
+
+.overlay-popup{
+    position: fixed;
+    inset: 0;
+     background: rgba(0, 0, 0, 0.6);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+}
+
+.popup-box{
+    background: #111;
+  color: #fff;
+  padding: 5px 30px;
+  border-radius: 10px;
+  text-align: center;
+  height: 200px;
+  min-width: 300px;
+}
+
+.btn-close-form{
+     margin-top: 15px;
+  padding: 8px 16px;
+  cursor: pointer;
+   border-radius: 8px;
+ border:solid  #424242 ;
+  color: white;
+  font-size: clamp(1.1rem,3vw,1.2rem);
+  opacity: 0.7;
+  background-color: #2D2D2D;
+}
 

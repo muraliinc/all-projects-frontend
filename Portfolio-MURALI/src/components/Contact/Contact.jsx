@@ -1,15 +1,20 @@
 import React, { useState } from 'react'
 import "./Contact.css";
-import batman_lego from "../../assets/LegoBatman1.png" 
+import batman_lego from "../../assets/LegoBatman1.png";
+import batman_icon from "../../assets/icons/BAT-logo-about-icon.png";
+
 
 
 export default function Contact() {
 
 const [result, setResult] = useState("");
 
+const[showpopup, setshowpopup]= useState(false);
+
   const onSubmit = async (event) => {
     event.preventDefault();
     setResult("Sending....");
+    setshowpopup(true);
     const formData = new FormData(event.target);
     formData.append("access_key", "bc6903d8-fd66-4e86-8aa2-a728d7a7653a");
 
@@ -20,7 +25,7 @@ const [result, setResult] = useState("");
 
     const data = await response.json();
     if (data.success) {
-      setResult("Form Submitted Successfully");
+      setResult("message Submitted Successfully");
       event.target.reset();
     } else {
       setResult("Error");
@@ -49,14 +54,20 @@ const [result, setResult] = useState("");
     
   </div>
   <button type='submit' className='btn-submit-form'>send me</button>
-  <span className='message-box'>{result}</span>
-    
  </form>
-      
+  {showpopup&&(
+    <div className="overlay-popup">
+      <div className="popup-box">
+         <img src={batman_icon} alt="batman-form-close-icon" />
+        <p className='result-p-form'>{result}</p>
+        <button className='btn-close-form' onClick={()=>setshowpopup(false)}>close</button>
+      </div>
+    </div>
+  )}
 
  <img className='form-logo-img' src={batman_lego} alt='contact-form-logo'/>
  <button className='btn-form'>resume</button>
-    </div>
+    </div> 
    </section>
   )
 }
