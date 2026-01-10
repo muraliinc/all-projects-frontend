@@ -1,6 +1,7 @@
 import "./App.css";
 import About from "./components/About/About";
 import Contact from "./components/Contact/Contact";
+import Footer from "./components/Footer/Footer";
 import Hero from "./components/HERO/Hero";
 import Navbar from "./components/NAVBAR/Navbar";
 import Portfolio_M from "./components/Portfoliio-making/Portfolio";
@@ -17,6 +18,7 @@ function App() {
       <Skill/>
       <Portfolio_M/>
       <Contact/>
+      <Footer/>
     </>
   );
 }

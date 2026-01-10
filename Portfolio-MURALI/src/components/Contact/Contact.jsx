@@ -33,7 +33,7 @@ const[showpopup, setshowpopup]= useState(false);
   };
 
   return (
-   <section className='contact-section-main'>
+   <section id='CONTACT' className='contact-section-main'>
      <div className='title-tag-wrapper'>
         <h1 className='title-tag-sections'>open for opportunities</h1>
       <span className='title-tag-sections-line side-line' /></div>

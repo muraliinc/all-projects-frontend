@@ -6,7 +6,7 @@ import "./About.css"
  
  export default function About() {
    return (
-     <section className='About-section'>
+     <section id='ABOUT' className='About-section'>
       <div className='title-tag-wrapper'>
         <h1 className='title-tag-sections'> about section</h1>
       <span className='title-tag-sections-line' /></div>

@@ -11,7 +11,7 @@ import "./Skill.css";
 
 export default function Skill() {
   return (
-    <section className='skill-section'>
+    <section id='SKILLS' className='skill-section'>
     
         <div className='title-tag-wrapper title-skill'>
         <h1 className='title-tag-sections'> SKILL SECTION</h1>
