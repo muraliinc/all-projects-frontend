@@ -11,6 +11,7 @@
 .section-wrapper{
        padding-top: 30px;
       padding-left: 150px;
+      height: 100%;
         max-width: 1200px;
        margin: 0 auto;
        display: flex;
@@ -89,8 +90,11 @@ margin-left: 20px;
 .form-logo-img{
     position: absolute;
     z-index: 2;
-    margin-left: 240px;
-    margin-top: 30px;
+    
+    padding-left: 240px;
+    padding-top: 30px;
+    
+    
 }
 
 .btn-form{

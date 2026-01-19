@@ -1,0 +1,75 @@
+/*navbar*/
+@media( max-width:768px){
+
+  /* .Navbar{
+   /*for now untill i change the scroll trigger*/
+  /* } */
+
+  
+/* .Navbar-inside{
+
+} */
+
+.logo-icon{
+    width: 150px;
+    height: auto;
+}
+
+.dark-btn{
+    height: 80px;
+   
+}
+
+.menu-icon{
+    height: 59.24px;
+    margin-bottom: 6px;
+}
+
+
+
+/*contact form jan13 time 9:40pm*/
+
+
+
+.contact-section-main{
+  height: 100vh;
+  padding-top: 100px;
+}
+.section-wrapper{
+    padding: 0 16px;
+  display: flex;
+  flex-direction: column;
+  
+}
+
+
+form{
+  place-content: center;
+  left:0px;
+  width: 100%;
+}
+form h2{
+   font-size: 19px;
+}
+.form-yellow{
+  font-size: 19px;
+}
+
+.form-logo-img{
+  height: 300px;
+  object-fit: scale-down;
+  margin-left: -250px;
+  margin-top: 600px;
+} 
+
+
+.btn-form{
+    margin-top: 900px;
+  margin-left: 90px;
+}
+
+}
+
+
+
+

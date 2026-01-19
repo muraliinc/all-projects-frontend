@@ -39,7 +39,7 @@ const[showpopup, setshowpopup]= useState(false);
       <span className='title-tag-sections-line side-line' /></div>
     <div className="section-wrapper">
          <form onSubmit={onSubmit}>
-  <h2>I’m always open to discussing <span className='yellow-text'>new projects, creative ideas,</span> or <span className='yellow-text'> opportunities </span>to be part of your vision.</h2>
+  <h2>I’m always open to discussing <span className='yellow-text form-yellow'>new projects, creative ideas,</span> or <span className='yellow-text form-yellow'> opportunities </span>to be part of your vision.</h2>
   <div className="input-box">
     <label htmlFor="names">fullname</label>
     <input className='field' placeholder='enter your name' id='names'  type="text" required  name='name' />
