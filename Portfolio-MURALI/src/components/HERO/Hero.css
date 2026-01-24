@@ -33,6 +33,7 @@
    
 }
 
+
 .murali-logo {
   height: 350px;
   width: 100%;
@@ -40,6 +41,15 @@
   position: relative;
   z-index: 3;
 }
+.two-div-mainwrapper {
+  display: flex;
+  margin-left: 13.3%;
+}
+
+.title-container {
+  width: fit-content;
+}
+
 
 /*text-container below */
 
@@ -52,17 +62,22 @@
 
 .batman-logo-hero {
   height: 550px;
-  bottom:-293px;
+  top: 98px;
   position: absolute;
   right: 120px;
   z-index: 4;
   filter: none;
   background: transparent;
 }
+.hero-action{
+  position: absolute;
+  z-index: 5;
+  bottom:72px;
+  margin-left:500px ;
+}
 
 .btn-hero{
   position: absolute;
-  bottom: -293px;
   right: 225px;
   z-index: 5;
   width: 8rem;
@@ -78,7 +93,6 @@
 }
 .btn-hero2{
     position: absolute;
-  bottom: -293px;
   right: 70px;
   z-index: 5;
    width: 8rem;
@@ -105,14 +119,6 @@
 
 
 
-.two-div-mainwrapper {
-  display: flex;
-  margin-left: 13.3%;
-}
-
-.title-container {
-  width: fit-content;
-}
 
 .icons-hero {
   margin-top: 12px;

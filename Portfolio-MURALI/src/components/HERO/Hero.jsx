@@ -13,12 +13,7 @@ export default function Hero() {
       <div className="hero-sectionWrapper">
            <div className="title-wrapper">
               <img className="murali-logo" src={murali_image} alt="hero-name" />
-               <img className="batman-logo-hero" src={batman_hero} alt="batman-logo"/>
-               <div className="hero-action">
-                       <button className="btn-hero">resume</button>
-               <button className="btn-hero2">contact</button>
-               </div>
-            
+              
           </div> 
      
         <div className="two-div-mainwrapper">
@@ -41,7 +36,17 @@ export default function Hero() {
               <img className="icons-apps" src={whatsapp} alt="whatsapp" />
             </div>
           </div>
+              <div className="third-box-div">
+   <img className="batman-logo-hero" src={batman_hero} alt="batman-logo"/>
+               <div className="hero-action">
+                       <button className="btn-hero">resume</button>
+               <button className="btn-hero2">contact</button>
+               </div>
+            
         </div>
+        </div>
+    
+      
       </div>
       
     </section>

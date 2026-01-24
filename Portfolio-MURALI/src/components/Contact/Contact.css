@@ -2,7 +2,8 @@
     margin-left: 40px;
 }
 .contact-section-main{
-    height: 100vh;
+    /* height: 100vh; */
+      min-height: 100vh;
     width: 100%;
      padding-top: 120px;
      
@@ -13,6 +14,7 @@
       padding-left: 150px;
       height: 100%;
         max-width: 1200px;
+         position: relative;
        margin: 0 auto;
        display: flex;
        align-items: center;
@@ -90,7 +92,6 @@ margin-left: 20px;
 .form-logo-img{
     position: absolute;
     z-index: 2;
-    
     padding-left: 240px;
     padding-top: 30px;
     

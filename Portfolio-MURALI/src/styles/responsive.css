@@ -1,15 +1,7 @@
 /*navbar*/
 @media( max-width:768px){
 
-  /* .Navbar{
-   /*for now untill i change the scroll trigger*/
-  /* } */
-
-  
-/* .Navbar-inside{
-
-} */
-
+/*navbar below*/
 .logo-icon{
     width: 150px;
     height: auto;
@@ -25,26 +17,76 @@
     margin-bottom: 6px;
 }
 
+/*nabar ends*/
+
+/*hero starts*/
+.hero-section{
+  height:100%;
+  margin-bottom:60px;
+}
+
+.murali-logo{
+  height: 150px;
+  object-fit: cover;
+}
+
+.two-div-mainwrapper {
+  margin-top: 20px;
+  margin-left: 6%;
+  display: flex;
+  flex-direction: column;
+}
+
+
+.hero-action{
+  position: relative;
+  left: -35px;
+  top: 53px;
+  z-index: 5;
+}
+.third-box-div{
+  padding-top: 200px;
+  height: 320px;
+}
+
+.batman-logo-hero {
+top: 320px;
+right: 0px;
+height: 350px;
+}
+
+.btn-hero , .btn-hero2{
+ width: 7rem;
+}
+
+.icons-apps{
+  height: 57px;
+}
+
+
+
+
 
 
 /*contact form jan13 time 9:40pm*/
 
 
 
-.contact-section-main{
-  height: 100vh;
-  padding-top: 100px;
-}
-.section-wrapper{
-    padding: 0 16px;
-  display: flex;
-  flex-direction: column;
-  
-}
+  .contact-section-main{
+    min-height: auto; /* VERY IMPORTANT */
+    height: auto;
+    padding-top: 80px;
+  }
 
+  .section-wrapper{
+    padding-left: 0;   /* RESET DESKTOP VALUE */
+    padding-top: 20px;
+    height: auto;
+  }
 
 form{
   place-content: center;
+  position: relative;
   left:0px;
   width: 100%;
 }
@@ -56,17 +98,43 @@ form h2{
 }
 
 .form-logo-img{
-  height: 300px;
-  object-fit: scale-down;
-  margin-left: -250px;
-  margin-top: 600px;
+display: none;
 } 
 
 
 .btn-form{
-    margin-top: 900px;
-  margin-left: 90px;
+    display: none;
+
 }
+/*below footer section*/
+
+  .footer-containe1{
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+  }
+
+  .footer-logo{
+    width: 200px;
+    height: auto;
+  }
+
+  .bottom-menu-items{
+    margin-left: 0;
+    padding-bottom: 20px;
+  }
+
+  .footer-list{
+    flex-direction: column;
+    min-width: auto;
+    gap: 10px;
+    align-items: center;
+  }
+
+  .social-media-footer{
+    padding-right: 0;
+    justify-content: center;
+  }
 
 }
 
