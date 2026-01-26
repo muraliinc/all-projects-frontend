@@ -14,7 +14,7 @@ import "swiper/css/pagination";
    return (
      <div className='slides-container'>
       <Swiper 
-      modules={[Pagination, Autoplay]}
+      modules={[Pagination,Autoplay]}
       spaceBetween={0}
       slidesPerView={1}
       pagination={{clickable:true}}

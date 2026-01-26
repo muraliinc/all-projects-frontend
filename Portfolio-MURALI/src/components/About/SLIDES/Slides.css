@@ -5,6 +5,8 @@
    display: flex;
    align-items: center;
    justify-content: center;
+     position: relative;
+  padding: 40px 0;
 }
 
 .slide-inside-container{
@@ -83,13 +85,6 @@
 }
 
 
-.slide-main-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  position: relative;
-  padding: 40px 0;
-}
 
 
 /*below is slide 2 swiper css*/
@@ -175,7 +170,6 @@ margin-left: 46.5% !important;
   height: 30px;
   gap: 10px;
   display: flex;
-  margin-left: 50px;
   align-items: center;
   justify-content: center;
     background:#2D2D2D3D;   /* Your slide background */
