@@ -204,6 +204,15 @@ top: 50px;
 left: 48%;
 }
 
+/*about ends above*/
+
+/*project section below */
+ .slider-maincontainer{
+  display: none;
+} 
+
+
+
 
 /*contact form jan13 time 9:40pm*/
 

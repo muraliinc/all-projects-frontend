@@ -1,6 +1,7 @@
 import React from "react";
 import "./Project.css"
 import Slides from "./SlidesProject/Slides";
+import MobileUi from "./MobileUi";
 
 
 
@@ -13,6 +14,7 @@ import Slides from "./SlidesProject/Slides";
       <span className='title-tag-sections-line' /></div>
       <div className="Project-inside-container">
          <Slides/>
+         <MobileUi/>
  
    
 

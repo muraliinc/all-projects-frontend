@@ -9,3 +9,31 @@
     max-width: 1000px;
   margin: 0 auto;
 }
+
+
+/*mob ui css for project section without slider but using display grid*/
+.project-imgs-mob1{ grid-area: tp;}
+.project-imgs-mob2{ grid-area: s2;}
+.project-imgs-mob3{ grid-area: s3;}
+.project-imgs-mob4{ grid-area: bt;}
+
+
+.mob-view-grid{
+  padding: 0px 10px 0px 10px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas: 
+   "tp tp "
+   "s2 s3"
+   "bt bt";
+     gap: 16px;
+
+ 
+}  
+
+
+.project-mob{
+  width: 100%;
+  height: 100%;
+  display: block;
+}
