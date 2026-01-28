@@ -6,7 +6,7 @@ export default function Portfolio_M() {
    <section id='PORTFOLIO' className='portfolio-making'>
       <div className="portfolio-inside-container">
            <div className='title-tag-wrapper hori'>
-        <h1 className='title-tag-sections'> portfolio making section</h1>
+        <h1 className='title-tag-sections portoflio-heading-mob'> portfolio making section</h1>
       <span className='title-tag-sections-line' /></div>
       </div>
 

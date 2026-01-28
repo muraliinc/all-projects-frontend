@@ -206,18 +206,33 @@ left: 48%;
 
 /*about ends above*/
 
-/*project section below */
- .slider-maincontainer{
-  display: none;
-} 
+/*skills section below */
+.skill-image-group-of-six {
+  padding: 100px 10px 0px 10px;
+bottom: 0;
+
+}
+
+.skill-image-left,.skill-image-right {
+width: 150px;
+
+}/*skills above ends*/
+
+
+/*portfolio mainmg section*/
+.portoflio-heading-mob{
+ padding-left: 0px;
+  text-align: center;
+}
+.hori{
+  margin-left: 0;
+}/* portfolio sections end here*/
+
 
 
 
 
 /*contact form jan13 time 9:40pm*/
-
-
-
   .contact-section-main{
     min-height: auto; /* VERY IMPORTANT */
     height: auto;
