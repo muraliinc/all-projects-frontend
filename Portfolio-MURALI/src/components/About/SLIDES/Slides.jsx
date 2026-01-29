@@ -7,7 +7,7 @@ import Slides3 from './Slides3'
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Pagination,Autoplay } from 'swiper/modules';
 import "swiper/css";
-import "swiper/css/pagination";
+import "swiper/css/pagination"; 
 
  
  export default function Slides() {

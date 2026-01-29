@@ -1,0 +1,49 @@
+.mob-size-hori{
+    width: 100%;
+    height: 100%;
+     border-radius: 20px;
+}
+
+
+
+.slide-main-container2{
+   width: 100%;
+   margin-top: 50px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+     position: relative;
+  padding: 40px 0;
+}
+
+
+.slide-inside-container2{
+   border:solid 1px #BEBEBE  ;
+ padding: 0;
+   height: 380px;
+   width: 80%;
+    position: relative;
+  background:#2D2D2D3D;  
+  border-radius: 20px;
+}
+
+
+
+.slide-inside-container2::before{
+   content: "";
+   position: absolute;
+   top: -33px;
+   left: 15px;
+   width: 180px;
+   height: 30px;
+   background: #2D2D2D3D;
+   border: solid 1px  #BEBEBE ;
+   clip-path: polygon(
+    0% 100%,
+    20% 0%,
+    80% 0%,
+    100% 100%
+   );
+}
+
+

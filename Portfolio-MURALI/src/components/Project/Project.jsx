@@ -2,7 +2,7 @@ import React from "react";
 import "./Project.css"
 import Slides from "./SlidesProject/Slides";
 import MobileUi from "./MobileUi";
-import IsMobile from "./hook/IsMobile";
+import IsMobile from "../../HOOKS-custom/IsMobile.jsx"
 
 
  

@@ -1,7 +1,14 @@
 import React from 'react'
 import"./Portfolio.css"
-import Horizontal from './Horizontal-slides/horizontal'
+import Horizontal from './Horizontal-slides/Horizontal'
+import MobUiP from './MOB-SLIDES/MobUiP';
+import IsMobile from '../../HOOKS-custom/IsMobile';
+
+
 export default function Portfolio_M() {
+
+ const isMobile = IsMobile();
+
   return (
    <section id='PORTFOLIO' className='portfolio-making'>
       <div className="portfolio-inside-container">
@@ -10,7 +17,7 @@ export default function Portfolio_M() {
       <span className='title-tag-sections-line' /></div>
       </div>
 
-      <Horizontal/>
+     {isMobile ? <MobUiP/> : <Horizontal/>}
  
    </section>
   )

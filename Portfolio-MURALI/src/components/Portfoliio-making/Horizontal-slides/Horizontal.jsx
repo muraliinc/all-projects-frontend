@@ -1,4 +1,4 @@
-import React,{useEffect, useLayoutEffect} from 'react';
+import {useEffect} from 'react';
 import gsap from "gsap";
 import { ScrollTrigger } from 'gsap/all';
 import "./horizontal.css"
@@ -11,34 +11,40 @@ import content5 from "../../../assets/all-highfi-figma.jpg";
 gsap.registerPlugin(ScrollTrigger);
 
 
-
 export default function Horizontal() {
-const slide = [content1,content2,content3,content4,content5]
+  const slide = [content1, content2, content3, content4, content5];
 
-useEffect(()=>{
-  const ctx = gsap.context(()=>{
-  
-    const slides = gsap.utils.toArray(".slides")
+  useEffect(() => {
+    const ctx = gsap.context(() => {
+      const mm = gsap.matchMedia();
 
-    gsap.to(slides,{
-      xPercent:-100*(slides.length-1),
-      ease:"none",
-      scrollTrigger:{
-        trigger:".horizontal-wrapper",
-        pin:true,
-         scrub: 1,
-     anticipatePin: 1,
-        end: () => "+=" + window.innerWidth * (slides.length - 1),
-      }
+      // ✅ DESKTOP ONLY
+      mm.add("(min-width: 769px)", () => {
+        const slides = gsap.utils.toArray(".slides");
 
+        gsap.to(slides, {
+          xPercent: -100 * (slides.length - 1),
+          ease: "none",
+          scrollTrigger: {
+            trigger: ".horizontal-wrapper",
+            pin: true,
+            scrub: 1,
+            anticipatePin: 1,
+            end: () => "+=" + window.innerWidth * (slides.length - 1),
+          }
+        });
+      });
 
-    })
-    
-  
+      // ✅ MOBILE ONLY
+      mm.add("(max-width: 768px)", () => {
+        // Kill all ScrollTriggers on mobile
+        ScrollTrigger.getAll().forEach(st => st.kill());
+      });
 
-  })
-   return () => ctx.revert();
-},[])
+    });
+
+    return () => ctx.revert();
+  }, []);
 
   return (
   <section className='horizontal-wrapper'>

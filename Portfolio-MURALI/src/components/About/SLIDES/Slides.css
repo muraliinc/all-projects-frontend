@@ -166,7 +166,7 @@ position: absolute;
 .swiper-pagination {
     transform: translateY(-50%);
 margin-left: 46.5% !important;
-  width: 90px !important;
+  width: 120px !important;
   height: 30px;
   gap: 10px;
   display: flex;
