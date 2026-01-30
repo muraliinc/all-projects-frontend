@@ -12,3 +12,10 @@
 .hori{
     margin-left: 200px;
 }
+.desktop-only{
+    display: block;
+}
+
+.mobile-only{
+    display: none;
+}

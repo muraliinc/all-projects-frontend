@@ -29,9 +29,9 @@ export default function Footer() {
         <div className="last-social-items">
           <p className='white-text footer-title1'>SOCIALS</p>
          <div className="footer-social">
-        <img src={instagram_icon} alt="instgram-icon" />
-        <img src={linkdin_icon} alt="linkedin-icon" />
-        <img src={whatsapp_icon} alt="whatsapp-icon" />
+        <img className='footer-icon' src={instagram_icon} alt="instgram-icon" />
+        <img className='footer-icon' src={linkdin_icon} alt="linkedin-icon" />
+        <img className='footer-icon' src={whatsapp_icon} alt="whatsapp-icon" />
          </div>
         </div>
        </div>

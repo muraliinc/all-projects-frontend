@@ -1,5 +1,15 @@
-/*navbar*/
+
 @media( max-width:768px){
+
+  .side-line{
+  margin-left: 40px;
+}
+
+.title-tag-sections{
+  display: flex;
+  align-items: center;
+  padding-left: 35%;
+}
 
   .title-tag-sections-line{
   width: 80%;
@@ -223,13 +233,20 @@ width: 150px;
 
 /*portfolio mainmg section*/
 .portoflio-heading-mob{
- padding-left: 0px;
+  padding-left: 20%;
   text-align: center;
 }
 .hori{
   margin-left: 0;
 }
-  
+
+.desktop-only{
+  display: none;
+}
+
+.mobile-only{
+  display: block;
+}
 
 /* portfolio sections end here*/
 
@@ -240,6 +257,10 @@ width: 150px;
 
 
 /*contact form jan13 time 9:40pm*/
+
+.contact-heading-mob{
+  padding-left: 24%;
+}
   .contact-section-main{
     min-height: auto; /* VERY IMPORTANT */
     height: auto;
@@ -283,17 +304,19 @@ display: none;
   }
 
   .footer-logo{
+    margin-right: 170px;
     width: 200px;
     height: auto;
   }
 
   .bottom-menu-items{
+    flex-direction: column;
     margin-left: 0;
     padding-bottom: 20px;
   }
 
   .footer-list{
-    flex-direction: column;
+    flex-direction: row;
     min-width: auto;
     gap: 10px;
     align-items: center;
@@ -302,6 +325,9 @@ display: none;
   .social-media-footer{
     padding-right: 0;
     justify-content: center;
+  }
+  .footer-icon{
+    height: 4em;
   }
 
 }

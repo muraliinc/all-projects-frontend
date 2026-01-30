@@ -14,37 +14,39 @@ gsap.registerPlugin(ScrollTrigger);
 export default function Horizontal() {
   const slide = [content1, content2, content3, content4, content5];
 
-  useEffect(() => {
-    const ctx = gsap.context(() => {
-      const mm = gsap.matchMedia();
+useEffect(() => {
+  const mm = gsap.matchMedia();
 
-      // ✅ DESKTOP ONLY
-      mm.add("(min-width: 769px)", () => {
-        const slides = gsap.utils.toArray(".slides");
+  mm.add("(min-width: 769px)", () => {
+    const container = document.querySelector(".horizontal");
 
-        gsap.to(slides, {
-          xPercent: -100 * (slides.length - 1),
-          ease: "none",
-          scrollTrigger: {
-            trigger: ".horizontal-wrapper",
-            pin: true,
-            scrub: 1,
-            anticipatePin: 1,
-            end: () => "+=" + window.innerWidth * (slides.length - 1),
-          }
-        });
-      });
-
-      // ✅ MOBILE ONLY
-      mm.add("(max-width: 768px)", () => {
-        // Kill all ScrollTriggers on mobile
-        ScrollTrigger.getAll().forEach(st => st.kill());
-      });
-
+    const tween = gsap.to(container, {
+      x: () => -(container.scrollWidth - window.innerWidth),
+      ease: "none",
+      scrollTrigger: {
+        trigger: ".horizontal-wrapper",
+        start: "top top",
+        end: () =>
+          "+=" + (container.scrollWidth - window.innerWidth),
+        pin: true,
+        scrub: 1,
+        anticipatePin: 1,
+        invalidateOnRefresh: true
+      }
     });
 
-    return () => ctx.revert();
-  }, []);
+    return () => {
+      tween.scrollTrigger?.kill();
+      tween.kill();
+    };
+  });
+
+  return () => {
+    ScrollTrigger.getAll().forEach(st => st.kill());
+    mm.kill();
+  };
+}, []);
+
 
   return (
   <section className='horizontal-wrapper'>

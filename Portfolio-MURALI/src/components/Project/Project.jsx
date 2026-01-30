@@ -12,8 +12,8 @@ import IsMobile from "../../HOOKS-custom/IsMobile.jsx"
   return (
    <section id="PROJECT" className="Project-section" >
       <div className='title-tag-wrapper'>
-        <h1 className='title-tag-sections'> project section</h1>
-      <span className='title-tag-sections-line' /></div>
+        <h1 className='title-tag-sections portoflio-heading-mob1'> project section</h1>
+      <span className='title-tag-sections-line side-line' /></div>
       <div className="Project-inside-container">
        {isMobile ? <MobileUi/>: <Slides/>}
    
