@@ -327,11 +327,170 @@ display: none;
     justify-content: center;
   }
   .footer-icon{
-    height: 4em;
+    height: 4rem;
   }
 
 }
 
+@media (min-width:769px) and (max-width:1024px){
+/*navbar below*/
+.logo-icon{
+    width: 210px;
+    height: auto;
+}
 
+.dark-btn{
+    height: 100px;
+   
+}
+
+.menu-icon{
+    height: 74.05px;
+
+}
+/*nabar ends*/
+
+/*hero starts*/
+.hero-section{
+  height:100%;
+  margin-bottom:20px;
+}
+
+.murali-logo{
+  height: auto;
+}
+
+.two-div-mainwrapper{
+  margin-top: 15px;
+  margin-left: 7%;
+}
+
+.batman-logo-hero {
+top: 155px;
+right: 0px;
+height: 400px;
+}
+.hero-action{
+  right: -50px;
+}
+.btn-hero , .btn-hero2{
+  width: 8rem;
+}
+
+.icons-apps{
+height: 65px;
+}
+
+/*hero ends*/
+
+/*about starts*/
+
+.About-section{
+padding-top: 100px;
+}
+/*slide1*/
+.slide-inside-container{
+   padding: 30px 20px 8px 30px;
+  width: 95%;
+}
+.bottom-batman{
+margin-left: 40%;
+}
+/*slide2*/
+   .slide2-about-flex2{
+  margin-left: -30px; 
+  }
+
+.inner-pagination-about2{
+  margin-left: 50px;
+}
+   .slide2-about-flex3{
+    width: 450px;
+    right: 0;
+   }
+/*slide 3 below*/
+
+
+.cinema-img{
+  width: 100%;
+  height: 100%;
+  top: 0;
+}
+.cinema-text{
+width: 680px;
+left: 40px;
+}
+
+.battery-icon{
+height: 25px;
+top: 45px;
+}
+.recorder-icon{
+top: 45px;
+}
+  .swiper-pagination {
+    margin-left: 42% !important;
+      bottom: 2px !important;
+  }
+  /*about ends above*/
+
+
+  /*project section*/
+
+ .slider-maincontainer{
+ margin-left: 3%;
+}
+
+
+.slider-project-main-container{
+  height: 350px;
+  width: 240px;
+}
+/*project section ends here*/
+
+/*footer section here*/
+
+  .inside-footer-container {
+      max-width: 100%;
+      padding: 10px;
+  }
+
+
+  .footer-logo {
+      width: 250px;    
+      height: auto;
+  }
+
+  .bottom-menu-items {
+      margin-left: 0;   
+      padding-bottom: 20px;
+  }
+
+  .footer-list {
+      min-width: auto;   
+      width: 100%;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 15px;
+  }
+
+  .social-media-footer {
+      padding-right: 0; 
+    
+  }
+
+  .last-social-items {
+      min-width: auto;
+      padding-right: 145px;
+      
+  }
+  .footer-icon{
+    height: 3.5rem;
+    padding-left: 15px;
+  }
+
+
+
+}
 
 

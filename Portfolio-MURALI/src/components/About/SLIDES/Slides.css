@@ -167,6 +167,7 @@ position: absolute;
     transform: translateY(-50%);
 margin-left: 46.5% !important;
   width: 120px !important;
+    bottom: 2px !important;
   height: 30px;
   gap: 10px;
   display: flex;

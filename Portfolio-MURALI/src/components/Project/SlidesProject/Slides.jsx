@@ -17,8 +17,20 @@ export default function Slides() {
     <div className='slider-maincontainer'>
       <Swiper
      modules={[Autoplay]}
-  slidesPerView={3}
-  spaceBetween={0}
+  // slidesPerView={3}
+  // spaceBetween={0}
+  breakpoints={{
+    
+    769: {                   // tablet
+      slidesPerView: 3,
+      spaceBetween: 0
+    },
+
+    1025: {                  // desktop
+      slidesPerView: 3,
+      spaceBetween: 0
+    }
+  }}
   loop={true}
   speed={800}
   autoplay={{
@@ -28,19 +40,20 @@ export default function Slides() {
   watchSlidesProgress={true}
   observer={true}
   observeParents={true}
+  
        >
-        <SwiperSlide>
+        <SwiperSlide  className="slide-one">
           <div className='slider-swip-wrap'> 
             <Slides1/>
             </div>
         </SwiperSlide>
-        <SwiperSlide>
+        <SwiperSlide  className="slide-one">
           <div className='slider-swip-wrap'><Slides2/></div>
         </SwiperSlide>
-        <SwiperSlide>
+        <SwiperSlide  className="slide-one">
        <div className='slider-swip-wrap'>   <Slides3/></div>
         </SwiperSlide>
-        <SwiperSlide>
+        <SwiperSlide  className="slide-one">
          <div className='slider-swip-wrap'><Slides4/></div> 
         </SwiperSlide>
       </Swiper>
