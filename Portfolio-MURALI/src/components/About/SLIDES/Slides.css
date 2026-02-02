@@ -323,7 +323,7 @@ border-bottom: none;
 .cinema-text{
   position: absolute;
 bottom: 160px;
-left: 80px;
+text-align: center;
 width: 750px;
 }
 

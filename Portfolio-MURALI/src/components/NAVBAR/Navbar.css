@@ -34,6 +34,11 @@
     height: 120px;
   
 }
+.nav-btn{
+    background: transparent;
+    border: none;
+    height: fit-content;
+}
 
 .dark-btn{
     height: 100px;

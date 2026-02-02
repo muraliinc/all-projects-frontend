@@ -8,6 +8,7 @@
 .footer-section{
     height: 100%;
     width: 100%;
+    max-width: 100%;
     margin-top: 100px;
 }
 
@@ -31,7 +32,7 @@
 .bottom-menu-items{
   display: grid;
   place-content: center;  
-  margin-left: 100px;
+  margin-left: 0;
   padding-bottom: 50px;  
 }
 
@@ -51,7 +52,10 @@
     margin-top: 20px;
     list-style: none;
     justify-content: space-between;
-    min-width: 500px;
+    /* min-width: 500px; */
+     width: 100%;
+    max-width: 500px; 
+    gap: 20px;
 }
 
 .footer-list li:hover{
@@ -63,12 +67,15 @@
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  padding-right: 149px;
+  /* padding-right: 149px; */
+  padding-right: 140px;      /* remove fixed push */
+  width: 100%;
 
 }
 
 .last-social-items{
-    min-width: 300px;
+     width: 100%;
+    max-width: 400px;
 }
 
 .footer-social{

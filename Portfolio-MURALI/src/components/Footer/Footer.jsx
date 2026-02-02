@@ -23,6 +23,7 @@ export default function Footer() {
               <li onClick={()=>scrollToSection("#PORTFOLIO")} className='white-text'>PORTFOLIO</li>
               <li onClick={()=>scrollToSection("#CONTACT")} className='white-text'>CONTACT</li>
             </ul>
+            
           </div>
         </div>
        <div className="social-media-footer">

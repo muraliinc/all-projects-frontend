@@ -11,8 +11,8 @@ export default function Navbar() {
         <img className="logo-icon" src={logo_icon} alt="logo-icon" />
 
         <div className="nav-right">
-          <img className="dark-btn " src={darkbtn} alt="dark-btn" />
-          <img className="menu-icon  " src={menu_icon} alt="menu-icon" />
+         <button className="nav-btn"> <img className="dark-btn " src={darkbtn} alt="dark-btn" /></button>
+         <button className="nav-btn"><img className="menu-icon  " src={menu_icon} alt="menu-icon" /></button>
         </div>
       </div>
     </nav>

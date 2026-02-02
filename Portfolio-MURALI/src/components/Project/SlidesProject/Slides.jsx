@@ -21,14 +21,14 @@ export default function Slides() {
   // spaceBetween={0}
   breakpoints={{
     
-    769: {                   // tablet
+    768: {                   // tablet
       slidesPerView: 3,
-      spaceBetween: 0
+      spaceBetween: 40
     },
 
     1025: {                  // desktop
       slidesPerView: 3,
-      spaceBetween: 0
+      spaceBetween: 40
     }
   }}
   loop={true}

@@ -1,5 +1,5 @@
 
-@media( max-width:768px){
+@media( max-width:767px){
 
   .side-line{
   margin-left: 40px;
@@ -332,7 +332,7 @@ display: none;
 
 }
 
-@media (min-width:769px) and (max-width:1024px){
+@media (min-width:768px) and (max-width:1023px){
 /*navbar below*/
 .logo-icon{
     width: 210px;
@@ -361,8 +361,10 @@ display: none;
 }
 
 .two-div-mainwrapper{
-  margin-top: 15px;
-  margin-left: 7%;
+  /* margin-top: 15px;
+  margin-left: 7%; */
+    margin: 15px auto 0 40px;
+  width: 95%;
 }
 
 .batman-logo-hero {
@@ -417,8 +419,11 @@ margin-left: 40%;
   top: 0;
 }
 .cinema-text{
-width: 680px;
-left: 40px;
+ text-align: center;
+  width: 100%;
+  max-width: 680px;
+
+
 }
 
 .battery-icon{
@@ -438,7 +443,7 @@ top: 45px;
   /*project section*/
 
  .slider-maincontainer{
- margin-left: 3%;
+margin: 0 auto;
 }
 
 
@@ -481,7 +486,7 @@ top: 45px;
 
   .last-social-items {
       min-width: auto;
-      padding-right: 145px;
+      padding-right: 70px;
       
   }
   .footer-icon{
@@ -492,5 +497,67 @@ top: 45px;
 
 
 }
+/* for desktop sizes*/
+@media (min-width:1024px) and (max-width:1200px){
+/*hero section*/
 
 
+  .batman-logo-hero {
+  right: 0;
+  top: 90px;
+  }
+  .hero-action{
+  right: 0;
+}
+/*hero section ends*/
+
+}
+
+@media(max-width:380px){
+
+  /*hero section*/
+   .two-div-mainwrapper {
+       margin-left: 3%;
+   }
+
+   .hero-action{
+    right: 0px;
+   }
+
+   .btn-hero, .btn-hero2 {
+       width: 6rem;
+      
+   }
+
+   .icons-apps {
+       height: 48px;
+   }
+
+   .batman-logo-hero {
+    top: 310px;
+  }/* hero section ends*/
+
+   /*about starts*/
+
+/*slide1*/
+   .bottom-batman{
+  margin-left: 80px; 
+  }
+/*slide 3 below*/
+.cinema-text{
+left: 30px;
+}
+
+
+   /* footer section starts*/
+
+   .footer-list {
+       gap: 5px;
+       font-size: 14px;
+   }
+
+   .footer-icon {
+       height: 3rem;
+   }
+
+}

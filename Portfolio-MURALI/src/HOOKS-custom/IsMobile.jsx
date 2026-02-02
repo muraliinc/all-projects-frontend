@@ -2,10 +2,10 @@
  
  export default function IsMobile() {
 
-  const [ismobile,setIsMobile]= useState(window.innerWidth < 768);
+  const [ismobile,setIsMobile]= useState(window.innerWidth < 767);
 
   useEffect(()=>{
-const resize = () => setIsMobile(window.innerWidth <768);
+const resize = () => setIsMobile(window.innerWidth <767);
 window.addEventListener("resize",resize)
 
 return ()=> window.removeEventListener("resize",resize)

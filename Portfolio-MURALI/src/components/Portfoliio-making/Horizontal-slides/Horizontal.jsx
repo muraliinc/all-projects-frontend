@@ -17,7 +17,7 @@ export default function Horizontal() {
 useEffect(() => {
   const mm = gsap.matchMedia();
 
-  mm.add("(min-width: 769px)", () => {
+  mm.add("(min-width: 768px)", () => {
     const container = document.querySelector(".horizontal");
 
     const tween = gsap.to(container, {
