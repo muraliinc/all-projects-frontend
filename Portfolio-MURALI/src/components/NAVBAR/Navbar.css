@@ -54,3 +54,47 @@
 cursor: pointer;
 
 }
+
+
+/*popup and menu css*/
+
+.overlay-popup-joker{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.534);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1001;
+}
+
+.overlay-inside-container{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 40px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.joker-popup{
+  max-width: 45%;
+  height: auto;
+}
+
+.popup-text{
+  font-size: 90px;
+  color: white;
+  width: 100%;
+  
+}
+
+ 
+.GS-word{
+  opacity: 0;
+  display: inline-block;
+  margin-right: 2rem;
+}
