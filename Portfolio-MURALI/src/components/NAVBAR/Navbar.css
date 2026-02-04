@@ -98,3 +98,72 @@ cursor: pointer;
   display: inline-block;
   margin-right: 2rem;
 }
+
+/*menu bar*/
+
+.menu-dropdown{
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 280px;
+  height: 100vh;
+  
+  background: #0f0f0f;
+  box-shadow: -5px 0 20px rgba(0, 0, 0, 0.5);
+    z-index: 1002;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+   
+}
+
+
+
+
+
+.menu-ul-items{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  width: 100%;
+}
+.menu-ul-items li{
+  padding: 18px 0;
+  font-size: 20px;
+  color: white;
+  letter-spacing: 2px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.menu-ul-items li:hover{
+  color: #F6FF3D;
+  transform: scale(1.05);
+    background: rgba(255, 255, 255, 0.05);
+
+}
+
+.backdrop-menu{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.6);
+  z-index: 1001;
+}
+
+.menu-close-btn{
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.menu-close-btn img{
+ width: 40px;
+  height: auto;
+}

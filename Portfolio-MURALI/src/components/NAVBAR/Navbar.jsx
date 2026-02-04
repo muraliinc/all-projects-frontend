@@ -6,6 +6,7 @@ import menu_icon from "../../assets/icons/menu-icon.png";
 import joker_popup from "../../assets/joker-popup.png";
 import close_icon from "../../assets/icons/close-icon.png";
 import "./Navbar.css"
+import { scrollToSection } from "../../utlis/scrollTo";
 
 
 export default function Navbar() {
@@ -13,7 +14,9 @@ export default function Navbar() {
 const [showPopup,setShowPopup]= useState(false);
 const[IsmenuOpen,SetIsmenuOpen] = useState(false);
 const popupRef= useRef(null);
-const [scrollY, setScrollY] = useState(0);  // Add this state
+
+
+const scrollPosition = useRef(0);
 
 
 const handleShowpopup =()=>{
@@ -27,6 +30,29 @@ const handleShowpopup =()=>{
 const handleMenu =()=>{
   SetIsmenuOpen(!IsmenuOpen);
 }
+useEffect(() => {
+  if (showPopup) {
+    // Save current scroll position
+    scrollPosition.current = window.scrollY;
+
+    document.body.classList.add("no-scroll");
+
+    // Freeze body at current position
+    document.body.style.top = `-${scrollPosition.current}px`;
+  } else {
+    document.body.classList.remove("no-scroll");
+
+    // Reset body position
+    document.body.style.top = "";
+
+    // Restore scroll position
+    window.scrollTo(0, scrollPosition.current);
+  }
+}, [showPopup]);
+
+
+
+
 
 useEffect(() => {
   if (!showPopup || !popupRef.current) return;
@@ -80,17 +106,22 @@ useEffect(() => {
       </div>
      )}
 {IsmenuOpen&& (
+<>
+<div className="backdrop-menu" onClick={handleMenu}> </div>
    <div className="menu-dropdown">
+    <button className="menu-close-btn"><img  src={close_icon} alt="menu-close-hamburger" onClick={handleMenu} /></button>
     <ul className="menu-ul-items">
-      <li>HOME</li>
-      <li>ABOUT</li>
-      <li>PROJECT</li>
-      <li>SKILLS</li>
-      <li>PORTFOLIO</li>
-      <li>CONTACT</li>
+      <li onClick={()=>scrollToSection("#HOME")}>HOME</li>
+      <li onClick={()=>scrollToSection("#ABOUT")} >ABOUT</li>
+      <li  onClick={()=>scrollToSection("#PROJECT")}>PROJECT</li>
+      <li  onClick={()=>scrollToSection("#SKILLS")}>SKILLS</li>
+      <li  onClick={()=>scrollToSection("#PORTFOLIO")}>PORTFOLIO</li>
+      <li  onClick={()=>scrollToSection("#CONTACT")}>CONTACT</li>
     </ul>
 
 </div>
+</>
+
 )}
 
 

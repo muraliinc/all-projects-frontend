@@ -5,6 +5,7 @@ import batman_hero from "../../assets/batman-hero.png";
 import murali_image from "../../assets/HERO-NAME-IMG.png";
 import "./Hero.css";
 import React from "react";
+import { scrollToSection } from "../../utlis/scrollTo";
 
 export default function Hero() {
   return (
@@ -40,7 +41,7 @@ export default function Hero() {
    <img className="batman-logo-hero" src={batman_hero} alt="batman-logo"/>
                <div className="hero-action">
                        <button className="btn-hero">resume</button>
-               <button className="btn-hero2">contact</button>
+               <button className="btn-hero2" onClick={()=>scrollToSection("#CONTACT")}>contact</button>
                </div>
             
         </div>
