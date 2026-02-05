@@ -5,6 +5,7 @@ import logo_icon from "../../assets/icons/LOGO-ICON.png";
 import menu_icon from "../../assets/icons/menu-icon.png";
 import joker_popup from "../../assets/joker-popup.png";
 import close_icon from "../../assets/icons/close-icon.png";
+import night_btn from "../../assets/icons/nightbtn.png"
 import "./Navbar.css"
 import { scrollToSection } from "../../utlis/scrollTo";
 
@@ -89,7 +90,7 @@ useEffect(() => {
         <img className="logo-icon" src={logo_icon} alt="logo-icon" />
 
         <div className="nav-right">
-         <button className="nav-btn" onClick={handleShowpopup}> <img className="dark-btn " src={darkbtn} alt="dark-btn" /></button>
+         <button className="nav-btn" onClick={handleShowpopup}> <img className="dark-btn " src={showPopup?night_btn:darkbtn} alt="dark-btn" /></button>
          <button className="nav-btn" onClick={handleMenu}><img className="menu-icon  " src={IsmenuOpen? close_icon : menu_icon} alt="menu-icon" /></button>
         </div>
       </div>

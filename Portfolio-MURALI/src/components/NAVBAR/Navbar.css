@@ -80,15 +80,17 @@ cursor: pointer;
   margin: 0 auto;
 }
 
+
 .joker-popup{
   max-width: 45%;
   height: auto;
 }
 
 .popup-text{
-  font-size: 90px;
+  font-size: clamp(60px, 5vw, 100px);
   color: white;
   width: 100%;
+  text-align: center;
   
 }
 

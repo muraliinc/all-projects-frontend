@@ -15,6 +15,25 @@
   width: 80%;
 
 }
+/*popup joker*/
+.overlay-inside-container{
+flex-direction: column;
+text-align: center;
+}
+
+.joker-popup{
+max-width: 80%;
+margin: 0 auto;
+}
+.popup-text {
+    font-size: clamp(34px, 6vw, 50px);  
+    width: 100%;
+    justify-content: center;
+    position: absolute;
+    bottom: 40px;
+    z-index: 1002;
+  }
+
 
 /*navbar below*/
 .logo-icon{
@@ -78,7 +97,7 @@ height: 350px;
   height: 57px;
 }
 
-/*hero ends/
+/*hero ends*/
 
 
 /*about starts*/
@@ -333,6 +352,27 @@ display: none;
 }
 
 @media (min-width:768px) and (max-width:1023px){
+
+/*popup joker*/
+.overlay-inside-container{
+flex-direction: column;
+text-align: center;
+justify-content: center;
+}
+
+.joker-popup{
+max-width: 80%;
+margin: 0 auto;
+}
+.popup-text {
+    font-size: clamp(42px, 5vw, 80px);  
+    width: 100%;
+    justify-content: center;
+    position: absolute;
+    bottom: 40px;
+    z-index: 1002;
+  }
+
 /*navbar below*/
 .logo-icon{
     width: 210px;
@@ -498,7 +538,15 @@ margin: 0 auto;
 
 }
 /* for desktop sizes*/
-@media (min-width:1024px) and (max-width:1280px){
+@media (min-width:1024px) and (max-width:1200px){
+
+
+
+.joker-popup{
+max-width: 90%;
+margin: 0 auto;
+}
+
 /*hero section*/
 
 
@@ -513,6 +561,8 @@ margin: 0 auto;
 
 }
 
+
+
 @media(max-width:380px){
 
   /*hero section*/
@@ -521,7 +571,10 @@ margin: 0 auto;
    }
 
    .hero-action{
-    right: 0px;
+   left: -5rem !important;
+     bottom: 0;
+     position: relative;
+     text-align: center;
    }
 
    .btn-hero, .btn-hero2 {
