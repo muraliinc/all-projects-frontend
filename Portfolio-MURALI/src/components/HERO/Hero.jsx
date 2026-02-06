@@ -1,4 +1,4 @@
-import insta_icon from "../../assets/icons/instgram.png";
+import instaIcon from "../../assets/icons/Instgram.png"
 import linkdin from "../../assets/icons/Linkdin-icon.png";
 import whatsapp from "../../assets/icons/whatsapp-icon.png";
 import batman_hero from "../../assets/batman-hero.png";
@@ -32,7 +32,7 @@ export default function Hero() {
             <p className="yellow-text mob-txt">Digital legacies.</p>
 
             <div className="icons-hero">
-              <a href="https://www.instagram.com/_.mdjr_?igsh=MWR1bHl3N2dncWQ0OQ=="  target="_blank" rel="noopener noreferrer"><img className="icons-apps" src={insta_icon} alt="insta-icon" /></a>
+              <a href="https://www.instagram.com/_.mdjr_?igsh=MWR1bHl3N2dncWQ0OQ=="  target="_blank" rel="noopener noreferrer"><img className="icons-apps" src={instaIcon} alt="insta-icon" /></a>
              <a href="http://www.linkedin.com/in/murali-dharan-mdjr" target="_blank" rel="noopener noreferrer"><img className="icons-apps" src={linkdin} alt="linkdin" /></a> 
              <a href="https://wa.me/+919840806489" target="_blank" rel="noopener noreferrer"><img className="icons-apps" src={whatsapp} alt="whatsapp" /></a> 
             </div>
