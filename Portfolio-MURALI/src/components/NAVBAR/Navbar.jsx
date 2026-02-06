@@ -32,6 +32,11 @@ const handleShowpopup =()=>{
 const handleMenu =()=>{
   SetIsmenuOpen(!IsmenuOpen);
 }
+const handleMenunavigate =(id)=>{
+    SetIsmenuOpen(false);      // close menu first
+  scrollToSection(id); 
+}
+
 useEffect(() => {
   if (showPopup||IsmenuOpen) {
     // Save current scroll position
@@ -127,12 +132,12 @@ useEffect(() => {
    <div className="menu-dropdown">
     <button ref={btnRef} className="menu-close-btn"><img  src={close_icon} alt="menu-close-hamburger" onClick={handleMenu} /></button>
     <ul className="menu-ul-items">
-      <li onClick={()=>scrollToSection("#HOME")}>HOME</li>
-      <li onClick={()=>scrollToSection("#ABOUT")} >ABOUT</li>
-      <li  onClick={()=>scrollToSection("#PROJECT")}>PROJECT</li>
-      <li  onClick={()=>scrollToSection("#SKILLS")}>SKILLS</li>
-      <li  onClick={()=>scrollToSection("#PORTFOLIO")}>PORTFOLIO</li>
-      <li  onClick={()=>scrollToSection("#CONTACT")}>CONTACT</li>
+      <li onClick={()=>handleMenunavigate("#HOME")}>HOME</li>
+      <li onClick={()=>handleMenunavigate("#ABOUT")} >ABOUT</li>
+      <li  onClick={()=>handleMenunavigate("#PROJECT")}>PROJECT</li>
+      <li  onClick={()=>handleMenunavigate("#SKILLS")}>SKILLS</li>
+      <li  onClick={()=>handleMenunavigate("#PORTFOLIO")}>PORTFOLIO</li>
+      <li  onClick={()=>handleMenunavigate("#CONTACT")}>CONTACT</li>
     </ul>
 
 </div>
