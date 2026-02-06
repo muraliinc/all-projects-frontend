@@ -3,7 +3,7 @@ import gsap from "gsap";
 import darkbtn from "../../assets/icons/DARKbtn.png";
 import logo_icon from "../../assets/icons/LOGO-ICON.png";
 import menu_icon from "../../assets/icons/menu-icon.png";
-import joker_popup from "../../assets/joker-popup.png";
+import joker_popup from "../../assets/joker-popup.webp";
 import close_icon from "../../assets/icons/close-icon.png";
 import night_btn from "../../assets/icons/nightbtn.png"
 import "./Navbar.css"
@@ -117,7 +117,7 @@ useEffect(() => {
      { showPopup && (
       <div className="overlay-popup-joker"  ref={popupRef}>
          <div className="overlay-inside-container">
-           <img className="joker-popup" src={joker_popup} alt="joker-popup" />
+           <img className="joker-popup" src={joker_popup} alt="joker-popup"  width="1200" height="900" decoding="async"/>
            <p className="popup-text">
             <span className="GS-word">darkness</span>
             <span  className="GS-word"> is </span>
