@@ -1,7 +1,7 @@
 import React from 'react'
 import "./Footer.css";
 import footer_icon from "../../assets/icons/name-footer-logo.png";
-import instagram_icon from"../../assets/icons/instgram.png";
+import instagram_icon from"../../assets/icons/Instgram.png";
 import linkdin_icon from "../../assets/icons/Linkdin-icon.png";
 import whatsapp_icon from "../../assets/icons/whatsapp-icon.png";
 import { scrollToSection } from '../../utlis/scrollTo';
