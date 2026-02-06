@@ -1,18 +1,19 @@
 
 @media( max-width:767px){
 
-  .side-line{
+  /* .side-line{
   margin-left: 40px;
+} */
+.title-tag-wrapper{
+ max-width: 90%;
 }
 
 .title-tag-sections{
-  display: flex;
-  align-items: center;
-  padding-left: 35%;
+  font-size: clamp(1.2rem, 4vw, 1.6rem);
 }
 
   .title-tag-sections-line{
-  width: 80%;
+ width: 85%;
 
 }
 /*popup joker*/
@@ -62,6 +63,12 @@ margin: 0 auto;
 .murali-logo{
   height: 150px;
   object-fit: cover;
+}
+.title-hero{
+   font-size: clamp(1.4rem, 3.5vw, 2rem);
+}
+.mob-txt{
+  font-size: clamp(1rem, 2.8vw, 1.4rem);
 }
 
 .two-div-mainwrapper {
@@ -251,12 +258,9 @@ width: 150px;
 
 
 /*portfolio mainmg section*/
-.portoflio-heading-mob{
-  padding-left: 20%;
-  text-align: center;
-}
+
 .hori{
-  margin-left: 0;
+  margin-left: 5%;
 }
 
 .desktop-only{
@@ -316,7 +320,7 @@ display: none;
 }
 /*below footer section*/
 
-  .footer-containe1{
+  .footer-container{
     flex-direction: column;
     align-items: center;
     gap: 30px;
@@ -348,10 +352,27 @@ display: none;
   .footer-icon{
     height: 4rem;
   }
+  .footer-link{
+font-size: clamp(1rem, 2.8vw, 1.4rem);
+}
 
 }
 
 @media (min-width:768px) and (max-width:1023px){
+
+  
+  .title-tag-wrapper {
+    max-width: 80%;
+  }
+
+  .title-tag-sections-line {
+    width: 90%;
+  }
+.hori{
+  margin-left: 15%;
+}
+ 
+
 
 /*popup joker*/
 .overlay-inside-container{
@@ -541,7 +562,6 @@ margin: 0 auto;
 @media (min-width:1024px) and (max-width:1200px){
 
 
-
 .joker-popup{
 max-width: 90%;
 margin: 0 auto;
@@ -612,5 +632,98 @@ left: 30px;
    .footer-icon {
        height: 3rem;
    }
+
+}
+
+@media (max-width:360px){
+
+  
+/*navbar below*/
+.logo-icon{
+    width: 130px;
+    height: auto;
+}
+.dark-btn{
+    height: 70px;
+   
+}
+.menu-icon{
+    height: 49.24px;
+    margin-bottom: 6px;
+}
+/*nabar ends*/
+
+/*hero starts*/
+.murali-logo{
+height: 120px;
+}
+.batman-logo-hero {
+height: 300px;}
+.hero-action{
+  top: 40px;
+  left: 20px;
+  
+}
+.btn-hero , .btn-hero2{
+ width: 5.5rem;
+  height: 3rem;
+}
+.btn-hero2{
+  right: 114px;
+}
+/*hero ends*/
+
+/*about starts*/
+.About-section{
+
+padding-top: 20px;
+}
+/*slide1*/
+.bottom-batman{
+margin-left: 50px;
+}
+/*slide2*/
+.boxing-img-about{
+height: 110px;
+}
+.inner-swiper-slide{
+  margin-top: 30px;
+margin-left: 6px;
+ height: 135px !important;
+}
+ .swiper-pagination {
+  margin-left: 35% !important;
+  
+  }
+  /*slide 3 below*/
+  .cinema-text{
+  width: 200px;
+  }
+/*about ends above*/
+.portoflio-heading-mob1{
+  padding-left: 30%;
+}
+
+/*skills section below */
+.skill-image-group-of-six {
+  padding: 100px 5px 0px 5px;
+bottom: 0;
+}
+
+.skill-image-left,.skill-image-right {
+width: 130px;
+
+}/*skills above ends*/
+
+/*contact below*/
+
+.contact-heading-mob{
+  padding-left: 12%;
+}
+.btn-submit-form{
+  margin-left: 45px;
+}
+/*contact ends*/
+
 
 }

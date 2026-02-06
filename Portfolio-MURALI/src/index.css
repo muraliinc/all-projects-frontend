@@ -29,21 +29,26 @@ html{
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  cursor: pointer;
   
 }
 
 .white-text{
   font-size: clamp(0.8rem,3vw,1.6rem);
+  cursor: pointer;
 }
 
 
 .title-tag-wrapper{
-  max-width: 500px;
+ max-width: 600px;      /* slightly larger */
   margin: 0 auto;
+  text-align: center; 
 }
 
 .title-tag-sections{
-  padding-left: 35%;
+  text-align: center;
+  display: inline-block; 
+  padding-left: 0; 
    background: linear-gradient(to right,#D4DC35, #F6FF3D, #B2B82F);
    background-clip: text;
   -webkit-background-clip: text;
@@ -53,7 +58,8 @@ html{
   background: linear-gradient(to right,#D4DC35, #F6FF3D, #B2B82F);
      display: block;
   height: 1.4px;
-  width: 100%;
+  margin: 0 auto;        /* center the line */
+  width: 90%;
 }
 
  /* .no-scroll{

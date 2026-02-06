@@ -18,7 +18,7 @@
     padding: 20px;
 }
 
-.footer-containe1{
+.footer-container{
     display: flex;
     justify-content: space-evenly;
 }
@@ -103,5 +103,12 @@
   text-align: center;
 }
 
+.footer-icon{
+    cursor: pointer;
+     transition: all 0.3s ease-in-out;
+}
 
+.footer-icon:hover{
+     transform: translateY(-3px) scale(1.05);
+}
 

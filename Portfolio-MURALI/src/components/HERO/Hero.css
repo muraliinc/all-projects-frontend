@@ -126,8 +126,13 @@
   display: flex;
   align-items: center;
   gap: 15px;
+
+}
+.icons-apps{
+   transition: all 0.3s ease-in-out;
 }
 
 .icons-apps:hover{
 cursor: pointer;
+ transform: translateY(-3px) scale(1.05);
 }

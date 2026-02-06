@@ -15,6 +15,7 @@ export default function Navbar() {
 const [showPopup,setShowPopup]= useState(false);
 const[IsmenuOpen,SetIsmenuOpen] = useState(false);
 const popupRef= useRef(null);
+const btnRef =useRef(null);
 
 
 const scrollPosition = useRef(0);
@@ -32,7 +33,7 @@ const handleMenu =()=>{
   SetIsmenuOpen(!IsmenuOpen);
 }
 useEffect(() => {
-  if (showPopup) {
+  if (showPopup||IsmenuOpen) {
     // Save current scroll position
     scrollPosition.current = window.scrollY;
 
@@ -49,11 +50,11 @@ useEffect(() => {
     // Restore scroll position
     window.scrollTo(0, scrollPosition.current);
   }
-}, [showPopup]);
+}, [showPopup,IsmenuOpen]);
 
 
 
-
+//popup joker animation
 
 useEffect(() => {
   if (!showPopup || !popupRef.current) return;
@@ -81,7 +82,21 @@ useEffect(() => {
 
   return () => ctx.revert();
 
-}, [showPopup]);
+}, [showPopup]); 
+
+
+//btn rotation
+useEffect(() => {
+  if (!btnRef.current) return;
+
+  gsap.to(btnRef.current, {
+    rotate: IsmenuOpen ? 90 : 0,
+    duration: IsmenuOpen ? 0.4 : 0.3,
+    ease: IsmenuOpen ? "power2.out" : "power2.inOut"
+  });
+
+}, [IsmenuOpen]);
+
 
 
   return (
@@ -110,7 +125,7 @@ useEffect(() => {
 <>
 <div className="backdrop-menu" onClick={handleMenu}> </div>
    <div className="menu-dropdown">
-    <button className="menu-close-btn"><img  src={close_icon} alt="menu-close-hamburger" onClick={handleMenu} /></button>
+    <button ref={btnRef} className="menu-close-btn"><img  src={close_icon} alt="menu-close-hamburger" onClick={handleMenu} /></button>
     <ul className="menu-ul-items">
       <li onClick={()=>scrollToSection("#HOME")}>HOME</li>
       <li onClick={()=>scrollToSection("#ABOUT")} >ABOUT</li>
