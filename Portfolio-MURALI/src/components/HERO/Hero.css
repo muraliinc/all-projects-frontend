@@ -50,6 +50,14 @@
   width: fit-content;
 }
 
+.third-box-div{
+  position: absolute;
+  height: auto;
+  width: 409px;
+    right: 120px;
+  z-index: 4;
+   top: 103px;
+}
 
 /*text-container below */
 
@@ -61,19 +69,17 @@
 
 
 .batman-logo-hero {
-  height: 550px;
-  top: 98px;
-  position: absolute;
-  right: 120px;
-  z-index: 4;
+  height:100%;
+  width: 100%;
+  display: block;
   filter: none;
   background: transparent;
 }
 .hero-action{
   position: absolute;
   z-index: 5;
-  bottom:72px;
-  margin-left:500px ;
+  bottom:62px;
+  left:460px ;
 }
 
 .btn-hero{

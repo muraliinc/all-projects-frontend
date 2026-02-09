@@ -1,8 +1,8 @@
 import instaIcon from "../../assets/icons/Instgram.png"
 import linkdin from "../../assets/icons/Linkdin-icon.png";
 import whatsapp from "../../assets/icons/whatsapp-icon.png";
-import batman_hero from "../../assets/batman-hero.png";
-import murali_image from "../../assets/HERO-NAME-IMG.png";
+import batman_hero from "../../assets/batman-hero.webp";
+import murali_image from "../../assets/HERO-NAME-IMG.webp";
 import "./Hero.css";
 import React from "react";
 import { scrollToSection } from "../../utlis/scrollTo";
@@ -13,7 +13,7 @@ export default function Hero() {
       <video src="https://res.cloudinary.com/dye5bdxxn/video/upload/v1763108178/Untitled_video_-_Made_with_Clipchamp_1_vaseha.mp4" autoPlay  muted loop />
       <div className="hero-sectionWrapper">
            <div className="title-wrapper">
-              <img className="murali-logo" src={murali_image} alt="hero-name" />
+              <img className="murali-logo" src={murali_image} alt="MURALI-hero banner" width="1536" height="563" decoding="async"  />
               
           </div> 
      
@@ -38,7 +38,7 @@ export default function Hero() {
             </div>
           </div>
               <div className="third-box-div">
-   <img className="batman-logo-hero" src={batman_hero} alt="batman-logo"/>
+   <img className="batman-logo-hero" src={batman_hero} alt="batman-logo"  width="612" height="825" decoding="async" />
                <div className="hero-action">
                      <a href="/FRONTEND-MURALIDHARAN.pdf" download ="FRONTEND-MURALIDHARAN.pdf"> <button className="btn-hero">resume</button></a> 
                <button className="btn-hero2" onClick={()=>scrollToSection("#CONTACT")}>contact</button>

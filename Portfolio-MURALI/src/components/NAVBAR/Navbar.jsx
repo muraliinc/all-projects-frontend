@@ -117,7 +117,7 @@ useEffect(() => {
      { showPopup && (
       <div className="overlay-popup-joker"  ref={popupRef}>
          <div className="overlay-inside-container">
-           <img className="joker-popup" src={joker_popup} alt="joker-popup"  width="1200" height="900" decoding="async"/>
+           <img className="joker-popup" src={joker_popup}  alt="joker-popup" width="800" height="999" loading="lazy" decoding="async"/>
            <p className="popup-text">
             <span className="GS-word">darkness</span>
             <span  className="GS-word"> is </span>

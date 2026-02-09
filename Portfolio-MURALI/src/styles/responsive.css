@@ -1,9 +1,6 @@
 
 @media( max-width:767px){
 
-  /* .side-line{
-  margin-left: 40px;
-} */
 .title-tag-wrapper{
  max-width: 90%;
 }
@@ -80,21 +77,19 @@ margin: 0 auto;
 
 
 .hero-action{
-  position: relative;
-  left: -65px;
-  top: 53px;
+  position: absolute;
+  left: 310px;
   z-index: 5;
 }
-.third-box-div{
-  padding-top: 200px;
-  height: 320px;
+.third-box-div {
+  position: relative;
+  display: flex;
+  width: 250px;
+top: 0;
+right: 0;
+left: 150px;
 }
 
-.batman-logo-hero {
-top: 320px;
-right: 0px;
-height: 350px;
-}
 
 .btn-hero , .btn-hero2{
  width: 7rem;
@@ -422,19 +417,19 @@ margin: 0 auto;
 }
 
 .two-div-mainwrapper{
-  /* margin-top: 15px;
-  margin-left: 7%; */
     margin: 15px auto 0 40px;
   width: 95%;
 }
 
-.batman-logo-hero {
-top: 155px;
-right: 0px;
-height: 400px;
+
+.third-box-div {
+  position: absolute;
+  top: 165px;
+  right: 0px;
+  width: 296px;     /* tablet size */
 }
 .hero-action{
-  right: -50px;
+  left:350px;
 }
 .btn-hero , .btn-hero2{
   width: 8rem;
@@ -569,10 +564,10 @@ margin: 0 auto;
 
 /*hero section*/
 
-
-  .batman-logo-hero {
-  right: 0;
-  top: 90px;
+  .third-box-div{
+    right: 0;
+   top: 95px;
+   width: 406px;
   }
   .hero-action{
   right: 0;
@@ -589,11 +584,13 @@ margin: 0 auto;
    .two-div-mainwrapper {
        margin-left: 3%;
    }
+   .third-box-div{
+    left: 120px;
+   }
 
    .hero-action{
-   left: -5rem !important;
-     bottom: 0;
-     position: relative;
+   left: 300px;
+     bottom: 65px;
      text-align: center;
    }
 
@@ -606,9 +603,7 @@ margin: 0 auto;
        height: 48px;
    }
 
-   .batman-logo-hero {
-    top: 310px;
-  }/* hero section ends*/
+  /* hero section ends*/
 
    /*about starts*/
 
@@ -657,13 +652,15 @@ left: 30px;
 .murali-logo{
 height: 120px;
 }
-.batman-logo-hero {
-height: 300px;}
-.hero-action{
-  top: 40px;
-  left: 20px;
-  
+
+.third-box-div{
+  width: 200px;
+left: 120px;
 }
+.hero-action{
+bottom: 50px;
+}
+
 .btn-hero , .btn-hero2{
  width: 5.5rem;
   height: 3rem;
