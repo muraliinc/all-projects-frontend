@@ -1,6 +1,6 @@
-import instaIcon from "../../assets/icons/Instgram.png"
-import linkdin from "../../assets/icons/Linkdin-icon.png";
-import whatsapp from "../../assets/icons/whatsapp-icon.png";
+import instaIcon2 from "../../assets/icons/Instgram.webp";
+import linkdin2 from "../../assets/icons/Linkdin-icon.webp";
+import whatsapp2 from "../../assets/icons/whatsapp-icon.webp";
 import batman_hero from "../../assets/batman-hero.webp";
 import murali_image from "../../assets/HERO-NAME-IMG.webp";
 import "./Hero.css";
@@ -10,11 +10,11 @@ import { scrollToSection } from "../../utlis/scrollTo";
 export default function Hero() {
   return (
     <section id="HOME" className="hero-section">
-      <video src="https://res.cloudinary.com/dye5bdxxn/video/upload/v1763108178/Untitled_video_-_Made_with_Clipchamp_1_vaseha.mp4" autoPlay  muted loop />
+      {/* <video src="https://res.cloudinary.com/dye5bdxxn/video/upload/v1763108178/Untitled_video_-_Made_with_Clipchamp_1_vaseha.mp4" autoPlay  muted loop /> */}
+      <video  src="https://res.cloudinary.com/dye5bdxxn/video/upload/q_auto,f_auto,vc_auto,w_854/v1763108178/Untitled_video_-_Made_with_Clipchamp_1_vaseha.mp4"  autoPlay muted loop playsInline/>
       <div className="hero-sectionWrapper">
            <div className="title-wrapper">
               <img className="murali-logo" src={murali_image} alt="MURALI-hero banner" width="1536" height="563" decoding="async"  />
-              
           </div> 
      
         <div className="two-div-mainwrapper">
@@ -32,9 +32,9 @@ export default function Hero() {
             <p className="yellow-text mob-txt">Digital legacies.</p>
 
             <div className="icons-hero">
-              <a href="https://www.instagram.com/_.mdjr_?igsh=MWR1bHl3N2dncWQ0OQ=="  target="_blank" rel="noopener noreferrer"><img className="icons-apps" src={instaIcon} alt="insta-icon" /></a>
-             <a href="http://www.linkedin.com/in/murali-dharan-mdjr" target="_blank" rel="noopener noreferrer"><img className="icons-apps" src={linkdin} alt="linkdin" /></a> 
-             <a href="https://wa.me/+919840806489" target="_blank" rel="noopener noreferrer"><img className="icons-apps" src={whatsapp} alt="whatsapp" /></a> 
+              <a href="https://www.instagram.com/_.mdjr_?igsh=MWR1bHl3N2dncWQ0OQ=="  target="_blank" rel="noopener noreferrer"><img className="icons-apps" src={instaIcon2} alt="insta-icon" height="102" width="102" decoding="async" /></a>
+             <a href="http://www.linkedin.com/in/murali-dharan-mdjr" target="_blank" rel="noopener noreferrer"><img className="icons-apps" src={linkdin2} alt="linkdin" height="102" width="102" decoding="async" /></a> 
+             <a href="https://wa.me/+919840806489" target="_blank" rel="noopener noreferrer"><img className="icons-apps" src={whatsapp2} alt="whatsapp" height="102" width="102" decoding="async" /></a> 
             </div>
           </div>
               <div className="third-box-div">

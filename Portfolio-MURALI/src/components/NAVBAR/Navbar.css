@@ -31,6 +31,7 @@
 
 .logo-icon{
     width: 250px;
+    height: auto;
 }
 .nav-btn{
     background: transparent;
@@ -40,10 +41,12 @@
 
 .dark-btn{
     width: 100px;
+    height: auto;
 }
 
 .menu-icon{
     width: 74px;
+    height: auto;
     margin-bottom: 6px;
 }
 

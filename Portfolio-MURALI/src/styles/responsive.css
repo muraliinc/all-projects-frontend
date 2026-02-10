@@ -40,12 +40,12 @@ margin: 0 auto;
 }
 
 .dark-btn{
-    height: 80px;
+    width:80px;
    
 }
 
 .menu-icon{
-    height: 59.24px;
+    width: 59.24px;
     margin-bottom: 6px;
 }
 
@@ -96,7 +96,7 @@ left: 150px;
 }
 
 .icons-apps{
-  height: 57px;
+  width: 57px;
 }
 
 /*hero ends*/
@@ -396,12 +396,12 @@ margin: 0 auto;
 }
 
 .dark-btn{
-    height: 100px;
+    width: 100px;
    
 }
 
 .menu-icon{
-    height: 74.05px;
+    width: 74.05px;
 
 }
 /*nabar ends*/
@@ -436,7 +436,7 @@ margin: 0 auto;
 }
 
 .icons-apps{
-height: 65px;
+width: 65px;
 }
 
 /*hero ends*/
@@ -553,6 +553,17 @@ margin: 0 auto;
 
 
 }
+
+
+@media (min-width:800px) and (max-width:900px) {
+
+  .third-box-div {
+    top: 165px;
+    width: 320px;
+  }
+
+}
+
 /* for desktop sizes*/
 @media (min-width:1024px) and (max-width:1200px){
 
@@ -600,7 +611,7 @@ margin: 0 auto;
    }
 
    .icons-apps {
-       height: 48px;
+       width: 48px;
    }
 
   /* hero section ends*/
@@ -639,11 +650,11 @@ left: 30px;
     height: auto;
 }
 .dark-btn{
-    height: 70px;
+  width: 70px;
    
 }
 .menu-icon{
-    height: 49.24px;
+    width: 49.24px;
     margin-bottom: 6px;
 }
 /*nabar ends*/

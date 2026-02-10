@@ -1,9 +1,9 @@
 import React from 'react'
 import "./Footer.css";
 import footer_icon from "../../assets/icons/name-footer-logo.png";
-import instagram_icon from"../../assets/icons/Instgram.png";
-import linkdin_icon from "../../assets/icons/Linkdin-icon.png";
-import whatsapp_icon from "../../assets/icons/whatsapp-icon.png";
+import instagram_icon from "../../assets/icons/Instgram.webp";
+import linkdin_icon from "../../assets/icons/Linkdin-icon.webp";
+import whatsapp_icon from "../../assets/icons/whatsapp-icon.webp";
 import { scrollToSection } from '../../utlis/scrollTo';
 
 export default function Footer() {
@@ -30,9 +30,9 @@ export default function Footer() {
         <div className="last-social-items">
           <p className='white-text footer-title1 footer-link'>SOCIALS</p>
          <div className="footer-social">
-        <a href="https://www.instagram.com/_.mdjr_?igsh=MWR1bHl3N2dncWQ0OQ=="  target="_blank" rel="noopener noreferrer"><img className='footer-icon' src={instagram_icon} alt="instgram-icon" /></a> 
-      <a href="http://www.linkedin.com/in/murali-dharan-mdjr" target="_blank" rel="noopener noreferrer"><img className='footer-icon' src={linkdin_icon} alt="linkedin-icon" /></a>  
-      <a href="https://wa.me/+919840806489" target="_blank" rel="noopener noreferrer"><img className='footer-icon' src={whatsapp_icon} alt="whatsapp-icon" /></a>  
+        <a href="https://www.instagram.com/_.mdjr_?igsh=MWR1bHl3N2dncWQ0OQ=="  target="_blank" rel="noopener noreferrer"><img className='footer-icon' src={instagram_icon} alt="instgram-icon"  height="102" width="102" decoding="async" loading='lazy'  /></a> 
+      <a href="http://www.linkedin.com/in/murali-dharan-mdjr" target="_blank" rel="noopener noreferrer"><img className='footer-icon' src={linkdin_icon} alt="linkedin-icon"  height="103" width="103" decoding="async"   loading='lazy' /></a>  
+      <a href="https://wa.me/+919840806489" target="_blank" rel="noopener noreferrer"><img className='footer-icon' src={whatsapp_icon} alt="whatsapp-icon"  height="103" width="103" decoding="async"   loading='lazy' /></a>  
          </div>
         </div>
        </div>

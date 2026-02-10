@@ -1,11 +1,11 @@
 import { useEffect, useRef, useState } from "react";
 import gsap from "gsap";
-import darkbtn from "../../assets/icons/DARKbtn.png";
-import logo_icon from "../../assets/icons/LOGO-ICON.png";
-import menu_icon from "../../assets/icons/menu-icon.png";
+import darkbtn from "../../assets/icons/DARKbtn.webp";
+import logo_icon from "../../assets/icons/LOGO-ICON.webp";
+import menu_icon from "../../assets/icons/menu-icon.webp";
 import joker_popup from "../../assets/joker-popup.webp";
-import close_icon from "../../assets/icons/close-icon.png";
-import night_btn from "../../assets/icons/nightbtn.png"
+import close_icon from "../../assets/icons/close-icon.webp";
+import night_btn from "../../assets/icons/nightbtn.webp";
 import "./Navbar.css"
 import { scrollToSection } from "../../utlis/scrollTo";
 
@@ -107,11 +107,11 @@ useEffect(() => {
   return (
     <nav className="Navbar">
       <div className="container-nav Navbar-inside">
-        <img className="logo-icon" src={logo_icon} alt="logo-icon" />
+        <img className="logo-icon" src={logo_icon} alt="logo-icon" width="374" height="210" decoding="async" />
 
         <div className="nav-right">
-         <button className="nav-btn" onClick={handleShowpopup}> <img className="dark-btn " src={showPopup?night_btn:darkbtn} alt="dark-btn" /></button>
-         <button className="nav-btn" onClick={handleMenu}><img className="menu-icon  " src={IsmenuOpen? close_icon : menu_icon} alt="menu-icon" /></button>
+         <button className="nav-btn" onClick={handleShowpopup}> <img className="dark-btn " src={showPopup?night_btn:darkbtn} alt="dark-btn" height="100" width="100" decoding="async" /></button>
+         <button className="nav-btn" onClick={handleMenu}><img className="menu-icon  " src={IsmenuOpen? close_icon : menu_icon} alt="menu-icon" height="74" width="74" decoding="async" /></button>
         </div>
       </div>
      { showPopup && (

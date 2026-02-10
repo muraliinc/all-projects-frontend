@@ -104,6 +104,8 @@
 }
 
 .footer-icon{
+     width: 70px;
+   height: auto;
     cursor: pointer;
      transition: all 0.3s ease-in-out;
 }
