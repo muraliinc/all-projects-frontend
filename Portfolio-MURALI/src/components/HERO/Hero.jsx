@@ -12,7 +12,7 @@ export default function Hero() {
       <video  src="https://res.cloudinary.com/dye5bdxxn/video/upload/q_auto,f_auto,vc_auto,w_854/v1763108178/Untitled_video_-_Made_with_Clipchamp_1_vaseha.mp4"  autoPlay muted loop playsInline/>
       <div className="hero-sectionWrapper">
            <div className="title-wrapper">
-              <img className="murali-logo" src={murali_image} alt="MURALI-hero banner" width="1536" height="563" decoding="async"  />
+              <img className="murali-logo" src={murali_image} alt="MURALI-hero banner" fetchPriority="high" width="1536" height="563" decoding="async"  />
           </div> 
      
         <div className="two-div-mainwrapper">
@@ -36,7 +36,7 @@ export default function Hero() {
             </div>
           </div>
               <div className="third-box-div">
-   <img className="batman-logo-hero" src={batman_hero} alt="batman-logo"  width="612" height="825" decoding="async" />
+   <img className="batman-logo-hero" src={batman_hero} alt="batman-logo" fetchPriority="high"  width="612" height="825" decoding="async" />
                <div className="hero-action">
                      <a href="/FRONTEND-MURALIDHARAN.pdf" download ="FRONTEND-MURALIDHARAN.pdf"> <button className="btn-hero">resume</button></a> 
                <button className="btn-hero2" onClick={()=>scrollToSection("#CONTACT")}>contact</button>
