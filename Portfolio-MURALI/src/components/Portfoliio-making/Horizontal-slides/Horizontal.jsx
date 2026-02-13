@@ -2,11 +2,11 @@ import {useEffect} from 'react';
 import gsap from "gsap";
 import { ScrollTrigger } from 'gsap/all';
 import "./horizontal.css"
-import content1 from "../../../assets/low-fi-pencil-module-desktop.jpg";
-import content2 from "../../../assets/figma-lowfi-desktop.jpg";
-import content3 from "../../../assets/mob-low-fi.jpg";
-import content4 from "../../../assets/figma-lowfi-mob.jpg";
-import content5 from "../../../assets/all-highfi-figma.jpg";
+import content1 from "../../../assets/low-fi-pencil-module-desktop.webp";
+import content2 from "../../../assets/figma-lowfi-desktop.webp";
+import content3 from "../../../assets/mob-low-fi.webp";
+import content4 from "../../../assets/figma-lowfi-mob.webp";
+import content5 from "../../../assets/all-highfi-figma.webp";
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -53,7 +53,7 @@ useEffect(() => {
     <div className='horizontal'>
   {slide.map((img,i)=>(
     <div className="slides" key={i}>
-     <img className='image-scrl' src={img} alt={`slide-${i+1}`} />
+     <img className='image-scrl' src={img} alt={`slide-${i+1}`} width="2160" height="1548" decoding='async' loading="lazy" />
      
          </div>
   ))}

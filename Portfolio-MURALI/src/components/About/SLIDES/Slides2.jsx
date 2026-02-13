@@ -1,5 +1,5 @@
 import React from "react";
-import boxing_img from "../../../assets/boxing-pic-about.jpg";
+import boxing_img from "../../../assets/boxing-pic-about.webp";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { EffectCoverflow, Pagination } from "swiper/modules";
 import "swiper/css";
@@ -21,7 +21,7 @@ export default function Slides2() {
             ,helping me stay consistent and tackle challenges with a fighter’s
             mindset."
           </p>
-          <img className="boxing-img-about" src={boxing_img} alt="boxing-img" />
+          <img className="boxing-img-about" src={boxing_img} alt="boxing-img" width="158" height="198" decoding="async" loading="lazy" />
         </div>
         <div className="slide2-about-flex2">
           <Swiper
@@ -57,7 +57,7 @@ export default function Slides2() {
                     display: "block",
                     userSelect: "none",
                   }}
-                />
+                alt="PENCIL SKETCH SLIDE" width="240" height="302" decoding="async" loading="lazy"/>
               </SwiperSlide>
             ))}
           </Swiper>

@@ -1,5 +1,5 @@
 import React from 'react';
-import batman_logo_icon from "../../../assets/icons/BAT-logo-about-icon.png";
+import batman_logo_icon from "../../../assets/icons/BAT-logo-about-icon.webp";
 
 export default function Slides1() {
   return (
@@ -13,7 +13,7 @@ export default function Slides1() {
                 </ul>   
               <p className="text-3 white-text"> Now, I bring both into every project — with discipline, focus, and precision.</p>   
              <p className="text-4 white-text">Always ready to build, collaborate, and rise to the challenge. </p>   
-            <img className="bottom-batman" src={batman_logo_icon} alt="batman-logo"/>
+            <img className="bottom-batman" src={batman_logo_icon} alt="batman-logo" width="142" height="105" decoding="async" loading="lazy"  />
       </div>
     </div> 
   )

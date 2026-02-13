@@ -1,16 +1,16 @@
 import React from 'react'
-import cinema from  "../../../assets/cinema.png"
-import battery from "../../../assets/icons/battery-icon.png"
-import recorder from "../../../assets/icons/record-icon.png"
+import cinema from  "../../../assets/cinema.webp";
+import battery from "../../../assets/icons/battery-icon.png";
+import recorder from "../../../assets/icons/record-icon.png";
 
 export default function Slides3() {
   return (
    <div className='slide-main-container'>
         <div className='slide-inside-container'>
 
-          <img className='cinema-img' src={cinema} alt="cinema-slide" />
-          <img className='recorder-icon' src={recorder} alt="recorder-png" />
-          <img className='battery-icon' src={battery} alt="battery-png" />
+          <img className='cinema-img' src={cinema} alt="cinema-slide" width="900" height="424" decoding='async' loading='lazy' />
+          <img className='recorder-icon' src={recorder} alt="recorder-png"decoding='async' loading='lazy' />
+          <img className='battery-icon' src={battery} alt="battery-png" decoding='async' loading='lazy'  />
 
 
           {/*outerline corner */}

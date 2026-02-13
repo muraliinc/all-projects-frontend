@@ -11,24 +11,24 @@ import "./Skill.css";
 
 export default function Skill() {
   return (
-    <section id='SKILLS' className='skill-section'>
+    <section id='SKILLS' className='skill-section'> 
     
         <div className='title-tag-wrapper title-skill'>
         <h1 className='title-tag-sections'> SKILL SECTION</h1>
       <span className='title-tag-sections-line side-line' /></div>
       <div className='skill-inside-container'>
-         <video src="https://res.cloudinary.com/dye5bdxxn/video/upload/v1766474616/batman-skill_oqqsnp.mp4" autoPlay muted loop></video>
-        <img className='skill-section-image' src={skill_batman} alt="batman-skill logo" />
+         <video src="https://res.cloudinary.com/dye5bdxxn/video/upload/q_auto,f_auto,vc_auto,w_854/v1766474616/batman-skill_oqqsnp.mp4" autoPlay muted loop playsInline   preload="none" poster="thumb.jpg"></video>
+        <img className='skill-section-image' src={skill_batman} alt="batman-skill logo" width="1396" height="641" decoding="async" loading="lazy" />
         <div className='skill-image-group-of-six'> 
           <div className='skill-image-left box1'>
-            <img className='skill-icons' src={image1} alt="html-icon" />
-            <img className='skill-icons' src={image2} alt="css-icon" />
-            <img className='skill-icons' src={image3} alt="javascript-icon" />
+            <img className='skill-icons' src={image1} alt="html-icon" width="275" height="104" decoding="async" loading="lazy" />
+            <img className='skill-icons' src={image2} alt="css-icon"  width="275" height="104" decoding="async" loading="lazy" />
+            <img className='skill-icons' src={image3} alt="javascript-icon"  width="275" height="104" decoding="async" loading="lazy" />
           </div>
           <div className='skill-image-right box1'>
-            <img className='skill-icons' src={image4} alt="reactjs-icon" />
-            <img className='skill-icons'  src={image5} alt="bootstrap-icon" />
-            <img className='skill-icons' src={image6} alt="figma-icon" />
+            <img className='skill-icons' src={image4} alt="reactjs-icon"  width="275" height="104" decoding="async" loading="lazy" />
+            <img className='skill-icons'  src={image5} alt="bootstrap-icon"  width="275" height="104" decoding="async" loading="lazy" />
+            <img className='skill-icons' src={image6} alt="figma-icon"  width="275" height="104" decoding="async" loading="lazy" />
           </div>
 
         </div>

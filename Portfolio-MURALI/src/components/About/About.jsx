@@ -1,5 +1,4 @@
- import React from 'react'
- import "./SLIDES/Slides.jsx"
+import "./SLIDES/Slides.jsx"
 import Slides from './SLIDES/Slides.jsx'
 import "./About.css"
 

@@ -4,13 +4,11 @@ import whatsapp2 from "../../assets/icons/whatsapp-icon.webp";
 import batman_hero from "../../assets/batman-hero.webp";
 import murali_image from "../../assets/HERO-NAME-IMG.webp";
 import "./Hero.css";
-import React from "react";
 import { scrollToSection } from "../../utlis/scrollTo";
 
 export default function Hero() {
   return (
     <section id="HOME" className="hero-section">
-      {/* <video src="https://res.cloudinary.com/dye5bdxxn/video/upload/v1763108178/Untitled_video_-_Made_with_Clipchamp_1_vaseha.mp4" autoPlay  muted loop /> */}
       <video  src="https://res.cloudinary.com/dye5bdxxn/video/upload/q_auto,f_auto,vc_auto,w_854/v1763108178/Untitled_video_-_Made_with_Clipchamp_1_vaseha.mp4"  autoPlay muted loop playsInline/>
       <div className="hero-sectionWrapper">
            <div className="title-wrapper">

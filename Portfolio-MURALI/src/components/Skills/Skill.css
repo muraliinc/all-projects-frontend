@@ -30,6 +30,7 @@
   z-index: 2;
   position: relative;
   width: 100%;
+  height: auto;
   background: transparent;
   top: 80px;
 }

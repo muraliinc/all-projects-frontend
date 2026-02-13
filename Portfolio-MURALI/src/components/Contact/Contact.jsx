@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import "./Contact.css";
 import batman_lego from "../../assets/LegoBatman1.png";
-import batman_icon from "../../assets/icons/BAT-logo-about-icon.png";
+import batman_icon from "../../assets/icons/BAT-logo-about-icon.webp";
 
 
 
