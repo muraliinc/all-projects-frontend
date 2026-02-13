@@ -2,8 +2,6 @@ import React from 'react'
 import"./Portfolio.css"
 import Horizontal from './Horizontal-slides/Horizontal'
 import MobUiP from './MOB-SLIDES/MobUiP';
-import IsMobile from '../../HOOKS-custom/IsMobile';
-
 
 export default function Portfolio_M() {
 
